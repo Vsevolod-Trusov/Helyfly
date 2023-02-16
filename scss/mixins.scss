@@ -1,0 +1,8 @@
+@mixin  letterSpacing_fontFamily_fontSize_lineHeight_color ( $fontFamily, $fontSize,
+              $lineHeight, $color,$letterSpacing: 0px){
+  font-family: $fontFamily, sans-serif;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $color;
+  letter-spacing:$letterSpacing;
+}

@@ -1,0 +1,40 @@
+@import 'mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-info {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+#header-inscription {
+  @include letterSpacing_fontFamily_fontSize_lineHeight_color(Inter, 31.5px, 16px, #000, -0.8px);
+
+  width: 55%;
+  padding: 3.3% 0.5% 0 0;
+  text-align: right;
+}
+
+#phone-label {
+  @include letterSpacing_fontFamily_fontSize_lineHeight_color(Inter, 12px, 16px, #B3B3B3, 2px);
+
+  padding-left: 4%;
+  padding-top: 5.4%;
+}
+
+#header-contact {
+  display: flex;
+  height: 100%;
+  width: 80%;
+}
+
+#phone-value {
+  @include letterSpacing_fontFamily_fontSize_lineHeight_color(Montserrat, 14px, 17px, #37373F);
+
+  padding-top: 5.4%;
+}

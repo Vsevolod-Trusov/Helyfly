@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-info {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header-inscription {
+  font-family: Inter, sans-serif;
+  font-size: 31.5px;
+  line-height: 16px;
+  color: #000;
+  letter-spacing: -0.8px;
+  width: 55%;
+  padding: 3.3% 0.5% 0 0;
+  text-align: right;
+}
+
+#phone-label {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B3B3B3;
+  letter-spacing: 2px;
+  padding-left: 4%;
+  padding-top: 5.4%;
+}
+
+#header-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 80%;
+}
+
+#phone-value {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #37373F;
+  letter-spacing: 0px;
+  padding-top: 5.4%;
+}
