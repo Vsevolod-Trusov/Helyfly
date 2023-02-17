@@ -1,8 +1,12 @@
-@mixin  letterSpacing_fontFamily_fontSize_lineHeight_color ( $fontFamily, $fontSize,
-              $lineHeight, $color,$letterSpacing: 0px){
+@mixin   font-face ( $fontFamily, $fontSize,
+                     $lineHeight, $color,
+                     $letterSpacing: 0px, $fontWeight: normal,
+                     $fontStyle: initial){
   font-family: $fontFamily, sans-serif;
   font-size: $fontSize;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
   line-height: $lineHeight;
   color: $color;
-  letter-spacing:$letterSpacing;
+  letter-spacing: $letterSpacing;
 }
