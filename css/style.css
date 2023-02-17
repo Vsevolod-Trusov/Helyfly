@@ -5,33 +5,37 @@
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Inter;
+  src: url("/fonts/RasmusAndersson-Inter-Regular.ttf");
+}
+@font-face {
+  font-family: Monserrat;
+  src: url("/fonts/GoogleFonts-Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: Monserrat-Bold;
+  src: url("/fonts/GoogleFonts-Montserrat-Bold.ttf");
+}
 .header-info {
-  width: 100%;
-  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  height: 100px;
 }
 
 #header-inscription {
-  font-family: Inter, sans-serif;
-  font-size: 31.5px;
-  line-height: 16px;
-  color: #000;
-  letter-spacing: -0.8px;
   width: 55%;
   padding: 3.3% 0.5% 0 0;
-  text-align: right;
-}
-
-#phone-label {
   font-family: Inter, sans-serif;
-  font-size: 12px;
+  font-size: 31.5px;
+  font-style: initial;
+  font-weight: normal;
   line-height: 16px;
-  color: #B3B3B3;
-  letter-spacing: 2px;
-  padding-left: 4%;
-  padding-top: 5.4%;
+  color: #000;
+  letter-spacing: -1.1px;
+  text-align: right;
 }
 
 #header-contact {
@@ -42,11 +46,121 @@
   width: 80%;
 }
 
-#phone-value {
-  font-family: Montserrat, sans-serif;
+#phone-label {
+  font-family: Inter, sans-serif;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  color: #B3B3B3;
+  letter-spacing: 0.9px;
+  padding-left: 4%;
+  padding-top: 5.4%;
+}
+
+#phone-value {
+  font-family: Monserrat, sans-serif;
+  font-size: 14px;
+  font-style: initial;
+  font-weight: normal;
   line-height: 17px;
   color: #37373F;
   letter-spacing: 0px;
   padding-top: 5.4%;
+}
+
+#header-advertising {
+  position: absolute;
+  top: 100px;
+  left: -2px;
+  width: 1916px;
+  height: 840px;
+  padding: 286px 637px 260px 392px;
+  background-image: url("/images/helimain.png");
+}
+
+#phrase-container span {
+  font-family: Monserrat-Bold, sans-serif;
+  font-size: 40px;
+  font-style: initial;
+  font-weight: 900;
+  line-height: 49px;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+}
+#phrase-container span span {
+  font-family: Monserrat-Bold, sans-serif;
+  font-size: 40px;
+  font-style: initial;
+  font-weight: 900;
+  line-height: 49px;
+  color: #FC9B09;
+  letter-spacing: 0px;
+}
+
+#message-shape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 96px;
+  width: 230px;
+  margin: 20px 0 0 -4px;
+  padding: 11px 29px 26px 23px;
+  background: url("/images/message.png"), no-repeat;
+}
+
+#price-label span {
+  font-family: Monserrat, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  margin-left: 4px;
+}
+
+#price-value {
+  margin-top: -9px;
+  padding-left: 5px;
+}
+#price-value span {
+  font-family: Monserrat-Bold, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 53px;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+}
+
+#discount-ico-container {
+  padding: 0 10px 10px 0;
+}
+
+#discount-ico {
+  position: absolute;
+  left: 520px;
+  top: 409px;
+  width: auto;
+  height: auto;
+}
+
+#button-container {
+  padding-top: 12px;
+}
+#button-container button {
+  height: 68px;
+  width: 304px;
+  padding: 0;
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  background: transparent;
+  font-family: Monserrat-Bold, sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 19px;
+  color: #FFFFFF;
+  letter-spacing: 0px;
 }
