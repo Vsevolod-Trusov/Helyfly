@@ -7,15 +7,15 @@
 
 @font-face {
   font-family: Inter;
-  src: url("/fonts/RasmusAndersson-Inter-Regular.ttf");
+  src: url("../fonts/RasmusAndersson-Inter-Regular.ttf");
 }
 @font-face {
   font-family: Monserrat;
-  src: url("/fonts/GoogleFonts-Montserrat-Regular.ttf");
+  src: url("../fonts/GoogleFonts-Montserrat-Regular.ttf");
 }
 @font-face {
   font-family: Monserrat-Bold;
-  src: url("/fonts/GoogleFonts-Montserrat-Bold.ttf");
+  src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
 }
 .header-info {
   display: -webkit-box;
@@ -76,7 +76,7 @@
   width: 1916px;
   height: 840px;
   padding: 286px 637px 260px 392px;
-  background-image: url("/images/helimain.png");
+  background-image: url("../images/helimain.png");
 }
 
 #phrase-container span {
@@ -106,7 +106,7 @@
   width: 230px;
   margin: 20px 0 0 -4px;
   padding: 11px 29px 26px 23px;
-  background: url("/images/message.png"), no-repeat;
+  background: url("../images/message.png"), no-repeat;
 }
 
 #price-label span {
