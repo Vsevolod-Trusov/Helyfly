@@ -57,16 +57,15 @@
 }
 
 //header board
-#header-advertising {
+#header-advertise {
   position:absolute;
   top: 100px;
   left: -2px;
-
   width: 1916px;
   height:  840px;
   padding: 286px 637px 260px 392px;
 
-  background-image: url("../images/helimain.png");
+  background: url("../images/helimain.png") no-repeat;
 }
 
 //inscriptions like cost and number values
