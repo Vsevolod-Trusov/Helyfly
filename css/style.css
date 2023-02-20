@@ -26,8 +26,8 @@
 }
 
 #header-inscription {
-  width: 55%;
-  padding: 3.3% 0.5% 0 0;
+  width: 29.97%;
+  padding: 2.3% 0 0 0;
   font-family: Inter, sans-serif;
   font-size: 31.5px;
   font-style: initial;
@@ -44,6 +44,7 @@
   display: flex;
   height: 100%;
   width: 80%;
+  padding: 2.2% 0 0 1.9%;
 }
 
 #phone-label {
@@ -54,8 +55,6 @@
   line-height: 16px;
   color: #B3B3B3;
   letter-spacing: 0.9px;
-  padding-left: 4%;
-  padding-top: 5.4%;
 }
 
 #phone-value {
@@ -66,7 +65,6 @@
   line-height: 17px;
   color: #37373F;
   letter-spacing: 0px;
-  padding-top: 5.4%;
 }
 
 #header-advertise {

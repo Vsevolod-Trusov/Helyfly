@@ -30,8 +30,8 @@
 }
 
 #header-inscription {
-  width: 55%;
-  padding: 3.3% 0.5% 0 0;
+  width: 29.97%;
+  padding: 2.3% 0 0 0;
 
   @include  font-face(Inter, 31.5px, 16px, #000, -1.1px);
   text-align: right;
@@ -41,19 +41,15 @@
   display: flex;
   height: 100%;
   width: 80%;
+  padding: 2.2% 0 0 1.9%;
 }
 
 #phone-label {
   @include  font-face(Inter, 14px, 16px, #B3B3B3, 0.9px, 300, normal);
-
-  padding-left: 4%;
-  padding-top: 5.4%;
 }
 
 #phone-value {
   @include  font-face(Monserrat, 14px, 17px, #37373F);
-
-  padding-top: 5.4%;
 }
 
 //header board
