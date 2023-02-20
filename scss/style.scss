@@ -20,6 +20,7 @@
   font-family: Monserrat-Bold;
   src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
 }
+
 //header
 //header first info
 .header-info {
@@ -33,7 +34,7 @@
   width: 29.97%;
   padding: 2.3% 0 0 0;
 
-  @include  font-face(Inter, 31.5px, 16px, #000, -1.1px);
+  @include font-face(Inter, 31.5px, 16px, #000, -1.1px);
   text-align: right;
 }
 
@@ -45,33 +46,34 @@
 }
 
 #phone-label {
-  @include  font-face(Inter, 14px, 16px, #B3B3B3, 0.9px, 300, normal);
+  @include font-face(Inter, 14px, 16px, #B3B3B3, 0.9px, 300, normal);
 }
 
 #phone-value {
-  @include  font-face(Monserrat, 14px, 17px, #37373F);
+  @include font-face(Monserrat, 14px, 17px, #37373F);
 }
 
 //header board
 #header-advertise {
   width: 1916px;
-  height:  840px;
-  padding: 286px 637px 260px 392px;
+  height: 840px;
+  padding: 286px 637px 260px 390px;
 
   background: url("../images/helimain.png") no-repeat;
 }
 
 //inscriptions like cost and number values
-#phrase-container  {
+#phrase-container {
   span {
     @include font-face(Monserrat-Bold, 40px, 49px, #FFFFFF, 0px, 900);
-    span{
-      @include font-face(Monserrat-Bold, 40px, 49px, #FC9B09,0px, 900);
+
+    span {
+      @include font-face(Monserrat-Bold, 40px, 49px, #FC9B09, 0px, 900);
     }
   }
 }
 
-#message-shape{
+#message-shape {
   display: flex;
 
   height: 96px;
@@ -84,7 +86,7 @@
 }
 
 #price-label {
-  span{
+  span {
     @include font-face(Monserrat, 20px, 26px, #FFFFFF, 0px, 400, normal);
     margin-left: 4px;
   }
@@ -95,7 +97,7 @@
   padding-left: 5px;
 
   span {
-    @include font-face (Monserrat-Bold, 35px, 53px, #FFFFFF, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 35px, 53px, #FFFFFF, 0px, 900, normal);
   }
 }
 
@@ -107,13 +109,15 @@
 #discount-ico {
   width: auto;
   height: auto;
+  margin-left: -9px;
+  margin-top: -6px;
 }
 
 //button
 #button-container {
   padding-top: 12px;
 
-  button{
+  button {
     height: 68px;
     width: 304px;
 
@@ -122,7 +126,97 @@
     border-radius: 3px;
     background: transparent;
 
-    @include font-face (Monserrat-Bold, 19px, 19px, #FFFFFF, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 19px, 19px, #FFFFFF, 0px, 900, normal);
   }
 }
+
 //header
+
+//main
+//photo near text headline and paragraph-text list of 4 elements and feedback info
+.photo-and-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-padding-and-center-feedback {
+  padding-top: 70px;
+}
+
+.info-container {
+  display: flex;
+  margin-left: -60px;
+}
+
+#title-h1 {
+  padding: 0.9% 48% 0 3.9%;
+  @include font-face(Monserrat, 40px, 1.0999em, #000000, 0.1px, 900, normal);
+  text-align: left;
+}
+
+#paragraph-under-header {
+  max-width: 549px;
+  padding: 2.3% 0% 0 3.8%;
+  @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 400, normal);
+  text-align: left;
+}
+
+#list-icons-and-text-container {
+  padding-top: 3%;
+}
+
+.icon-and-text {
+  display: flex;
+  padding: 0 0 2% 4%;
+}
+
+.text-near-ico-container {
+  margin: auto 0;
+  padding-left: 1.9%;
+
+  span {
+    @include font-face(Monserrat, 14px, 1.5em, #000000, 0px, 600, normal);
+    text-align: left;
+  }
+}
+
+#pair-image {
+  padding-left: 10.9%;
+}
+
+.feedback-status-container {
+  display: flex;
+  margin-left: -38px;
+  padding-top: 19px;
+}
+
+.feedback-status {
+  display: flex;
+  padding: 20px 127px 28px 0;
+  border-top: 0.5px solid #C7C7C7;
+  border-bottom: 0.5px solid #C7C7C7;
+}
+
+.content-span {
+  margin: auto 0;
+  padding: 12px 14px 0px 10.23px;
+
+  @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 400, normal);
+  span {
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+.stars-ico-container {
+  margin: auto 0;
+  padding-top: 3%;
+}
+
+.stars-ico-container :not(:nth-child(5)) {
+  padding-right: 3px;
+}
+//photo near text headline and paragraph-text list of 4 elements and feedback info
+//main

@@ -70,7 +70,7 @@
 #header-advertise {
   width: 1916px;
   height: 840px;
-  padding: 286px 637px 260px 392px;
+  padding: 286px 637px 260px 390px;
   background: url("../images/helimain.png") no-repeat;
 }
 
@@ -136,6 +136,8 @@
 #discount-ico {
   width: auto;
   height: auto;
+  margin-left: -9px;
+  margin-top: -6px;
 }
 
 #button-container {
@@ -155,4 +157,124 @@
   line-height: 19px;
   color: #FFFFFF;
   letter-spacing: 0px;
+}
+
+.photo-and-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info-padding-and-center-feedback {
+  padding-top: 70px;
+}
+
+.info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -60px;
+}
+
+#title-h1 {
+  padding: 0.9% 48% 0 3.9%;
+  font-family: Monserrat, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.0999em;
+  color: #000000;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+#paragraph-under-header {
+  max-width: 549px;
+  padding: 2.3% 0% 0 3.8%;
+  font-family: Monserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #000000;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#list-icons-and-text-container {
+  padding-top: 3%;
+}
+
+.icon-and-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 2% 4%;
+}
+
+.text-near-ico-container {
+  margin: auto 0;
+  padding-left: 1.9%;
+}
+.text-near-ico-container span {
+  font-family: Monserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: #000000;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#pair-image {
+  padding-left: 10.9%;
+}
+
+.feedback-status-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -38px;
+  padding-top: 19px;
+}
+
+.feedback-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 127px 28px 0;
+  border-top: 0.5px solid #C7C7C7;
+  border-bottom: 0.5px solid #C7C7C7;
+}
+
+.content-span {
+  margin: auto 0;
+  padding: 12px 14px 0px 10.23px;
+  font-family: Monserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #000000;
+  letter-spacing: 0px;
+}
+.content-span span span {
+  font-weight: bold;
+}
+
+.stars-ico-container {
+  margin: auto 0;
+  padding-top: 3%;
+}
+
+.stars-ico-container :not(:nth-child(5)) {
+  padding-right: 3px;
 }
