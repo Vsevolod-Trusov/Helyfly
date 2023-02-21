@@ -149,14 +149,15 @@
 }
 
 #title-h1 {
-  padding: 0.9% 48% 0 3.9%;
+  width: 490px;
+  padding: 0.9% 40% 0 3.9%;
   @include font-face(Monserrat, 40px, 1.0999em, #000000, 0.1px, 900, normal);
   text-align: left;
 }
 
 #paragraph-under-header {
-  max-width: 549px;
-  padding: 2.3% 0% 0 3.8%;
+  width: 548px;
+  padding: 2.3% 0 0 20px;
   @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 400, normal);
   text-align: left;
 }
@@ -180,8 +181,14 @@
   }
 }
 
+.padding-container {
+  padding-left: 5.5%;
+}
+
 #pair-image {
-  padding-left: 10.9%;
+  height: 374px;
+  width: 554px;
+  background: url("../images/couple.png");
 }
 
 .feedback-status-container {
