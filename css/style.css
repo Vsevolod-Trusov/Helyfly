@@ -242,7 +242,13 @@
 #pair-image {
   height: 374px;
   width: 554px;
+  max-height: 374px;
+  max-width: 554px;
   background: url("../images/couple.png");
+}
+
+#play-ico {
+  padding: 58.1% 0 0 89.7%;
 }
 
 .feedback-status-container {
