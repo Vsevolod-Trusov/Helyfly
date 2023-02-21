@@ -1,7 +1,7 @@
-@mixin   font-face ( $fontFamily, $fontSize,
+@mixin font-face( $fontFamily, $fontSize,
                      $lineHeight, $color,
                      $letterSpacing: 0px, $fontWeight: normal,
-                     $fontStyle: initial){
+                     $fontStyle: initial) {
   font-family: $fontFamily, sans-serif;
   font-size: $fontSize;
   font-style: $fontStyle;
@@ -10,3 +10,46 @@
   color: $color;
   letter-spacing: $letterSpacing;
 }
+
+@mixin custom-border( $borderKind, $borderWidth,
+                     $lineType, $color,)
+{
+  @if $borderKind == top {
+    border-top: $borderWidth $lineType $color;
+  }
+
+  @else if $borderKind == bottom {
+    border-bottom: $borderWidth $lineType $color;
+  }
+
+  @else if ($borderKind == right) {
+    border-right: $borderWidth $lineType $color;
+  }
+
+  @else if $borderKind == left {
+    border-left: $borderWidth $lineType $color;
+  }
+
+  @else {
+    border: $borderWidth $lineType $color;
+  }
+}
+
+@mixin collage-images-alignment {
+  :first-child {
+    padding-left: 1px;
+  }
+
+  :nth-child(2) {
+    padding-left: 7px;
+  }
+
+  :nth-child(3) {
+    padding-left: 8px;
+  }
+
+  :nth-child(4) {
+    padding-left: 9px;
+  }
+}
+
