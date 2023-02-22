@@ -235,3 +235,150 @@
   letter-spacing: 0.2px;
   text-decoration: none;
 }
+
+.about-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 1140px;
+  padding: 37px 0 47px 0;
+  margin-left: 16px;
+  border-bottom: 0.5px solid #C7C7C7;
+}
+
+.about-text-container {
+  max-width: 600px;
+}
+
+.paragraph-headline {
+  margin-top: -2px;
+  padding-bottom: 11px;
+  font-family: Monserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: #000000;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.about-text-paragraph-container {
+  font-family: Monserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #000000;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.last-link-padding-top div {
+  padding-top: 5px;
+}
+
+.second-paragraph {
+  padding-top: 26px;
+  max-width: 99%;
+}
+
+.paragraph-link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4px;
+}
+.paragraph-link-container a {
+  padding-left: 2px;
+  text-decoration: none;
+  font-family: Monserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #5286EC;
+  letter-spacing: 0px;
+}
+.paragraph-link-container img {
+  padding-left: 9px;
+}
+
+.last-paragraph-padding-top {
+  padding-top: 37px;
+}
+
+.about-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 76px 0 0;
+}
+
+.about-image-with-signatures {
+  padding-right: 4px;
+}
+.about-image-with-signatures .avatar-ico-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+.about-image-with-signatures h5 {
+  padding-top: 20px;
+  font-family: Monserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: #37373F;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.about-image-with-signatures h6 {
+  padding-top: 7px;
+  font-family: Monserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1em;
+  color: #37373F;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.about-image-with-signatures .link-bottom {
+  padding-top: 12px;
+  max-width: 225px;
+  font-family: Monserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #5286EC;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.heart-ico-container {
+  margin-top: -13px;
+  padding-right: 36px;
+}
+
+.last-text-paragraph {
+  max-width: 99%;
+}

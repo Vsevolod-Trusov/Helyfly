@@ -158,7 +158,8 @@
   display: flex;
   justify-content: center;
   margin-left: -15px;
-  div{
+
+  div {
     padding: 0 10px 0 10px;
   }
 }
@@ -168,5 +169,110 @@
   text-decoration: none;
 }
 
-//body second part
+//body third part
+.about-info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1140px;
+  padding: 37px 0 47px 0;
+  margin-left: 16px;
+  @include custom-border(bottom, 0.5px, solid, #C7C7C7);
+}
+
+.about-text-container {
+  max-width: 600px;
+}
+
+.paragraph-headline {
+  margin-top:-2px;
+  padding-bottom: 11px;
+  @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 600, normal);
+  text-align: left;
+}
+
+.about-text-paragraph-container {
+
+  @include font-face(Monserrat, 16px, 1.5em, #000000, 0px, 400, normal);
+  text-align: left;
+}
+
+.last-link-padding-top {
+  div {
+    padding-top: 5px;
+  }
+}
+
+.second-paragraph {
+  padding-top: 26px;
+  max-width: 99%;
+}
+
+.paragraph-link-container {
+  display: flex;
+  padding-top: 4px;
+
+  a {
+    padding-left: 2px;
+    text-decoration: none;
+    @include font-face(Monserrat, 16px, 1.5em, #5286EC, 0px, 400, normal);
+  }
+
+  img {
+    padding-left: 9px;
+  }
+}
+
+.last-paragraph-padding-top {
+  padding-top: 37px;
+}
+
+.about-image-container {
+  display: flex;
+  padding: 32px 76px 0 0;
+}
+
+.about-image-with-signatures {
+  padding-right: 4px;
+
+  .avatar-ico-container {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  h5 {
+    padding-top: 20px;
+    @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 600, normal);
+    text-align: center;
+  }
+
+  h6 {
+    padding-top: 7px;
+    @include font-face(Monserrat, 14px, 1em, #37373F, 0px, 400, normal);
+    text-align: center;
+  }
+
+  .link-bottom {
+    padding-top: 12px;
+    max-width: 225px;
+    @include font-face(Monserrat, 14px, 1.5em, #5286EC, 0px, 400, normal);
+    text-align: center;
+  }
+
+}
+
+.heart-ico-container {
+  margin-top: -13px;
+  padding-right: 36px;
+}
+
+.last-text-paragraph {
+  max-width: 99%;
+}
 //main
