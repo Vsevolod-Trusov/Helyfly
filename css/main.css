@@ -262,6 +262,25 @@
   max-width: 600px;
 }
 
+.about-text-paragraph-container {
+  font-family: Monserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #000000;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.last-paragraph-padding-top {
+  padding-top: 37px;
+}
+
+.last-link-padding-top div {
+  padding-top: 5px;
+}
+
 .paragraph-headline {
   margin-top: -2px;
   padding-bottom: 11px;
@@ -275,19 +294,8 @@
   text-align: left;
 }
 
-.about-text-paragraph-container {
-  font-family: Monserrat, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5em;
-  color: #000000;
-  letter-spacing: 0px;
-  text-align: left;
-}
-
-.last-link-padding-top div {
-  padding-top: 5px;
+.last-text-paragraph {
+  max-width: 99%;
 }
 
 .second-paragraph {
@@ -314,10 +322,6 @@
 }
 .paragraph-link-container img {
   padding-left: 9px;
-}
-
-.last-paragraph-padding-top {
-  padding-top: 37px;
 }
 
 .about-image-container {
@@ -379,6 +383,56 @@
   padding-right: 36px;
 }
 
-.last-text-paragraph {
-  max-width: 99%;
+.form-with-buttons-and-select-date-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-headline {
+  font-family: Monserrat, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5em;
+  color: #37373F;
+  letter-spacing: 0px;
+}
+
+.select-session-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.select-session-container button {
+  padding: 16px 32px 16px 33px;
+  border: 2px solid #FC9B09;
+  background: transparent;
+  font-family: Monserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3em;
+  color: #FC9B09;
+  letter-spacing: 0px;
+}
+
+.select-date-container span, .select-session span, .select-session span {
+  font-family: Monserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #37373F;
+  letter-spacing: 0px;
+}
+
+.bold-span {
+  font-weight: bold !important;
 }

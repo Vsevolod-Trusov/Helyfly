@@ -188,6 +188,21 @@
   max-width: 600px;
 }
 
+.about-text-paragraph-container {
+  @include font-face(Monserrat, 16px, 1.5em, #000000, 0px, 400, normal);
+  text-align: left;
+}
+
+.last-paragraph-padding-top {
+  padding-top: 37px;
+}
+
+.last-link-padding-top {
+  div {
+    padding-top: 5px;
+  }
+}
+
 .paragraph-headline {
   margin-top:-2px;
   padding-bottom: 11px;
@@ -195,16 +210,8 @@
   text-align: left;
 }
 
-.about-text-paragraph-container {
-
-  @include font-face(Monserrat, 16px, 1.5em, #000000, 0px, 400, normal);
-  text-align: left;
-}
-
-.last-link-padding-top {
-  div {
-    padding-top: 5px;
-  }
+.last-text-paragraph {
+  max-width: 99%;
 }
 
 .second-paragraph {
@@ -225,10 +232,6 @@
   img {
     padding-left: 9px;
   }
-}
-
-.last-paragraph-padding-top {
-  padding-top: 37px;
 }
 
 .about-image-container {
@@ -272,7 +275,33 @@
   padding-right: 36px;
 }
 
-.last-text-paragraph {
-  max-width: 99%;
+//body fourth part
+.form-with-buttons-and-select-date-container{
+  display: flex;
+  justify-content: center;
+}
+.form-headline {
+  @include font-face(Monserrat, 20px, 1.5em, #37373F, 0px, 600, normal);
+}
+
+.select-session-container {
+  display: flex;
+  justify-content: space-between;
+  button {
+    padding: 16px 32px 16px 33px;
+    border: 2px solid #FC9B09;
+    background: transparent;
+    @include font-face(Monserrat, 14px, 1.3em, #FC9B09, 0px, 500, normal);
+  }
+}
+
+.select-date-container, .select-session, .select-session {
+   span {
+    @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 400, normal);
+  }
+}
+
+.bold-span{
+  font-weight: bold !important;
 }
 //main
