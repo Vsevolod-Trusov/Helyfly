@@ -94,7 +94,7 @@
 
 .stars-ico-container {
   margin: auto 0;
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 .stars-ico-container :not(:nth-child(5)) {
@@ -171,8 +171,8 @@
 
 //body third part
 .about-info-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .about-info {
@@ -204,7 +204,7 @@
 }
 
 .paragraph-headline {
-  margin-top:-2px;
+  margin-top: -2px;
   padding-bottom: 11px;
   @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 600, normal);
   text-align: left;
@@ -276,32 +276,92 @@
 }
 
 //body fourth part
-.form-with-buttons-and-select-date-container{
+.form-with-buttons-and-select-date-container {
   display: flex;
   justify-content: center;
 }
+
 .form-headline {
   @include font-face(Monserrat, 20px, 1.5em, #37373F, 0px, 600, normal);
 }
 
-.select-session-container {
+.form-with-buttons-and-select-date {
+  min-width: 770px;
+  padding-top: 46px;
+  margin-left: -350px;
+}
+
+.form-headline-container {
+  padding-bottom: 26px;
+}
+
+.form-container {
+  margin-left: -2px;
+  @include custom-border('', 0.5px, solid, #C7C7C7);
+}
+
+.select-date-container {
   display: flex;
-  justify-content: space-between;
+  vertical-align: middle;
+  padding: 0 0 0 28px;
+  @include custom-border('bottom', 0.1px, solid, #C7C7C7);
+
+  div {
+    padding: 26px 0 18px 0;
+  }
+
   button {
-    padding: 16px 32px 16px 33px;
-    border: 2px solid #FC9B09;
+    padding: 10px 0 0 18px;
+    border: none;
     background: transparent;
-    @include font-face(Monserrat, 14px, 1.3em, #FC9B09, 0px, 500, normal);
   }
 }
 
+.select-session {
+  padding: 19px 0 0 28px;
+}
+
+.select-session :not(:first-child) {
+  padding-top: 5px
+}
+
+.select-session-container {
+  @include custom-border('bottom', 0.1px, solid, #C7C7C7);
+}
+
+.select-session-container, .select-session-container-without-border{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  button {
+    padding: 14px 30px 18px 32px;
+    border: 2px solid #FC9B09;
+    max-height: 50px;
+    background: transparent;
+    @include font-face(Monserrat, 14px, 1.3em, #FC9B09, 0px, 600, normal);
+  }
+}
+
+.select-btn-container {
+  padding-top: 39px;
+  padding-right: 30px;
+  height: 100%;
+}
+
 .select-date-container, .select-session, .select-session {
-   span {
+  span {
     @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 400, normal);
   }
 }
 
-.bold-span{
+.bold-span {
   font-weight: bold !important;
 }
+
+
+.feedback-status-container-padding {
+  padding: 17px 0 45px 67px;
+}
+
 //main
