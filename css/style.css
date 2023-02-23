@@ -68,10 +68,10 @@
 }
 
 #header-advertise {
-  max-width: 100vw;
   max-height: 840px;
   padding: 286px 637px 260px 390px;
   background: url("../images/helimain.png") no-repeat;
+  background-size: cover;
 }
 
 #phrase-container span {
