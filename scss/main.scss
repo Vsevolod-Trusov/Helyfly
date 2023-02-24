@@ -578,6 +578,16 @@
   flex-direction: row;
   justify-content: space-between;
   min-width: 190px;
+
+  div {
+    padding-top: 3px;
+    margin-right: -12px;
+  }
+
+  div :last-child {
+    margin-right: -2px;
+    padding-bottom: 2px;
+  }
 }
 
 .poor-div-for-layout {
