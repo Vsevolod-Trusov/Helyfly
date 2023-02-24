@@ -789,14 +789,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
   min-width: 190px;
 }
 .icons-list div {
-  padding-top: 3px;
+  padding-top: 4px;
   margin-right: -12px;
 }
 .icons-list div :last-child {
-  margin-right: -2px;
   padding-bottom: 2px;
 }
 
