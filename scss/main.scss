@@ -481,6 +481,7 @@
 .date-value {
   @include font-face(Monserrat, 14px, 1.5em, #B3B3B3, 0px, 500, normal);
 }
+
 //font section
 
 .poor-block-for-layout {
@@ -547,5 +548,40 @@
   padding: 36px 0 0 20px;
 }
 
+//body last part
+.brand-and-icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.brand-and-icons {
+  display: flex;
+  justify-content: space-between;
+  min-width: 52.3%;
+  padding-top: 4.3%;
+}
+
+.brand-container {
+  span {
+    min-width: 129px;
+    @include font-face(Inter, 31.5px, 16px, #000, 0px, 400, normal);
+  }
+}
+
+.icons-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 190px;
+}
+
+.poor-div-for-layout {
+  height: 14px;
+}
 
 //main

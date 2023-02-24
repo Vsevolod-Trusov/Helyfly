@@ -30,11 +30,18 @@
   height: 100px;
 }
 
-#header-inscription {
+.header-inscription-position {
   width: 29.97%;
   padding: 2.3% 0 0 0;
+}
 
-  @include font-face(Inter, 31.5px, 16px, #000, -1.1px);
+.header-inscription-font-style {
+  span {
+    @include font-face(Inter, 31.5px, 16px, #000, -1.1px);
+  }
+}
+
+.header-right-text-alignment {
   text-align: right;
 }
 

@@ -25,9 +25,12 @@
   height: 100px;
 }
 
-#header-inscription {
+.header-inscription-position {
   width: 29.97%;
   padding: 2.3% 0 0 0;
+}
+
+.header-inscription-font-style span {
   font-family: Inter, sans-serif;
   font-size: 31.5px;
   font-style: initial;
@@ -35,6 +38,9 @@
   line-height: 16px;
   color: #000;
   letter-spacing: -1.1px;
+}
+
+.header-right-text-alignment {
   text-align: right;
 }
 
