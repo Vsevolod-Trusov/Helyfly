@@ -97,7 +97,7 @@
   padding-top: 2%;
 }
 
-.stars-ico-container :not(:nth-child(5)) {
+.stars-ico-flex :not(:nth-child(5)) {
   padding-right: 3px;
 }
 
@@ -164,7 +164,7 @@
   }
 }
 
-#collapsed-link-text {
+.collapsed-link-text {
   @include font-face(Monserrat, 17px, 1.5em, #5286EC, 0.2px, 500, normal);
   text-decoration: none;
 }

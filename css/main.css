@@ -127,7 +127,7 @@
   padding-top: 2%;
 }
 
-.stars-ico-container :not(:nth-child(5)) {
+.stars-ico-flex :not(:nth-child(5)) {
   padding-right: 3px;
 }
 
@@ -225,7 +225,7 @@
   padding: 0 10px 0 10px;
 }
 
-#collapsed-link-text {
+.collapsed-link-text {
   font-family: Monserrat, sans-serif;
   font-size: 17px;
   font-style: normal;
