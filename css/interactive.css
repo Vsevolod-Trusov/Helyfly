@@ -1,0 +1,6 @@
+#button-container button:hover {
+  border: 3px dashed #505050;
+  color: #505050;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
