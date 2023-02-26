@@ -4,5 +4,40 @@
     border: 3px dashed #505050;
     color: #505050;
     transition: 0.35s;
+    cursor: pointer;
+  }
+}
+
+.collapsed-link.collapsed-link-margin-left, .paragraph-link-container,
+.paragraph-link-container.last-link-padding-top, .link-bottom,
+.signature-near-ellipse, .collapsed-link {
+ a:hover{
+     color: #062b83 !important;
+     transition: 0.35s;
+     cursor: pointer;
+  }
+ }
+
+.select-btn-container {
+  button:hover {
+    color: #c77a04;;
+    border: 2px dashed #FC9B09;;
+    transition: 0.35s;
+    cursor: pointer;
+  }
+}
+
+/*.signature-near-ellipse {
+  :last-child :hover{
+    color: #041b4f;
+    transition: 0.35s;
+    cursor: pointer;
+}
+}*/
+
+.select-date-container {
+  img:hover {
+   box-shadow: 3px 3px 5px #676666;
+    transition: 0.35s;
   }
 }

@@ -572,6 +572,7 @@
 }
 
 .signature-near-ellipse :last-child {
+  text-decoration: none;
   font-family: Monserrat, sans-serif;
   font-size: 18px;
   font-style: normal;

@@ -3,4 +3,36 @@
   color: #505050;
   -webkit-transition: 0.35s;
   transition: 0.35s;
+  cursor: pointer;
+}
+
+.collapsed-link.collapsed-link-margin-left a:hover, .paragraph-link-container a:hover,
+.paragraph-link-container.last-link-padding-top a:hover, .link-bottom a:hover,
+.signature-near-ellipse a:hover, .collapsed-link a:hover {
+  color: #062b83 !important;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.select-btn-container button:hover {
+  color: #c77a04;
+  border: 2px dashed #FC9B09;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+/*.signature-near-ellipse {
+  :last-child :hover{
+    color: #041b4f;
+    transition: 0.35s;
+    cursor: pointer;
+}
+}*/
+.select-date-container img:hover {
+  -webkit-box-shadow: 3px 3px 5px #676666;
+          box-shadow: 3px 3px 5px #676666;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
 }

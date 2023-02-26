@@ -429,6 +429,7 @@
 }
 
 .signature-near-ellipse :last-child {
+  text-decoration: none;
   @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 500, normal);
 }
 
