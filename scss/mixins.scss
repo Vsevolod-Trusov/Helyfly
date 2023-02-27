@@ -1,36 +1,34 @@
-@mixin font-face( $fontFamily, $fontSize,
-                     $lineHeight, $color,
-                     $letterSpacing: 0px, $fontWeight: normal,
-                     $fontStyle: initial) {
+@mixin font-face(
+  $fontFamily,
+  $fontSize,
+  $lineHeight,
+  $color,
+  $letterSpacing: 0px,
+  $fontWeight: normal,
+  $fontStyle: initial
+) {
   font-family: $fontFamily, sans-serif;
   font-size: $fontSize;
   font-style: $fontStyle;
   font-weight: $fontWeight;
   line-height: $lineHeight;
   color: $color;
-  letter-spacing: $letterSpacing;
+
+  @if ($letterSpacing != 0px) {
+    letter-spacing: $letterSpacing;
+  }
 }
 
-@mixin custom-border( $borderKind, $borderWidth,
-                     $lineType, $color,)
-{
+@mixin custom-border($borderKind, $borderWidth, $lineType, $color) {
   @if $borderKind == top {
     border-top: $borderWidth $lineType $color;
-  }
-
-  @else if $borderKind == bottom {
+  } @else if $borderKind == bottom {
     border-bottom: $borderWidth $lineType $color;
-  }
-
-  @else if ($borderKind == right) {
+  } @else if ($borderKind == right) {
     border-right: $borderWidth $lineType $color;
-  }
-
-  @else if $borderKind == left {
+  } @else if $borderKind == left {
     border-left: $borderWidth $lineType $color;
-  }
-
-  @else {
+  } @else {
     border: $borderWidth $lineType $color;
   }
 }
@@ -52,4 +50,3 @@
     padding-left: 9px;
   }
 }
-

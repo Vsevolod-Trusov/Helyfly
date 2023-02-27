@@ -1,5 +1,4 @@
 @import 'mixins.scss';
-//main
 //body first part
 //photo near text headline and paragraph-text list of 4 elements and feedback info
 .photo-and-info {
@@ -59,7 +58,7 @@
   width: 554px;
   max-height: 374px;
   max-width: 554px;
-  background: url("../images/couple.png");
+  background: url('../images/couple.png');
 }
 
 #play-ico {
@@ -75,8 +74,8 @@
 .feedback-status {
   display: flex;
   padding: 20px 127px 28px 0;
-  @include custom-border(top, 0.5px, solid, #C7C7C7);
-  @include custom-border(bottom, 0.5px, solid, #C7C7C7);
+  @include custom-border(top, 0.5px, solid, #c7c7c7);
+  @include custom-border(bottom, 0.5px, solid, #c7c7c7);
 }
 
 .content-span {
@@ -101,8 +100,6 @@
   padding-right: 3px;
 }
 
-//body first part
-
 //body second part
 //headline collage and collapsed link
 .text-and-collage-container {
@@ -125,7 +122,6 @@
 
 .up-layer-container .down-layer-container {
   min-width: 1200px;
-
 }
 
 .up-layer-container {
@@ -150,7 +146,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .collapsed-link-padding {
@@ -158,8 +153,7 @@
 }
 
 .collapsed-link-border {
-  @include custom-border(bottom, 0.5px, solid, #C7C7C7);
-
+  @include custom-border(bottom, 0.5px, solid, #c7c7c7);
 }
 
 .collapsed-link {
@@ -176,7 +170,7 @@
 }
 
 .collapsed-link-text {
-  @include font-face(Monserrat, 17px, 1.5em, #5286EC, 0.2px, 500, normal);
+  @include font-face(Monserrat, 17px, 1.5em, #5286ec, 0.2px, 500, normal);
   text-decoration: none;
 }
 
@@ -192,7 +186,7 @@
   min-width: 1140px;
   padding: 37px 0 47px 0;
   margin-left: 16px;
-  @include custom-border(bottom, 0.5px, solid, #C7C7C7);
+  @include custom-border(bottom, 0.5px, solid, #c7c7c7);
 }
 
 .about-text-container {
@@ -237,7 +231,7 @@
   a {
     padding-left: 2px;
     text-decoration: none;
-    @include font-face(Monserrat, 16px, 1.5em, #5286EC, 0px, 400, normal);
+    @include font-face(Monserrat, 16px, 1.5em, #5286ec, 0px, 400, normal);
   }
 
   img {
@@ -262,23 +256,22 @@
 
   h5 {
     padding-top: 20px;
-    @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 600, normal);
+    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 600, normal);
     text-align: center;
   }
 
   h6 {
     padding-top: 7px;
-    @include font-face(Monserrat, 14px, 1em, #37373F, 0px, 400, normal);
+    @include font-face(Monserrat, 14px, 1em, #37373f, 0px, 400, normal);
     text-align: center;
   }
 
   .link-bottom {
     padding-top: 12px;
     max-width: 225px;
-    @include font-face(Monserrat, 14px, 1.5em, #5286EC, 0px, 400, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 400, normal);
     text-align: center;
   }
-
 }
 
 .heart-ico-container {
@@ -299,7 +292,7 @@
 }
 
 .form-headline {
-  @include font-face(Monserrat, 20px, 1.5em, #37373F, 0px, 600, normal);
+  @include font-face(Monserrat, 20px, 1.5em, #37373f, 0px, 600, normal);
 }
 
 .form-headline-container {
@@ -308,14 +301,14 @@
 
 .form-container {
   margin-left: -2px;
-  @include custom-border('', 0.5px, solid, #C7C7C7);
+  @include custom-border('', 0.5px, solid, #c7c7c7);
 }
 
 .select-date-container {
   display: flex;
   vertical-align: middle;
   padding: 0 0 0 28px;
-  @include custom-border('bottom', 0.1px, solid, #C7C7C7);
+  @include custom-border('bottom', 0.1px, solid, #c7c7c7);
 
   div {
     padding: 26px 0 18px 0;
@@ -329,20 +322,21 @@
 }
 
 .select-session-container {
-  @include custom-border('bottom', 0.1px, solid, #C7C7C7);
+  @include custom-border('bottom', 0.1px, solid, #c7c7c7);
 }
 
-.select-session-container, .select-session-container-without-border {
+.select-session-container,
+.select-session-container-without-border {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
 
   button {
     padding: 14px 30px 18px 32px;
-    border: 2px solid #FC9B09;
+    border: 2px solid #fc9b09;
     max-height: 50px;
     background: transparent;
-    @include font-face(Monserrat, 14px, 1.3em, #FC9B09, 0px, 600, normal);
+    @include font-face(Monserrat, 14px, 1.3em, #fc9b09, 0px, 600, normal);
   }
 }
 
@@ -351,12 +345,13 @@
 }
 
 .select-session :not(:first-child) {
-  padding-top: 5px
+  padding-top: 5px;
 }
 
-.select-date-container, .select-session {
+.select-date-container,
+.select-session {
   span {
-    @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 400, normal);
+    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 400, normal);
   }
 }
 
@@ -384,7 +379,7 @@
   min-height: 509px;
   max-width: 100vw;
   margin-top: 82px;
-  background: url("../images/map.png") no-repeat;
+  background: url('../images/map.png') no-repeat;
   background-size: cover;
 }
 
@@ -396,8 +391,8 @@
   max-width: 420px;
   max-height: 469px;
   padding: 51px 0 58px 29px;
-  background: #FFFFFF;
-  @include custom-border('', 1px, solid, #C7C7C7);
+  background: #ffffff;
+  @include custom-border('', 1px, solid, #c7c7c7);
   list-style-type: none;
 
   li {
@@ -425,12 +420,12 @@
 }
 
 .signature-near-ellipse :first-child {
-  @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 800, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 800, normal);
 }
 
 .signature-near-ellipse :last-child {
   text-decoration: none;
-  @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 500, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 500, normal);
 }
 
 .list-with-ellipse-and-text :last-child {
@@ -441,49 +436,44 @@
   }
 
   .signature-near-ellipse :nth-child(2) {
-    @include font-face(Monserrat, 16px, 1.5em, #37373F, 0px, 500, normal);
+    @include font-face(Monserrat, 16px, 1.5em, #37373f, 0px, 500, normal);
   }
 
   .signature-near-ellipse :last-child {
-    @include font-face(Monserrat, 14px, 1.5em, #5286EC, 0px, 500, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 500, normal);
   }
 }
 
 //body sixth part
 //font section
 .feedback-headline {
-  @include font-face(Monserrat, 18px, 1.5em, #37373F, 1.6px, 600, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #37373f, 1.6px, 600, normal);
 }
 
 .feedback-list-li-content-near-avatar {
-
   h5 {
-    @include font-face(Monserrat, 18px, 1.5em, #37373F, 0px, 600, normal);
+    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 600, normal);
   }
 
   h6 {
-    @include font-face(Monserrat, 14px, 1.5em, #37373F, 0px, 500, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #37373f, 0px, 500, normal);
   }
-
 }
 
 .check-ico-with-text {
-
   span {
-    @include font-face(Monserrat, 14px, 1.5em, #B3B3B3, 0px, 500, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0px, 500, normal);
   }
 }
 
 .feedback-content {
   max-width: 525px;
-  @include font-face(Monserrat, 16px, 1.5em, #37373F, 0px, 500, normal);
+  @include font-face(Monserrat, 16px, 1.5em, #37373f, 0px, 500, normal);
 }
 
 .date-value {
-  @include font-face(Monserrat, 14px, 1.5em, #B3B3B3, 0px, 500, normal);
+  @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0px, 500, normal);
 }
-
-//font section
 
 .poor-block-for-layout {
   width: 20.5%;
@@ -505,8 +495,9 @@
   }
 }
 
-.second-li, .third-li {
-  padding-top: 28px
+.second-li,
+.third-li {
+  padding-top: 28px;
 }
 
 .last-li-position {
@@ -521,7 +512,7 @@
 .feedback-list-li-content-near-avatar {
   margin: 8px 0 0 3.3%;
   padding-bottom: 29px;
-  @include custom-border('bottom', 0.1px, solid, #C7C7C7);
+  @include custom-border('bottom', 0.1px, solid, #c7c7c7);
 }
 
 .profession-value-container {
@@ -577,7 +568,6 @@
 
 .icons-list {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   column-gap: 30px;
   min-width: 190px;
@@ -595,5 +585,3 @@
 .poor-div-for-layout {
   height: 14px;
 }
-
-//main

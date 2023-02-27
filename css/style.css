@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: Inter;
-  src: url("../fonts/RasmusAndersson-Inter-Regular.ttf");
+  src: url('../fonts/RasmusAndersson-Inter-Regular.ttf');
 }
 @font-face {
   font-family: Monserrat;
-  src: url("../fonts/GoogleFonts-Montserrat-Regular.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Regular.ttf');
 }
 @font-face {
   font-family: Monserrat-Bold;
-  src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Bold.ttf');
 }
 .header-info {
   display: -webkit-box;
@@ -59,7 +59,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: 16px;
-  color: #B3B3B3;
+  color: #b3b3b3;
   letter-spacing: 0.9px;
 }
 
@@ -69,14 +69,13 @@
   font-style: initial;
   font-weight: normal;
   line-height: 17px;
-  color: #37373F;
-  letter-spacing: 0px;
+  color: #37373f;
 }
 
 #header-advertise {
   max-height: 840px;
   padding: 286px 637px 260px 390px;
-  background: url("../images/helimain.png") no-repeat;
+  background: url('../images/helimain.png') no-repeat;
   background-size: cover;
 }
 
@@ -86,8 +85,7 @@
   font-style: initial;
   font-weight: 900;
   line-height: 49px;
-  color: #FFFFFF;
-  letter-spacing: 0px;
+  color: #ffffff;
 }
 #phrase-container span span {
   font-family: Monserrat-Bold, sans-serif;
@@ -95,8 +93,7 @@
   font-style: initial;
   font-weight: 900;
   line-height: 49px;
-  color: #FC9B09;
-  letter-spacing: 0px;
+  color: #fc9b09;
 }
 
 #message-shape {
@@ -107,7 +104,7 @@
   width: 230px;
   margin: 20px 0 0 -4px;
   padding: 11px 29px 26px 23px;
-  background: url("../images/message.png"), no-repeat;
+  background: url('../images/message.png'), no-repeat;
 }
 
 #price-label span {
@@ -116,8 +113,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  color: #FFFFFF;
-  letter-spacing: 0px;
+  color: #ffffff;
   margin-left: 4px;
 }
 
@@ -125,14 +121,14 @@
   margin-top: -9px;
   padding-left: 5px;
 }
+
 #price-value span {
   font-family: Monserrat-Bold, sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 900;
   line-height: 53px;
-  color: #FFFFFF;
-  letter-spacing: 0px;
+  color: #ffffff;
 }
 
 #discount-ico-container {
@@ -153,7 +149,7 @@
   height: 68px;
   width: 304px;
   padding: 0;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   border-radius: 3px;
   background: transparent;
   font-family: Monserrat-Bold, sans-serif;
@@ -161,6 +157,5 @@
   font-style: normal;
   font-weight: 900;
   line-height: 19px;
-  color: #FFFFFF;
-  letter-spacing: 0px;
+  color: #ffffff;
 }

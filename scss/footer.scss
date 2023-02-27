@@ -1,16 +1,16 @@
 @import "mixins.scss";
+
 footer {
   display: flex;
   justify-content: center;
 
-  background: #FAF9F8;//
+  background: #faf9f8;
   height: 77px;
   bottom: 0;
 }
 
 .mc-visa-icons-and-support-info {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -29,15 +29,14 @@ footer {
 .footer-info-container {
   display: flex;
   flex-direction: column;
-
 }
 
 .footer-info-container-font-style {
-  @include font-face(Monserrat, 14px, 1em, #B3B3B3, 0px, 400, normal);
+  @include font-face(Monserrat, 14px, 1em, #b3b3b3, 0px, 400, normal);
 }
 
-.footer-info-container-padding{
- padding-right: 360px;
+.footer-info-container-padding {
+  padding-right: 360px;
 }
 
 .footer-info-container :first-child {

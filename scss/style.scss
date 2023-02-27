@@ -8,20 +8,19 @@
 
 @font-face {
   font-family: Inter;
-  src: url("../fonts/RasmusAndersson-Inter-Regular.ttf");
+  src: url('../fonts/RasmusAndersson-Inter-Regular.ttf');
 }
 
 @font-face {
   font-family: Monserrat;
-  src: url("../fonts/GoogleFonts-Montserrat-Regular.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Monserrat-Bold;
-  src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Bold.ttf');
 }
 
-//header
 //header first info
 .header-info {
   display: flex;
@@ -53,11 +52,11 @@
 }
 
 #phone-label {
-  @include font-face(Inter, 14px, 16px, #B3B3B3, 0.9px, 300, normal);
+  @include font-face(Inter, 14px, 16px, #b3b3b3, 0.9px, 300, normal);
 }
 
 #phone-value {
-  @include font-face(Monserrat, 14px, 17px, #37373F);
+  @include font-face(Monserrat, 14px, 17px, #37373f);
 }
 
 //header board
@@ -65,17 +64,17 @@
   max-height: 840px;
   padding: 286px 637px 260px 390px;
 
-  background: url("../images/helimain.png") no-repeat;
+  background: url('../images/helimain.png') no-repeat;
   background-size: cover;
 }
 
 //inscriptions like cost and number values
 #phrase-container {
   span {
-    @include font-face(Monserrat-Bold, 40px, 49px, #FFFFFF, 0px, 900);
+    @include font-face(Monserrat-Bold, 40px, 49px, #ffffff, 0px, 900);
 
     span {
-      @include font-face(Monserrat-Bold, 40px, 49px, #FC9B09, 0px, 900);
+      @include font-face(Monserrat-Bold, 40px, 49px, #fc9b09, 0px, 900);
     }
   }
 }
@@ -88,12 +87,12 @@
   margin: 20px 0 0 -4px;
   padding: 11px 29px 26px 23px;
 
-  background: url("../images/message.png"), no-repeat;
+  background: url('../images/message.png'), no-repeat;
 }
 
 #price-label {
   span {
-    @include font-face(Monserrat, 20px, 26px, #FFFFFF, 0px, 400, normal);
+    @include font-face(Monserrat, 20px, 26px, #ffffff, 0px, 400, normal);
     margin-left: 4px;
   }
 }
@@ -103,7 +102,7 @@
   padding-left: 5px;
 
   span {
-    @include font-face(Monserrat-Bold, 35px, 53px, #FFFFFF, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 35px, 53px, #ffffff, 0px, 900, normal);
   }
 }
 
@@ -128,12 +127,10 @@
     width: 304px;
 
     padding: 0;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     border-radius: 3px;
     background: transparent;
 
-    @include font-face(Monserrat-Bold, 19px, 19px, #FFFFFF, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 19px, 19px, #ffffff, 0px, 900, normal);
   }
 }
-//header
-
