@@ -412,38 +412,32 @@
   }
 }
 
-.signature-near-ellipse {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 3px 0 0 18px;
-}
-
-.signature-near-ellipse :first-child {
-  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 800, normal);
-}
-
-.signature-near-ellipse :last-child {
-  text-decoration: none;
-  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 500, normal);
-}
-
 .list-with-ellipse-and-text :last-child {
   .signature-near-ellipse {
     margin-top: -5px;
     padding-left: 10px !important;
     padding-bottom: 0 !important;
   }
+}
 
-  .signature-near-ellipse :nth-child(2) {
+.signature-near-ellipse {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3px 0 0 18px;
+
+  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 800, normal);
+  &:nth-child(2) {
     @include font-face(Monserrat, 16px, 1.5em, #37373f, 0px, 500, normal);
-  }
-
-  .signature-near-ellipse :last-child {
-    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 500, normal);
   }
 }
 
+.signature-near-ellipse {
+  a{
+    text-decoration: none;
+    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 500, normal);
+  }
+}
 //body sixth part
 //font section
 .feedback-headline {

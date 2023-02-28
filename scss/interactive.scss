@@ -8,18 +8,11 @@
   }
 }
 
-.collapsed-link.collapsed-link-margin-left,
-.paragraph-link-container,
-.paragraph-link-container.last-link-padding-top,
-.link-bottom,
-.signature-near-ellipse,
-.collapsed-link {
   a:hover {
-    color: #062b83 !important;
+    color: #062b83;
     transition: 0.35s;
     cursor: pointer;
   }
-}
 
 .select-btn-container {
   button:hover {
