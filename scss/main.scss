@@ -420,21 +420,20 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 3px 0 0 18px;
-
+  font-family: Monserrat, serif;
   & :first-child {
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 800, normal);
+    @include font-face(no-font-family, 18px, 1.5em, #37373f, 0, 800, normal);
   }
   & :nth-child(2) {
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 500, normal);
+    @include font-face(no-font-family, 18px, 1.5em, #37373f, 0, 500, normal);
   }
 }
 
-.list-with-ellipse-and-text :last-child .signature-near-ellipse {
+.list-with-ellipse-and-text > :last-child > .signature-near-ellipse {
   margin-top: -5px;
   padding-left: 10px;
-
   & :nth-child(2) {
-    @include font-face(Monserrat, 16px, 1.5em, #37373f, 0, 500, normal);
+    @include font-face(no-font-family, 16px, 1.5em, #37373f, 0, 500, normal);
   }
 }
 

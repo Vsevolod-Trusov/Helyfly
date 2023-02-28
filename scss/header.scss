@@ -30,25 +30,25 @@
 }
 
 .header-inscription-position {
-  width: 29.97%;
-  padding: 2.3% 0 0 0;
+  display: flex;
+  column-gap: 37px;
+  height: 100%;
+  padding: 2% 0 0 20.46%;
 }
 
 .header-inscription-font-style {
-  span {
-    @include font-face(no-font-family, 31.5px, 16px, #000, -1.1px);
-  }
+  @include font-face(no-font-family, 31.5px, 16px, #000, -1.1px);
 }
 
-.header-right-text-alignment {
-  text-align: right;
+.header-inscription-padding {
+  padding-top: 5px;
 }
 
 #header-contact {
   display: flex;
   height: 100%;
   width: 80%;
-  padding: 2.2% 0 0 1.9%;
+  padding-top: 4px;
 }
 
 #phone-label {

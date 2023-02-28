@@ -4,11 +4,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .info-padding-and-center-feedback {
@@ -83,7 +83,7 @@
   width: 554px;
   max-height: 374px;
   max-width: 554px;
-  background: url('../images/couple.png');
+  background: url("../images/couple.png");
 }
 
 #play-ico {
@@ -136,8 +136,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .text-and-collage {
@@ -203,11 +203,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .collapsed-link-padding {
@@ -223,8 +223,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .collapsed-link div {
   padding: 0 10px 0 10px;
@@ -250,8 +250,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-info {
@@ -259,8 +259,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-width: 1140px;
   padding: 37px 0 47px 0;
   margin-left: 16px;
@@ -348,8 +348,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 .about-image-with-signatures h5 {
@@ -397,8 +397,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .form-with-buttons-and-select-date {
@@ -453,8 +453,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 20px;
 }
 .select-session-container button,
@@ -511,15 +511,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .div-map {
   min-height: 509px;
   max-width: 100vw;
   margin-top: 82px;
-  background: url('../images/map.png') no-repeat;
+  background: url("../images/map.png") no-repeat;
   background-size: cover;
 }
 
@@ -557,15 +557,15 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 3px 0 0 18px;
+  font-family: Monserrat, serif;
 }
 .signature-near-ellipse :first-child {
-  font-family: Monserrat, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -574,7 +574,6 @@
   letter-spacing: 0;
 }
 .signature-near-ellipse :nth-child(2) {
-  font-family: Monserrat, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -583,12 +582,11 @@
   letter-spacing: 0;
 }
 
-.list-with-ellipse-and-text :last-child .signature-near-ellipse {
+.list-with-ellipse-and-text > :last-child > .signature-near-ellipse {
   margin-top: -5px;
   padding-left: 10px;
 }
-.list-with-ellipse-and-text :last-child .signature-near-ellipse :nth-child(2) {
-  font-family: Monserrat, sans-serif;
+.list-with-ellipse-and-text > :last-child > .signature-near-ellipse :nth-child(2) {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -689,8 +687,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .second-li,
@@ -745,8 +743,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 34px;
 }
 
@@ -755,8 +753,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   min-width: 52.3%;
   padding-top: 4.3%;
 }
@@ -778,8 +776,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .icons-list {
@@ -787,11 +785,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-column-gap: 30px;
-  -moz-column-gap: 30px;
-  column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
   min-width: 190px;
 }
 .icons-list div {
