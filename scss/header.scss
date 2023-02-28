@@ -139,3 +139,12 @@
     @include font-face(Monserrat-Bold, 19px, 19px, #fff, 0, 900, normal);
   }
 }
+
+#button-container {
+  button:hover {
+    border: 3px dashed #505050;
+    color: #505050;
+    transition: 0.35s;
+    cursor: pointer;
+  }
+}
