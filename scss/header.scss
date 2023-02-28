@@ -91,11 +91,13 @@
   padding: 11px 29px 26px 23px;
 
   background: url('../images/message.png'), no-repeat;
+
+  font-family: Monserrat, serif;
 }
 
 #price-label {
   span {
-    @include font-face(Monserrat, 20px, 26px, #fff, 0px, 400, normal);
+    @include font-face(no-font-family, 20px, 26px, #fff, 0, 400, normal);
     margin-left: 4px;
   }
 }
@@ -105,7 +107,7 @@
   padding-left: 5px;
 
   span {
-    @include font-face(Monserrat-Bold, 35px, 53px, #fff, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 35px, 53px, #fff, 0, 900, normal);
   }
 }
 
