@@ -27,6 +27,8 @@
 
   width: 100%;
   height: 100px;
+
+  font-family: Inter, sans-serif;
 }
 
 .header-inscription-position {
@@ -36,7 +38,7 @@
 
 .header-inscription-font-style {
   span {
-    @include font-face(Inter, 31.5px, 16px, #000, -1.1px);
+    @include font-face(no-font-family, 31.5px, 16px, #000, -1.1px);
   }
 }
 
@@ -52,7 +54,7 @@
 }
 
 #phone-label {
-  @include font-face(Inter, 14px, 16px, #b3b3b3, 0.9px, 300, normal);
+  @include font-face(no-font-family, 14px, 16px, #b3b3b3, 0.9px, 300, normal);
 }
 
 #phone-value {
