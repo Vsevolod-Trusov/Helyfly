@@ -14,9 +14,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-column-gap: 27.88%;
+     -moz-column-gap: 27.88%;
+          column-gap: 27.88%;
 }
 
 .mc-visa-icons-and-support-info-size {
@@ -56,15 +56,11 @@ footer {
   color: #b3b3b3;
 }
 
-.footer-info-container-padding {
-  padding-right: 360px;
-}
-
 .footer-info-container :first-child {
-  padding: 5px 0 0 8px;
+  margin: 5px 0 0 10px;
 }
 
 .footer-info-container :last-child {
-  padding-top: 12px;
+  margin-top: 12px;
   text-align: left;
 }
