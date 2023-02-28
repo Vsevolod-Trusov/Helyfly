@@ -35,7 +35,7 @@ footer {
 }
 
 .footer-info-container-font-style {
-  @include font-face(Monserrat, 14px, 1em, #b3b3b3, 0px, 400, normal);
+  @include font-face(Monserrat, 14px, 1em, #b3b3b3, 0, 400, normal);
 }
 
 .footer-info-container :first-child {

@@ -74,10 +74,10 @@
 #phrase-container {
   font-family: Monserrat-Bold, serif;
   span {
-    @include font-face(no-font-family, 40px, 49px, #fff, 0px, 900);
+    @include font-face(no-font-family, 40px, 49px, #fff, 0, 900);
 
     span {
-      @include font-face(no-font-family, 40px, 49px, #fc9b09, 0px, 900);
+      @include font-face(no-font-family, 40px, 49px, #fc9b09, 0, 900);
     }
   }
 }
@@ -136,6 +136,6 @@
     border-radius: 3px;
     background: transparent;
 
-    @include font-face(Monserrat-Bold, 19px, 19px, #fff, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 19px, 19px, #fff, 0, 900, normal);
   }
 }

@@ -69,6 +69,7 @@
   font-weight: normal;
   line-height: 17px;
   color: #37373f;
+  letter-spacing: 0;
 }
 
 #header-advertise {
@@ -87,6 +88,7 @@
   font-weight: 900;
   line-height: 49px;
   color: #fff;
+  letter-spacing: 0;
 }
 #phrase-container span span {
   font-size: 40px;
@@ -94,6 +96,7 @@
   font-weight: 900;
   line-height: 49px;
   color: #fc9b09;
+  letter-spacing: 0;
 }
 
 #message-shape {
@@ -159,4 +162,5 @@
   font-weight: 900;
   line-height: 19px;
   color: #fff;
+  letter-spacing: 0;
 }

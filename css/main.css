@@ -44,6 +44,7 @@
   font-weight: 400;
   line-height: 1.5em;
   color: #000;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -69,6 +70,7 @@
   font-weight: 600;
   line-height: 1.5em;
   color: #000;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -114,6 +116,7 @@
   font-weight: 400;
   line-height: 1.5em;
   color: #000;
+  letter-spacing: 0;
 }
 .content-span span span {
   font-weight: bold;
@@ -275,6 +278,7 @@
   font-weight: 400;
   line-height: 1.5em;
   color: #000;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -295,6 +299,7 @@
   font-weight: 600;
   line-height: 1.5em;
   color: #000;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -322,6 +327,7 @@
   font-weight: 400;
   line-height: 1.5em;
   color: #5286ec;
+  letter-spacing: 0;
 }
 .paragraph-link-container img {
   padding-left: 9px;
@@ -354,6 +360,7 @@
   font-weight: 600;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
   text-align: center;
 }
 .about-image-with-signatures h6 {
@@ -364,6 +371,7 @@
   font-weight: 400;
   line-height: 1em;
   color: #37373f;
+  letter-spacing: 0;
   text-align: center;
 }
 .about-image-with-signatures .link-bottom {
@@ -375,6 +383,7 @@
   font-weight: 400;
   line-height: 1.5em;
   color: #5286ec;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -405,6 +414,7 @@
   font-weight: 600;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 
 .form-headline-container {
@@ -459,6 +469,7 @@
   font-weight: 600;
   line-height: 1.3em;
   color: #fc9b09;
+  letter-spacing: 0;
 }
 
 .select-session {
@@ -477,6 +488,7 @@
   font-weight: 400;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 
 .select-button-container {
@@ -562,6 +574,7 @@
   font-weight: 800;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 .signature-near-ellipse:nth-child(2) {
   font-family: Monserrat, sans-serif;
@@ -570,6 +583,7 @@
   font-weight: 500;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 
 .signature-near-ellipse a {
@@ -580,6 +594,7 @@
   font-weight: 500;
   line-height: 1.5em;
   color: #5286ec;
+  letter-spacing: 0;
 }
 
 .feedback-headline {
@@ -599,6 +614,7 @@
   font-weight: 600;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 .feedback-list-li-content-near-avatar h6 {
   font-family: Monserrat, sans-serif;
@@ -607,6 +623,7 @@
   font-weight: 500;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 
 .check-ico-with-text span {
@@ -616,6 +633,7 @@
   font-weight: 500;
   line-height: 1.5em;
   color: #b3b3b3;
+  letter-spacing: 0;
 }
 
 .feedback-content {
@@ -626,6 +644,7 @@
   font-weight: 500;
   line-height: 1.5em;
   color: #37373f;
+  letter-spacing: 0;
 }
 
 .date-value {
@@ -635,6 +654,7 @@
   font-weight: 500;
   line-height: 1.5em;
   color: #b3b3b3;
+  letter-spacing: 0;
 }
 
 .poor-block-for-layout {
@@ -738,6 +758,7 @@
   font-weight: 400;
   line-height: 16px;
   color: #000;
+  letter-spacing: 0;
 }
 
 .icons-list-container {

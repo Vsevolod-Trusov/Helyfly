@@ -26,7 +26,7 @@
 #paragraph-under-header {
   width: 548px;
   padding: 2.3% 0 0 20px;
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0px, 400, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
   text-align: left;
 }
 
@@ -44,7 +44,7 @@
   padding-left: 1.9%;
 
   span {
-    @include font-face(Monserrat, 14px, 1.5em, #000, 0px, 600, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #000, 0, 600, normal);
     text-align: left;
   }
 }
@@ -82,7 +82,7 @@
   margin: auto 0;
   padding: 12px 14px 0 10.23px;
 
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0px, 400, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
 
   span {
     span {
@@ -194,7 +194,7 @@
 }
 
 .about-text-paragraph-container {
-  @include font-face(Monserrat, 16px, 1.5em, #000, 0px, 400, normal);
+  @include font-face(Monserrat, 16px, 1.5em, #000, 0, 400, normal);
   text-align: left;
 }
 
@@ -211,7 +211,7 @@
 .paragraph-headline {
   margin-top: -2px;
   padding-bottom: 11px;
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0px, 600, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 600, normal);
   text-align: left;
 }
 
@@ -231,7 +231,7 @@
   a {
     padding-left: 2px;
     text-decoration: none;
-    @include font-face(Monserrat, 16px, 1.5em, #5286ec, 0px, 400, normal);
+    @include font-face(Monserrat, 16px, 1.5em, #5286ec, 0, 400, normal);
   }
 
   img {
@@ -256,20 +256,20 @@
 
   h5 {
     padding-top: 20px;
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 600, normal);
+    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 600, normal);
     text-align: center;
   }
 
   h6 {
     padding-top: 7px;
-    @include font-face(Monserrat, 14px, 1em, #37373f, 0px, 400, normal);
+    @include font-face(Monserrat, 14px, 1em, #37373f, 0, 400, normal);
     text-align: center;
   }
 
   .link-bottom {
     padding-top: 12px;
     max-width: 225px;
-    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 400, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0, 400, normal);
     text-align: center;
   }
 }
@@ -292,7 +292,7 @@
 }
 
 .form-headline {
-  @include font-face(Monserrat, 20px, 1.5em, #37373f, 0px, 600, normal);
+  @include font-face(Monserrat, 20px, 1.5em, #37373f, 0, 600, normal);
 }
 
 .form-headline-container {
@@ -336,7 +336,7 @@
     border: 2px solid #fc9b09;
     max-height: 50px;
     background: transparent;
-    @include font-face(Monserrat, 14px, 1.3em, #fc9b09, 0px, 600, normal);
+    @include font-face(Monserrat, 14px, 1.3em, #fc9b09, 0, 600, normal);
   }
 }
 
@@ -351,7 +351,7 @@
 .select-date-container,
 .select-session {
   span {
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 400, normal);
+    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 400, normal);
   }
 }
 
@@ -426,16 +426,16 @@
   justify-content: space-between;
   padding: 3px 0 0 18px;
 
-  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 800, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 800, normal);
   &:nth-child(2) {
-    @include font-face(Monserrat, 16px, 1.5em, #37373f, 0px, 500, normal);
+    @include font-face(Monserrat, 16px, 1.5em, #37373f, 0, 500, normal);
   }
 }
 
 .signature-near-ellipse {
   a {
     text-decoration: none;
-    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 500, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0, 500, normal);
   }
 }
 //body sixth part
@@ -446,27 +446,27 @@
 
 .feedback-list-li-content-near-avatar {
   h5 {
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0px, 600, normal);
+    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 600, normal);
   }
 
   h6 {
-    @include font-face(Monserrat, 14px, 1.5em, #37373f, 0px, 500, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #37373f, 0, 500, normal);
   }
 }
 
 .check-ico-with-text {
   span {
-    @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0px, 500, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0, 500, normal);
   }
 }
 
 .feedback-content {
   max-width: 525px;
-  @include font-face(Monserrat, 16px, 1.5em, #37373f, 0px, 500, normal);
+  @include font-face(Monserrat, 16px, 1.5em, #37373f, 0, 500, normal);
 }
 
 .date-value {
-  @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0px, 500, normal);
+  @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0, 500, normal);
 }
 
 .poor-block-for-layout {
@@ -551,7 +551,7 @@
 .brand-container {
   span {
     min-width: 129px;
-    @include font-face(Inter, 31.5px, 16px, #000, 0px, 400, normal);
+    @include font-face(Inter, 31.5px, 16px, #000, 0, 400, normal);
   }
 }
 
