@@ -361,8 +361,11 @@
   height: 100%;
 }
 
-.bold-span {
-  font-weight: bold !important;
+.select-date-container,
+.select-session {
+  .bold-span {
+    font-weight: bold;
+  }
 }
 
 .feedback-status-container-padding {
