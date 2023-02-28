@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: Inter;
-  src: url("../fonts/RasmusAndersson-Inter-Regular.ttf");
+  src: url('../fonts/RasmusAndersson-Inter-Regular.ttf');
 }
 @font-face {
   font-family: Monserrat;
-  src: url("../fonts/GoogleFonts-Montserrat-Regular.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Regular.ttf');
 }
 @font-face {
   font-family: Monserrat-Bold;
-  src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Bold.ttf');
 }
 .header-info {
   width: 100%;
@@ -28,8 +28,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 37px;
-     -moz-column-gap: 37px;
-          column-gap: 37px;
+  -moz-column-gap: 37px;
+  column-gap: 37px;
   height: 100%;
   padding: 2% 0 0 20.46%;
 }
@@ -78,7 +78,7 @@
 #header-advertise {
   max-height: 840px;
   padding: 286px 637px 260px 390px;
-  background: url("../images/helimain.png") no-repeat;
+  background: url('../images/helimain.png') no-repeat;
   background-size: cover;
 }
 
@@ -110,7 +110,7 @@
   width: 230px;
   margin: 20px 0 0 -4px;
   padding: 11px 29px 26px 23px;
-  background: url("../images/message.png"), no-repeat;
+  background: url('../images/message.png'), no-repeat;
   font-family: Monserrat, serif;
 }
 
