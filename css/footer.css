@@ -24,11 +24,17 @@ footer {
 }
 
 .footer-icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
   padding-top: 11px;
 }
-
-.footer-icons-container :last-child {
-  padding-left: 16px;
+.footer-icons-container img {
+  width: 39px;
+  height: 27px;
 }
 
 .footer-info-container {

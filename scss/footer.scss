@@ -1,4 +1,4 @@
-@import "mixins.scss";
+@import 'mixins.scss';
 
 footer {
   display: flex;
@@ -19,11 +19,14 @@ footer {
 }
 
 .footer-icons-container {
+  display: flex;
+  column-gap: 20px;
   padding-top: 11px;
-}
 
-.footer-icons-container :last-child {
-  padding-left: 16px;
+  img {
+    width: 39px;
+    height: 27px;
+  }
 }
 
 .footer-info-container {
