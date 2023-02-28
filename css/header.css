@@ -78,8 +78,10 @@
   background-size: cover;
 }
 
+#phrase-container {
+  font-family: Monserrat-Bold, serif;
+}
 #phrase-container span {
-  font-family: Monserrat-Bold, sans-serif;
   font-size: 40px;
   font-style: initial;
   font-weight: 900;
@@ -87,7 +89,6 @@
   color: #ffffff;
 }
 #phrase-container span span {
-  font-family: Monserrat-Bold, sans-serif;
   font-size: 40px;
   font-style: initial;
   font-weight: 900;

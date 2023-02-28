@@ -72,11 +72,12 @@
 
 //inscriptions like cost and number values
 #phrase-container {
+  font-family: Monserrat-Bold, serif;
   span {
-    @include font-face(Monserrat-Bold, 40px, 49px, #ffffff, 0px, 900);
+    @include font-face(no-font-family, 40px, 49px, #ffffff, 0px, 900);
 
     span {
-      @include font-face(Monserrat-Bold, 40px, 49px, #fc9b09, 0px, 900);
+      @include font-face(no-font-family, 40px, 49px, #fc9b09, 0px, 900);
     }
   }
 }
