@@ -8,13 +8,13 @@
   }
 }
 
-  a:hover {
-    color: #062b83;
-    transition: 0.35s;
-    cursor: pointer;
-  }
+a:hover {
+  color: #062b83;
+  transition: 0.35s;
+  cursor: pointer;
+}
 
-.select-btn-container {
+.select-button-container {
   button:hover {
     color: #c77a04;
     border: 2px dashed #fc9b09;

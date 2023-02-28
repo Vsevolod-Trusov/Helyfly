@@ -355,7 +355,7 @@
   }
 }
 
-.select-btn-container {
+.select-button-container {
   padding-top: 39px;
   padding-right: 30px;
   height: 100%;
@@ -433,7 +433,7 @@
 }
 
 .signature-near-ellipse {
-  a{
+  a {
     text-decoration: none;
     @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0px, 500, normal);
   }
