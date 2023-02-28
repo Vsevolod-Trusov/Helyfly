@@ -19,14 +19,14 @@
 #title-h1 {
   width: 490px;
   padding: 0.9% 40% 0 3.9%;
-  @include font-face(Monserrat, 40px, 1.0999em, #000000, 0.1px, 900, normal);
+  @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
   text-align: left;
 }
 
 #paragraph-under-header {
   width: 548px;
   padding: 2.3% 0 0 20px;
-  @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 400, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #000, 0px, 400, normal);
   text-align: left;
 }
 
@@ -44,7 +44,7 @@
   padding-left: 1.9%;
 
   span {
-    @include font-face(Monserrat, 14px, 1.5em, #000000, 0px, 600, normal);
+    @include font-face(Monserrat, 14px, 1.5em, #000, 0px, 600, normal);
     text-align: left;
   }
 }
@@ -80,9 +80,9 @@
 
 .content-span {
   margin: auto 0;
-  padding: 12px 14px 0px 10.23px;
+  padding: 12px 14px 0 10.23px;
 
-  @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 400, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #000, 0px, 400, normal);
 
   span {
     span {
@@ -117,7 +117,7 @@
 
 .headline {
   text-align: left;
-  @include font-face(Monserrat, 20px, 1.5em, #000000, 0.2px, 600, normal);
+  @include font-face(Monserrat, 20px, 1.5em, #000, 0.2px, 600, normal);
 }
 
 .up-layer-container .down-layer-container {
@@ -194,7 +194,7 @@
 }
 
 .about-text-paragraph-container {
-  @include font-face(Monserrat, 16px, 1.5em, #000000, 0px, 400, normal);
+  @include font-face(Monserrat, 16px, 1.5em, #000, 0px, 400, normal);
   text-align: left;
 }
 
@@ -211,7 +211,7 @@
 .paragraph-headline {
   margin-top: -2px;
   padding-bottom: 11px;
-  @include font-face(Monserrat, 18px, 1.5em, #000000, 0px, 600, normal);
+  @include font-face(Monserrat, 18px, 1.5em, #000, 0px, 600, normal);
   text-align: left;
 }
 
@@ -391,7 +391,7 @@
   max-width: 420px;
   max-height: 469px;
   padding: 51px 0 58px 29px;
-  background: #ffffff;
+  background: #fff;
   @include custom-border('', 1px, solid, #c7c7c7);
   list-style-type: none;
 

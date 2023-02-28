@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: Inter;
-  src: url("../fonts/RasmusAndersson-Inter-Regular.ttf");
+  src: url('../fonts/RasmusAndersson-Inter-Regular.ttf');
 }
 @font-face {
   font-family: Monserrat;
-  src: url("../fonts/GoogleFonts-Montserrat-Regular.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Regular.ttf');
 }
 @font-face {
   font-family: Monserrat-Bold;
-  src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
+  src: url('../fonts/GoogleFonts-Montserrat-Bold.ttf');
 }
 .header-info {
   display: -webkit-box;
@@ -74,7 +74,7 @@
 #header-advertise {
   max-height: 840px;
   padding: 286px 637px 260px 390px;
-  background: url("../images/helimain.png") no-repeat;
+  background: url('../images/helimain.png') no-repeat;
   background-size: cover;
 }
 
@@ -86,7 +86,7 @@
   font-style: initial;
   font-weight: 900;
   line-height: 49px;
-  color: #ffffff;
+  color: #fff;
 }
 #phrase-container span span {
   font-size: 40px;
@@ -104,7 +104,7 @@
   width: 230px;
   margin: 20px 0 0 -4px;
   padding: 11px 29px 26px 23px;
-  background: url("../images/message.png"), no-repeat;
+  background: url('../images/message.png'), no-repeat;
 }
 
 #price-label span {
@@ -113,7 +113,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  color: #ffffff;
+  color: #fff;
   margin-left: 4px;
 }
 
@@ -127,7 +127,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: 53px;
-  color: #ffffff;
+  color: #fff;
 }
 
 #discount-ico-container {
@@ -148,7 +148,7 @@
   height: 68px;
   width: 304px;
   padding: 0;
-  border: 3px solid #ffffff;
+  border: 3px solid #fff;
   border-radius: 3px;
   background: transparent;
   font-family: Monserrat-Bold, sans-serif;
@@ -156,5 +156,5 @@
   font-style: normal;
   font-weight: 900;
   line-height: 19px;
-  color: #ffffff;
+  color: #fff;
 }

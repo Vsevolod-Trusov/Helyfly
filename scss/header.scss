@@ -74,7 +74,7 @@
 #phrase-container {
   font-family: Monserrat-Bold, serif;
   span {
-    @include font-face(no-font-family, 40px, 49px, #ffffff, 0px, 900);
+    @include font-face(no-font-family, 40px, 49px, #fff, 0px, 900);
 
     span {
       @include font-face(no-font-family, 40px, 49px, #fc9b09, 0px, 900);
@@ -95,7 +95,7 @@
 
 #price-label {
   span {
-    @include font-face(Monserrat, 20px, 26px, #ffffff, 0px, 400, normal);
+    @include font-face(Monserrat, 20px, 26px, #fff, 0px, 400, normal);
     margin-left: 4px;
   }
 }
@@ -105,7 +105,7 @@
   padding-left: 5px;
 
   span {
-    @include font-face(Monserrat-Bold, 35px, 53px, #ffffff, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 35px, 53px, #fff, 0px, 900, normal);
   }
 }
 
@@ -130,10 +130,10 @@
     width: 304px;
 
     padding: 0;
-    border: 3px solid #ffffff;
+    border: 3px solid #fff;
     border-radius: 3px;
     background: transparent;
 
-    @include font-face(Monserrat-Bold, 19px, 19px, #ffffff, 0px, 900, normal);
+    @include font-face(Monserrat-Bold, 19px, 19px, #fff, 0px, 900, normal);
   }
 }
