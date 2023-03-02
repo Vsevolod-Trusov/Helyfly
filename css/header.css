@@ -18,59 +18,52 @@
   src: url("../fonts/GoogleFonts-Montserrat-Bold.ttf");
 }
 .header-info {
-  max-height: 100px;
-  padding: 39px 0 38px 0;
   font-family: Inter, sans-serif;
 }
 
-.header-info > div {
-  min-width: 1170px;
+.header-inscription-position {
+  max-width: 1155px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.header-inscription-position {
+.header-inscription-layout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 2.4%;
-     -moz-column-gap: 2.4%;
-          column-gap: 2.4%;
-  height: 100%;
+  -webkit-column-gap: 3.4%;
+     -moz-column-gap: 3.4%;
+          column-gap: 3.4%;
+  padding: 31px 0;
 }
 
 .header-inscription-font-style {
   font-size: 31.5px;
-  line-height: 16px;
   color: #000;
   letter-spacing: -1.1px;
-}
-
-.header-inscription-padding {
-  padding-top: 5px;
 }
 
 #header-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* height: 100%;
-  width: 80%;*/
-  padding-top: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #phone-label {
+  line-height: 16px;
   font-weight: 300;
   font-size: 14px;
-  line-height: 16px;
   color: #b3b3b3;
   letter-spacing: 0.9px;
 }
 
 #phone-value {
   font-family: Monserrat, sans-serif;
-  font-size: 14px;
   line-height: 17px;
+  font-size: 14px;
   color: #37373f;
   letter-spacing: 0;
 }
@@ -84,16 +77,16 @@
   font-family: Monserrat-Bold, serif;
 }
 #phrase-container span {
+  line-height: 49px;
   font-weight: 900;
   font-size: 40px;
-  line-height: 49px;
   color: #fff;
   letter-spacing: 0;
 }
 #phrase-container span span {
+  line-height: 49px;
   font-weight: 900;
   font-size: 40px;
-  line-height: 49px;
   color: #fc9b09;
   letter-spacing: 0;
 }
@@ -111,8 +104,8 @@
 }
 
 #price-label span {
-  font-size: 20px;
   line-height: 26px;
+  font-size: 20px;
   color: #fff;
   letter-spacing: 0;
   margin-left: 4px;
@@ -124,9 +117,9 @@
 }
 #price-value span {
   font-family: Monserrat-Bold, sans-serif;
+  line-height: 53px;
   font-weight: 900;
   font-size: 35px;
-  line-height: 53px;
   color: #fff;
   letter-spacing: 0;
 }
@@ -152,9 +145,9 @@
   border-radius: 3px;
   background: transparent;
   font-family: Monserrat-Bold, sans-serif;
+  line-height: 19px;
   font-weight: 900;
   font-size: 19px;
-  line-height: 19px;
   color: #fff;
   letter-spacing: 0;
 }

@@ -11,6 +11,10 @@
     font-family: $fontFamily, sans-serif;
   }
 
+  @if ($lineHeight != default) {
+    line-height: $lineHeight;
+  }
+
   @if ($fontWeight != 400 and $fontWeight != normal) {
     font-weight: $fontWeight;
   }
@@ -20,7 +24,6 @@
   }
 
   font-size: $fontSize;
-  line-height: $lineHeight;
   color: $color;
 
   @if ($letterSpacing != 0px) {

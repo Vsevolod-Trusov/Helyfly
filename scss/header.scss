@@ -22,39 +22,29 @@
 }
 
 //header first info
-
 .header-info {
-  max-height: 100px;
-  padding: 39px 0 38px 0;
-
   font-family: Inter, sans-serif;
 }
 
-.header-info > div {
-  min-width: 1170px;
+.header-inscription-position {
+  max-width: 1155px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.header-inscription-position {
+.header-inscription-layout {
   display: flex;
-  column-gap: 2.4%;
-  height: 100%;
+  column-gap: 3.4%;
+  padding: 31px 0;
 }
 
 .header-inscription-font-style {
-  @include font-face(no-font-family, 31.5px, 16px, #000, -1.1px);
-}
-
-.header-inscription-padding {
-  padding-top: 5px;
+  @include font-face(no-font-family, 31.5px, default, #000, -1.1px);
 }
 
 #header-contact {
   display: flex;
-  /* height: 100%;
-  width: 80%;*/
-  padding-top: 4px;
+  align-items: center;
 }
 
 #phone-label {
