@@ -15,7 +15,7 @@ a:hover {
 
 .select-date-container img:hover {
   -webkit-box-shadow: 3px 3px 5px #676666;
-  box-shadow: 3px 3px 5px #676666;
+          box-shadow: 3px 3px 5px #676666;
   -webkit-transition: 0.35s;
   transition: 0.35s;
 }
