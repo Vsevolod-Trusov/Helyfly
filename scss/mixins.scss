@@ -11,9 +11,12 @@
     font-family: $fontFamily, sans-serif;
   }
 
+  @if ($fontWeight != normal) {
+    font-weight: $fontWeight;
+  }
+
   font-size: $fontSize;
   font-style: $fontStyle;
-  font-weight: $fontWeight;
   line-height: $lineHeight;
   color: $color;
 

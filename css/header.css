@@ -37,7 +37,6 @@
 .header-inscription-font-style {
   font-size: 31.5px;
   font-style: initial;
-  font-weight: normal;
   line-height: 16px;
   color: #000;
   letter-spacing: -1.1px;
@@ -57,9 +56,9 @@
 }
 
 #phone-label {
-  font-size: 14px;
-  font-style: normal;
   font-weight: 300;
+  font-size: 14px;
+  font-style: initial;
   line-height: 16px;
   color: #b3b3b3;
   letter-spacing: 0.9px;
@@ -69,7 +68,6 @@
   font-family: Monserrat, sans-serif;
   font-size: 14px;
   font-style: initial;
-  font-weight: normal;
   line-height: 17px;
   color: #37373f;
   letter-spacing: 0;
@@ -86,17 +84,17 @@
   font-family: Monserrat-Bold, serif;
 }
 #phrase-container span {
+  font-weight: 900;
   font-size: 40px;
   font-style: initial;
-  font-weight: 900;
   line-height: 49px;
   color: #fff;
   letter-spacing: 0;
 }
 #phrase-container span span {
+  font-weight: 900;
   font-size: 40px;
   font-style: initial;
-  font-weight: 900;
   line-height: 49px;
   color: #fc9b09;
   letter-spacing: 0;
@@ -115,9 +113,9 @@
 }
 
 #price-label span {
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   color: #fff;
   letter-spacing: 0;
@@ -130,9 +128,9 @@
 }
 #price-value span {
   font-family: Monserrat-Bold, sans-serif;
+  font-weight: 900;
   font-size: 35px;
   font-style: normal;
-  font-weight: 900;
   line-height: 53px;
   color: #fff;
   letter-spacing: 0;
@@ -160,9 +158,9 @@
   border-radius: 3px;
   background: transparent;
   font-family: Monserrat-Bold, sans-serif;
+  font-weight: 900;
   font-size: 19px;
   font-style: normal;
-  font-weight: 900;
   line-height: 19px;
   color: #fff;
   letter-spacing: 0;
