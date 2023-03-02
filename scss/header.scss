@@ -1,0 +1,147 @@
+@import 'mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/RasmusAndersson-Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: Monserrat;
+  src: url('../fonts/GoogleFonts-Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Monserrat-Bold;
+  src: url('../fonts/GoogleFonts-Montserrat-Bold.ttf');
+}
+
+//header first info
+.header-info {
+  width: 100%;
+  height: 100px;
+
+  font-family: Inter, sans-serif;
+}
+
+.header-inscription-position {
+  display: flex;
+  column-gap: 2.4%;
+  height: 100%;
+  padding: 2% 0 0 20.46%;
+}
+
+.header-inscription-font-style {
+  @include font-face(no-font-family, 31.5px, 16px, #000, -1.1px);
+}
+
+.header-inscription-padding {
+  padding-top: 5px;
+}
+
+#header-contact {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  padding-top: 4px;
+}
+
+#phone-label {
+  @include font-face(no-font-family, 14px, 16px, #b3b3b3, 0.9px, 300);
+}
+
+#phone-value {
+  @include font-face(Monserrat, 14px, 17px, #37373f);
+}
+
+//header board
+#header-advertise {
+  max-height: 840px;
+  padding: 286px 637px 260px 390px;
+
+  background: url('../images/helimain.png') no-repeat;
+  background-size: cover;
+}
+
+//inscriptions like cost and number values
+#phrase-container {
+  font-family: Monserrat-Bold, serif;
+  span {
+    @include font-face(no-font-family, 40px, 49px, #fff, 0, 900);
+
+    span {
+      @include font-face(no-font-family, 40px, 49px, #fc9b09, 0, 900);
+    }
+  }
+}
+
+#message-shape {
+  display: flex;
+  height: 96px;
+  width: 230px;
+
+  margin: 20px 0 0 -4px;
+  padding: 11px 29px 26px 23px;
+
+  background: url('../images/message.png'), no-repeat;
+
+  font-family: Monserrat, serif;
+}
+
+#price-label {
+  span {
+    @include font-face(no-font-family, 20px, 26px, #fff, 0, 400, normal);
+    margin-left: 4px;
+  }
+}
+
+#price-value {
+  margin-top: -9px;
+  padding-left: 5px;
+
+  span {
+    @include font-face(Monserrat-Bold, 35px, 53px, #fff, 0, 900, normal);
+  }
+}
+
+//discount ico
+#discount-ico-container {
+  padding: 0 10px 10px 0;
+}
+
+#discount-ico {
+  width: auto;
+  height: auto;
+  margin: -6px 0 0 -9px;
+}
+
+//button
+#button-container {
+  padding-top: 12px;
+
+  button {
+    height: 68px;
+    width: 304px;
+
+    padding: 0;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    background: transparent;
+
+    @include font-face(Monserrat-Bold, 19px, 19px, #fff, 0, 900, normal);
+  }
+}
+
+#button-container {
+  button:hover {
+    border: 3px dashed #505050;
+    color: #505050;
+    transition: 0.35s;
+    cursor: pointer;
+  }
+}
