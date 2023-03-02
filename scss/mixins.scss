@@ -4,19 +4,22 @@
   $lineHeight,
   $color,
   $letterSpacing: 0,
-  $fontWeight: normal,
+  $fontWeight: 400,
   $fontStyle: initial
 ) {
   @if ($fontFamily != no-font-family) {
     font-family: $fontFamily, sans-serif;
   }
 
-  @if ($fontWeight != normal) {
+  @if ($fontWeight != 400 and $fontWeight != normal) {
     font-weight: $fontWeight;
   }
 
+  @if ($fontStyle != normal and $fontStyle != initial) {
+    font-style: $fontStyle;
+  }
+
   font-size: $fontSize;
-  font-style: $fontStyle;
   line-height: $lineHeight;
   color: $color;
 

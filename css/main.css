@@ -28,7 +28,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 900;
   font-size: 40px;
-  font-style: normal;
   line-height: 1.0999em;
   color: #000;
   letter-spacing: 0.1px;
@@ -39,9 +38,7 @@
   width: 548px;
   padding: 2.3% 0 0 20px;
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #000;
   letter-spacing: 0;
@@ -67,7 +64,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.5em;
   color: #000;
   letter-spacing: 0;
@@ -111,9 +107,7 @@
   margin: auto 0;
   padding: 12px 14px 0 10.23px;
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #000;
   letter-spacing: 0;
@@ -153,7 +147,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 20px;
-  font-style: normal;
   line-height: 1.5em;
   color: #000;
   letter-spacing: 0.2px;
@@ -238,7 +231,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 500;
   font-size: 17px;
-  font-style: normal;
   line-height: 1.5em;
   color: #5286ec;
   letter-spacing: 0.2px;
@@ -273,9 +265,7 @@
 
 .about-text-paragraph-container {
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5em;
   color: #000;
   letter-spacing: 0;
@@ -296,7 +286,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #000;
   letter-spacing: 0;
@@ -322,9 +311,7 @@
   padding-left: 2px;
   text-decoration: none;
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5em;
   color: #5286ec;
   letter-spacing: 0;
@@ -357,7 +344,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -366,9 +352,7 @@
 .about-image-with-signatures h6 {
   padding-top: 7px;
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  font-style: normal;
   line-height: 1em;
   color: #37373f;
   letter-spacing: 0;
@@ -378,9 +362,7 @@
   padding-top: 12px;
   max-width: 225px;
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.5em;
   color: #5286ec;
   letter-spacing: 0;
@@ -411,7 +393,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 20px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -466,7 +447,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.3em;
   color: #fc9b09;
   letter-spacing: 0;
@@ -483,9 +463,7 @@
 .select-date-container span,
 .select-session span {
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -568,7 +546,6 @@
 .signature-near-ellipse :first-child {
   font-weight: 800;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -576,7 +553,6 @@
 .signature-near-ellipse :nth-child(2) {
   font-weight: 500;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -592,7 +568,6 @@
   :nth-child(2) {
   font-weight: 500;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -603,7 +578,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.5em;
   color: #5286ec;
   letter-spacing: 0;
@@ -613,7 +587,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 1.6px;
@@ -623,7 +596,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -632,7 +604,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -642,7 +613,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.5em;
   color: #b3b3b3;
   letter-spacing: 0;
@@ -653,7 +623,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5em;
   color: #37373f;
   letter-spacing: 0;
@@ -663,7 +632,6 @@
   font-family: Monserrat, sans-serif;
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.5em;
   color: #b3b3b3;
   letter-spacing: 0;
@@ -765,9 +733,7 @@
 .brand-container span {
   min-width: 129px;
   font-family: Inter, sans-serif;
-  font-weight: 400;
   font-size: 31.5px;
-  font-style: normal;
   line-height: 16px;
   color: #000;
   letter-spacing: 0;

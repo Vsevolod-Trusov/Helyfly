@@ -33,6 +33,11 @@ footer {
   padding-top: 11px;
 }
 
+.footer-icons-container img {
+  width: 39px;
+  height: 27px;
+}
+
 .footer-info-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,16 +48,9 @@ footer {
   flex-direction: column;
 }
 
-.footer-icons-container img {
-  width: 39px;
-  height: 27px;
-}
-
 .footer-info-container-font-style {
   font-family: Monserrat, sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  font-style: normal;
   line-height: 1em;
   color: #b3b3b3;
   letter-spacing: 0;
