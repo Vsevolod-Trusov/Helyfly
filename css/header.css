@@ -75,8 +75,7 @@
 
 #header-advertise {
   min-height: 840px;
-  background: url("../images/helimain.png") no-repeat center;
-  background-size: cover;
+  background: url("../images/helimain.png") center/cover no-repeat;
 }
 
 .header-advertise__alignment {
