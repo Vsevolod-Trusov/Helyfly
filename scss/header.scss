@@ -55,18 +55,16 @@
 #phone-value {
   @include font-face(Monserrat, 14px, 17px, #37373f);
 }
-
+.header-advertise-container {
+  max-width: 100%;
+}
 //header board
 #header-advertise {
-  min-height: 840px;
   background: url('../images/helimain.png') center/cover no-repeat;
 }
 
 .header-advertise__alignment {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: inherit;
+  padding: 15% 0.9%;
 }
 
 //inscriptions like cost and number values
@@ -88,7 +86,7 @@
   margin: 20px 0 0 -4px;
   padding: 11px 29px 26px 23px;
 
-  background: url('../images/message.png'), no-repeat;
+  background: url('../images/message.png') no-repeat;
 
   font-family: Monserrat, serif;
 }
