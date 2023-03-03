@@ -1,9 +1,75 @@
 @media screen and (max-width: 350px) {
-  #phrase-container {
-    max-width: 90%;
+  .wrapper > .header-inscription-layout {
+    padding: 19px 0 17px 0;
+  }
+
+  #header-advertise {
+    background: url('../images/helimain_mob.png') center/ cover no-repeat;
+  }
+
+  .header-inscription-layout > .header-inscription-font-style {
+    font-size: 1.5em;
+  }
+
+  .wrapper.header-advertise__alignment > #phrase-container {
+    max-width: 80%;
+    font-size: 2.2em;
+    line-height: 43px;
   }
 
   .wrapper.header-advertise__alignment {
-    padding: 30% 15px;
+    padding: 44% 0 48% 5%;
+  }
+
+  .header-inscription-layout {
+    justify-content: space-between;
+    column-gap: 13.5%;
+  }
+
+  #header-contact {
+    display: none;
+  }
+
+  .header-inscription-layout__link_invisible {
+    min-width: 35%;
+    padding-top: 9px;
+    a {
+      text-decoration: none;
+      color: #5286ec;
+    }
+  }
+
+  .header-inscription-layout__ico-container_invisible {
+    padding-top: 4px;
+    min-width: 7%;
+  }
+
+  .header-inscription-layout__link_invisible,
+  .header-inscription-layout__ico-container_invisible {
+    display: block;
+  }
+
+  #message-shape {
+    width: 223px;
+    margin: 37px 0 0 -6px;
+  }
+
+  div > #price-value > span {
+    font-size: 2em;
+  }
+
+  #discount-ico-container > #discount-ico {
+    margin: -1px 0 0 4px;
+  }
+
+  #button-container > button {
+    height: 75px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 1.1em;
+  }
+
+  #button-container {
+    padding-top: 14px;
   }
 }

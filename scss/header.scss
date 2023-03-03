@@ -40,7 +40,7 @@
 }
 
 .header-inscription-font-style {
-  @include font-face(no-font-family, 31.5px, default, #000, -1.1px);
+  @include font-face(no-font-family, 2em, default, #000, -1.1px);
 }
 
 #header-contact {
@@ -58,13 +58,19 @@
 .header-advertise-container {
   max-width: 100%;
 }
+
+.header-inscription-layout__link_invisible,
+.header-inscription-layout__ico-container_invisible {
+  display: none;
+}
+
 //header board
 #header-advertise {
-  background: url('../images/helimain.png') center/cover no-repeat;
+  background: url('../images/helimain.png') center/ cover no-repeat;
 }
 
 .header-advertise__alignment {
-  padding: 15% 0.9%;
+  padding: 15% 0 13.7% 0.9%;
 }
 
 //inscriptions like cost and number values
@@ -93,7 +99,7 @@
 
 #price-label {
   span {
-    @include font-face(no-font-family, 20px, 26px, #fff, 0, 400, normal);
+    @include font-face(no-font-family, 1.2em, 26px, #fff, 0, 400, normal);
     margin-left: 4px;
   }
 }
@@ -103,7 +109,7 @@
   padding-left: 5px;
 
   span {
-    @include font-face(Monserrat-Bold, 35px, 53px, #fff, 0, 900, normal);
+    @include font-face(Monserrat-Bold, 2.2em, 53px, #fff, 0, 900, normal);
   }
 }
 
@@ -131,7 +137,7 @@
     border-radius: 3px;
     background: transparent;
 
-    @include font-face(Monserrat-Bold, 19px, 19px, #fff, 0, 900, normal);
+    @include font-face(Monserrat-Bold, 1.2em, 19px, #fff, 0, 900, normal);
   }
 }
 
