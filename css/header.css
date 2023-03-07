@@ -66,9 +66,73 @@
   #button-container {
     padding-top: 7px;
   }
-  /*  .padding-container {
-    order: 0;
-  }*/
+  .padding-container {
+    -ms-grid-row: 2;
+    grid-row: 2/2;
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+  }
+  .paragraph {
+    width: 100vw;
+    -ms-grid-row: 3;
+    grid-row: 3/3;
+  }
+  .list-icons-and-text-container {
+    -ms-grid-row: 4;
+    grid-row: 4/4;
+  }
+  #title-h1 {
+    padding: 35px 0 0 74px;
+    max-width: 80vw;
+    line-height: 1.3em;
+    font-weight: 500;
+    font-size: 1.7em;
+  }
+  #pair-image {
+    height: 197px;
+    width: 290px;
+    margin: 9px 0 0 16px;
+  }
+  #play-ico {
+    padding: 55% 89%;
+  }
+  #paragraph-under-header {
+    padding: 30px 0 0 15px;
+    line-height: 1.35em;
+    font-size: 0.9em;
+  }
+  #list-icons-and-text-container {
+    padding: 33px 0 0 12px;
+  }
+  #list-icons-and-text-container > .icon-and-text {
+    padding-bottom: 20px;
+  }
+  .text-near-ico-container {
+    padding: 9px;
+  }
+  .feedback-status-container {
+    padding-top: 12px;
+  }
+  .feedback-status {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 14px 0 8px 16px;
+    margin-top: -17px;
+  }
+  .content-span {
+    padding: 0;
+  }
+  .content-span {
+    font-size: 0.9em;
+    margin: -1px 0 0 12px;
+  }
+  .stars-ico-container {
+    padding-left: 48px;
+    margin-top: -24px;
+  }
+  #cup-ico {
+    height: 12vh;
+  }
 }
 * {
   margin: 0;

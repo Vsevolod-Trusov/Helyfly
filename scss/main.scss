@@ -13,32 +13,30 @@
 }
 
 .info-container {
-  display: flex;
-  max-width: 100%;
-  flex-wrap: wrap;
-  /*
-  margin-left: -60px;*/
-  //display: grid;
-  //grid-template-columns: 1fr 1fr;
-  //grid-template-rows: 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, max-content);
+  grid-template-rows: repeat(auto-fit, max-content);
+  column-gap: 1vw;
+  /*  margin-left: -60px;*/
 }
 
 .inscription {
-  min-width: 50%;
+  padding-bottom: 1vh;
+  // min-width: 50%;
 }
 
 .paragraph {
-  min-width: 100%;
+  width: 33vw;
 }
 #title-h1 {
-  //width: 490px;
+  max-width: 19vw;
   //padding: 0.9% 40% 0 3.9%;
   @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
   //text-align: left;
 }
 
 #paragraph-under-header {
-  max-width: 29%;
+  //margin-top: -2.34vh;
   // padding: 2.3% 0 0 20px;
   @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
   //text-align: left;
@@ -49,7 +47,7 @@
 }
 
 .icon-and-text {
-  //display: flex;
+  display: flex;
   //padding: 0 0 2% 4%;
 }
 
@@ -64,26 +62,21 @@
 }
 
 .padding-container {
-  min-width: 50%;
-  //padding-left: 5.5%;
+  grid-row: span 3;
+  grid-column: 2/2;
 }
 
 #pair-image {
-  //height: 374px;
-  //width: 554px;
+  //TODO: SET SIZE
   //max-height: 374px;
   // max-width: 554px;
   background: url('../images/couple.png') no-repeat;
   background-size: contain;
 }
 
-#play-ico {
-  //padding: 58.1% 0 0 89.7%;
-}
-
 .feedback-status-container {
   display: flex;
-  margin-left: -38px;
+  //margin-left: -38px;
   padding-top: 19px;
 }
 
