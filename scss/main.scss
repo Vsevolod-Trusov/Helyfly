@@ -2,68 +2,83 @@
 //body first part
 //photo near text headline and paragraph-text list of 4 elements and feedback info
 .photo-and-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  //display: flex;
+  //justify-content: center;
+  //flex-direction: column;
+  //align-items: center;
 }
 
 .info-padding-and-center-feedback {
-  padding-top: 70px;
+  //padding-top: 70px;
 }
 
 .info-container {
   display: flex;
-  margin-left: -60px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  /*
+  margin-left: -60px;*/
+  //display: grid;
+  //grid-template-columns: 1fr 1fr;
+  //grid-template-rows: 1fr;
 }
 
+.inscription {
+  min-width: 50%;
+}
+
+.paragraph {
+  min-width: 100%;
+}
 #title-h1 {
-  width: 490px;
-  padding: 0.9% 40% 0 3.9%;
+  //width: 490px;
+  //padding: 0.9% 40% 0 3.9%;
   @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
-  text-align: left;
+  //text-align: left;
 }
 
 #paragraph-under-header {
-  width: 548px;
-  padding: 2.3% 0 0 20px;
+  max-width: 29%;
+  // padding: 2.3% 0 0 20px;
   @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
-  text-align: left;
+  //text-align: left;
 }
 
 #list-icons-and-text-container {
-  padding-top: 3%;
+  //padding-top: 3%;
 }
 
 .icon-and-text {
-  display: flex;
-  padding: 0 0 2% 4%;
+  //display: flex;
+  //padding: 0 0 2% 4%;
 }
 
 .text-near-ico-container {
-  margin: auto 0;
-  padding-left: 1.9%;
+  //margin: auto 0;
+  //padding-left: 1.9%;
 
   span {
     @include font-face(Monserrat, 14px, 1.5em, #000, 0, 600, normal);
-    text-align: left;
+    //text-align: left;
   }
 }
 
 .padding-container {
-  float: right;
-  padding-left: 5.5%;
+  min-width: 50%;
+  //padding-left: 5.5%;
 }
 
 #pair-image {
-  height: 374px;
-  width: 554px;
-  max-height: 374px;
-  max-width: 554px;
-  background: url('../images/couple.png');
+  //height: 374px;
+  //width: 554px;
+  //max-height: 374px;
+  // max-width: 554px;
+  background: url('../images/couple.png') no-repeat;
+  background-size: contain;
 }
 
 #play-ico {
-  padding: 58.1% 0 0 89.7%;
+  //padding: 58.1% 0 0 89.7%;
 }
 
 .feedback-status-container {
