@@ -1,6 +1,6 @@
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
   .wrapper > .header-inscription-layout {
-    padding: 19px 0 17px 0;
+    padding: 19px 0 13px 0;
   }
 
   #header-advertise {
@@ -8,13 +8,13 @@
   }
 
   .header-inscription-layout > .header-inscription-font-style {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .wrapper.header-advertise__alignment > #phrase-container {
     max-width: 80%;
-    font-size: 2.2em;
-    line-height: 43px;
+    font-size: 2em;
+    line-height: 39px;
   }
 
   .wrapper.header-advertise__alignment {
@@ -31,8 +31,8 @@
   }
 
   .header-inscription-layout__link_invisible {
-    min-width: 35%;
-    padding-top: 9px;
+    min-width: 33%;
+    padding-top: 5px;
     a {
       text-decoration: none;
       color: #5286ec;
@@ -50,8 +50,11 @@
   }
 
   #message-shape {
-    width: 223px;
-    margin: 37px 0 0 -6px;
+    width: 207px;
+    margin: 33px 0 0 -4px;
+    padding: 9px 29px 27px 15px;
+    background-size: contain;
+    background-position: 50% 50%;
   }
 
   div > #price-value > span {
@@ -59,17 +62,18 @@
   }
 
   #discount-ico-container > #discount-ico {
-    margin: -1px 0 0 4px;
+    object-position: 5px 2px;
+    //margin: -1px 0 0 4px;
   }
 
   #button-container > button {
-    height: 75px;
-    width: 300px;
+    height: 69px;
+    width: 275px;
     border-radius: 10px;
     font-size: 1.1em;
   }
 
   #button-container {
-    padding-top: 14px;
+    padding-top: 7px;
   }
 }
