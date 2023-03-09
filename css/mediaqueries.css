@@ -66,6 +66,9 @@
   #button-container {
     padding-top: 7px;
   }
+  .photo-and-info > .info-padding-and-center-feedback {
+    padding: 0;
+  }
   .padding-container {
     -ms-grid-row: 2;
     grid-row: 2/2;
@@ -98,17 +101,21 @@
   }
   #paragraph-under-header {
     padding: 30px 0 0 15px;
+    margin-top: 0;
     line-height: 1.35em;
     font-size: 0.9em;
   }
   #list-icons-and-text-container {
-    padding: 33px 0 0 12px;
+    padding: 3% 0 0 3%;
   }
   #list-icons-and-text-container > .icon-and-text {
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
   }
-  .text-near-ico-container {
+  #list-icons-and-text-container .text-near-ico-container {
     padding: 9px;
+  }
+  #list-icons-and-text-container > :last-child .text-near-ico-container {
+    padding: 0 9px 9px 9px;
   }
   .feedback-status-container {
     padding-top: 12px;
@@ -140,6 +147,12 @@
     font-size: 1.89em;
     font-weight: 400;
   }
+  .headline-container {
+    padding: 36px 0 27px 0;
+  }
+  .text-and-collage {
+    padding-left: 15px;
+  }
   .up-layer-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -157,5 +170,66 @@
   }
   .text-and-collage > :last-child {
     display: none;
+  }
+  .about-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: auto;
+    padding: 47px 0 0 0;
+    margin: 0;
+  }
+  .about-image-container {
+    padding: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about-text-container {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .about-image-with-signatures {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-left: 30px;
+  }
+  .avatar-ico-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 15px;
+  }
+  .heart-ico-container {
+    -webkit-box-flex: 0.19;
+        -ms-flex: 0.19;
+            flex: 0.19;
+    margin: 0;
+    padding: 0;
+  }
+  .link-bottom {
+    padding: 13px 0 0 21px;
+    max-width: 223px;
+  }
+  .about-text-paragraph-container {
+    padding: 17px 15px 0 15px;
+  }
+  .about-text-paragraph-container > :nth-child(2) {
+    margin-top: 5px;
+  }
+  .paragraph-link-container {
+    padding-top: 18px;
+  }
+  .last-paragraph-padding-top {
+    margin-top: 6px;
   }
 }

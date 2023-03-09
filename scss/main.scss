@@ -2,14 +2,14 @@
 //body first part
 //photo near text headline and paragraph-text list of 4 elements and feedback info
 .photo-and-info {
-  //display: flex;
-  //justify-content: center;
-  //flex-direction: column;
-  //align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info-padding-and-center-feedback {
-  //padding-top: 70px;
+  padding: 70px 0 0 83px;
 }
 
 .info-container {
@@ -17,47 +17,46 @@
   grid-template-columns: repeat(auto-fit, max-content);
   grid-template-rows: repeat(auto-fit, max-content);
   column-gap: 1vw;
-  /*  margin-left: -60px;*/
 }
 
 .inscription {
   padding-bottom: 1vh;
-  // min-width: 50%;
 }
 
 .paragraph {
   width: 33vw;
 }
 #title-h1 {
-  max-width: 19vw;
-  //padding: 0.9% 40% 0 3.9%;
+  max-width: 27vw;
+  padding: 0.9% 40% 0 0;
   @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
-  //text-align: left;
+  text-align: left;
 }
 
 #paragraph-under-header {
-  //margin-top: -2.34vh;
-  // padding: 2.3% 0 0 20px;
+  margin-top: -2.34vh;
+  padding: 20px 0 0 0;
+  width: 87%;
   @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
-  //text-align: left;
+  text-align: left;
 }
 
 #list-icons-and-text-container {
-  //padding-top: 3%;
+  padding-top: 3%;
 }
 
 .icon-and-text {
   display: flex;
-  //padding: 0 0 2% 4%;
+  padding: 0 0 2% 0;
 }
 
 .text-near-ico-container {
-  //margin: auto 0;
-  //padding-left: 1.9%;
+  margin: auto 0;
+  padding-left: 1.9%;
 
   span {
     @include font-face(Monserrat, 14px, 1.5em, #000, 0, 600, normal);
-    //text-align: left;
+    text-align: left;
   }
 }
 
@@ -67,11 +66,14 @@
 }
 
 #pair-image {
-  //TODO: SET SIZE
-  //max-height: 374px;
-  // max-width: 554px;
+  height: 374px;
+  width: 554px;
   background: url('../images/couple.png') no-repeat;
   background-size: contain;
+}
+
+#play-ico {
+  margin: 325px 0 0 500px;
 }
 
 .feedback-status-container {
@@ -121,7 +123,7 @@
 }
 
 .headline-container {
-  padding: 27px 0 33px 0;
+  padding: 19px 0 33px 0;
 }
 
 .headline {
