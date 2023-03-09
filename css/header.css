@@ -123,7 +123,7 @@
   .feedback-status {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 14px 0 8px 16px;
+    padding: 21px 0 8px 16px;
     margin-top: -17px;
   }
   .content-span {
@@ -131,7 +131,7 @@
   }
   .content-span {
     font-size: 0.9em;
-    margin: -1px 0 0 12px;
+    margin: -1px 0 0 16px;
   }
   .stars-ico-container {
     padding-left: 48px;
@@ -143,7 +143,7 @@
   .headline {
     text-align: center;
     line-height: normal;
-    padding-top: 30px;
+    padding-top: 26px;
     font-size: 1.89em;
     font-weight: 400;
   }
@@ -231,6 +231,76 @@
   }
   .last-paragraph-padding-top {
     margin-top: 6px;
+  }
+  .form-with-buttons-and-select-date {
+    min-width: auto;
+    padding-top: 46px;
+    margin: 0;
+  }
+  .form-with-buttons-and-select-date {
+    padding-top: 30px;
+  }
+  .form-container {
+    margin: 0;
+  }
+  .form-headline {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.55em;
+    letter-spacing: 0.09em;
+  }
+  .form-headline-container {
+    padding-bottom: 31px;
+  }
+  .form-with-buttons-and-select-date > :last-child {
+    padding: 0 15px;
+  }
+  .select-date-container {
+    padding: 0;
+  }
+  .select-date-container > div {
+    margin: 0 auto;
+    padding: 19px 0 14px 0;
+  }
+  .select-date-container > button {
+    display: none;
+  }
+  .select-session {
+    padding: 26px 0 0 19px;
+  }
+  .select-session :not(:first-child) {
+    padding-top: 7px;
+  }
+  .select-session-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 28px;
+  }
+  .select-button-container {
+    padding: 16px 0 0 20px;
+  }
+  .select-session-container-without-border {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 31px;
+    border-bottom: 0.1px solid #c7c7c7;
+  }
+  .select-session-container-without-border > .select-session {
+    padding: 30px 0 0 19px;
+  }
+  .feedback-status-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .feedback-status-container-padding {
+    padding: 20px 0 21px 19px;
+  }
+  .feedback-status-container img[src="images/cup-ico.svg"] {
+    height: 97%;
   }
 }
 * {

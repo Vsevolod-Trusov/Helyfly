@@ -78,7 +78,7 @@
 
 .feedback-status-container {
   display: flex;
-  //margin-left: -38px;
+
   padding-top: 19px;
 }
 
@@ -297,9 +297,9 @@
 }
 
 .form-with-buttons-and-select-date {
-  min-width: 770px;
+  min-width: 770px; //ok
   padding-top: 46px;
-  margin-left: -350px;
+  margin-left: -350px; //ok
 }
 
 .form-headline {
@@ -380,7 +380,7 @@
 }
 
 .feedback-status-container-padding {
-  padding: 17px 0 45px 67px;
+  padding: 17px 0 45px 30px;
 }
 
 //body fifth part
