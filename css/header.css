@@ -131,7 +131,32 @@
     margin-top: -24px;
   }
   #cup-ico {
-    height: 12vh;
+    height: 98%;
+  }
+  .headline {
+    text-align: center;
+    line-height: normal;
+    padding-top: 30px;
+    font-size: 1.89em;
+    font-weight: 400;
+  }
+  .up-layer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    max-width: 100px;
+  }
+  .up-layer-container:not(:first-child) {
+    display: none;
+  }
+  .down-layer-container {
+    display: none;
+  }
+  .text-and-collage > :last-child {
+    display: none;
   }
 }
 * {
