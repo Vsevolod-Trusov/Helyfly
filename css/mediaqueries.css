@@ -472,4 +472,68 @@
     color: #5286ec;
     letter-spacing: 0;
   }
+  .feedback-list-container {
+    padding-top: 35px;
+  }
+  .feedback-message-list {
+    padding: 43px 0 0 15px;
+  }
+  .feedback-message-list > li {
+    border-bottom: 0.1px solid #c7c7c7;
+  }
+  .feedback-list-li-content-near-avatar {
+    margin: 3px 0 0 18.3px;
+    padding-bottom: 38px;
+    border: none;
+  }
+  .second-li {
+    padding-top: 30px;
+  }
+  .feedback-message-list > .third-li {
+    display: none;
+  }
+  .feedback-list-li-content-near-avatar h5 {
+    font-size: 16px;
+  }
+  .profession-value-container {
+    padding: 3px 0 12px 0;
+  }
+  .poor-block-for-layout {
+    display: none;
+  }
+  .feedback-headline {
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 42.32px;
+    text-align: center;
+  }
+  .avatar-size {
+    height: 84px;
+    width: 84px;
+  }
+  .stars-ico-and-check-ico-with-comment-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .check-ico-with-text {
+    margin: 24px 0 0 -103px;
+    padding: 0;
+  }
+  .feedback-content-container {
+    margin-left: -100px;
+    padding: 15px 0 15px 0;
+  }
+  .feedback-content {
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 12px;
+  }
+  .date-value-container {
+    padding-top: 22px;
+  }
+  .date-value {
+    margin-left: -102px;
+  }
 }
