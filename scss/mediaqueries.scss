@@ -544,4 +544,45 @@
   .date-value {
     margin-left: -102px;
   }
+
+  .feedback-collapsed-link-padding {
+    padding: 36px 0 0 0;
+  }
+
+  //collapsed link
+  .collapsed-link > :first-child {
+    display: none;
+  }
+
+  .collapsed-link > :last-child {
+    transform: rotate(-90deg);
+  }
+
+  //body last part
+
+  .brand-and-icons-container {
+    padding-bottom: 18px;
+    border-bottom: 0.1px solid #c7c7c7;
+  }
+
+  .brand-container > span {
+    font-weight: 500;
+    font-size: 1.3em;
+  }
+
+  .brand-and-icons {
+    column-gap: 66px;
+    padding-top: 26.5%;
+  }
+
+  .icons-list {
+    min-width: 135px;
+  }
+  .icons-list > :last-child {
+    display: none;
+  }
+
+  .poor-div-for-layout {
+    display: none;
+  }
 }
