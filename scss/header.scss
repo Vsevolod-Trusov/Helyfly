@@ -35,11 +35,11 @@
 .header-inscription-layout {
   display: flex;
   column-gap: 3.4%;
-  padding: 31px 0;
+  padding: 1.6vw 0;
 }
 
 .header-inscription-font-style {
-  @include font-face(no-font-family, 2em, default, #000, -1.1px);
+  @include font-face(no-font-family, 2vw, default, #000, -1.1px);
 }
 
 #header-contact {
@@ -48,11 +48,11 @@
 }
 
 #phone-label {
-  @include font-face(no-font-family, 14px, 16px, #b3b3b3, 0.9px, 300);
+  @include font-face(no-font-family, 0.9vw, 16px, #b3b3b3, 0.9px, 300);
 }
 
 #phone-value {
-  @include font-face(Monserrat, 14px, 17px, #37373f);
+  @include font-face(Monserrat, 0.7vw, 17px, #37373f);
 }
 .header-advertise-container {
   max-width: 100%;
@@ -76,7 +76,7 @@
 #phrase-container {
   font-family: Monserrat-Bold, serif;
   max-width: 75%;
-  @include font-face(no-font-family, 2.45em, 49px, #fff, 0, 900);
+  @include font-face(no-font-family, 2.45vw, 49px, #fff, 0, 900);
 
   span {
     color: #fc9b09;
