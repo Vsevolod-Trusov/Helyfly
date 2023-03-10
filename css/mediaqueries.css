@@ -625,3 +625,12 @@
     margin: 12px 0 0 30px;
   }
 }
+@media screen and (max-width: 1124px) {
+  #pair-image {
+    height: 274px;
+    width: 354px;
+  }
+  #play-ico {
+    height: 30%;
+  }
+}

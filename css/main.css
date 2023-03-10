@@ -93,12 +93,13 @@
 #pair-image {
   height: 374px;
   width: 554px;
+  padding: 58% 0 0 85%;
   background: url("../images/couple.png") no-repeat;
   background-size: contain;
 }
 
 #play-ico {
-  margin: 325px 0 0 500px;
+  height: 45%;
 }
 
 .feedback-status-container {
@@ -164,6 +165,11 @@
   font-size: 20px;
   color: #000;
   letter-spacing: 0.2px;
+}
+
+.collage-container img {
+  height: 9.7vw;
+  max-height: 185px;
 }
 
 .up-layer-container .down-layer-container {
@@ -392,15 +398,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .form-with-buttons-and-select-date {
   min-width: 770px;
   padding-top: 46px;
-  margin-left: -350px;
+  margin: 0 0 0 20.5%;
 }
 
 .form-headline {
@@ -516,7 +519,7 @@
 }
 
 .block-with-numbers-in-ellipse-list-container {
-  padding: 21px 0 0 390px;
+  padding: 1% 0 0 20.5%;
 }
 
 .list-with-ellipse-and-text {
