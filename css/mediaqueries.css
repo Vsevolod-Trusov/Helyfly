@@ -633,4 +633,7 @@
   #play-ico {
     height: 30%;
   }
+  .header-inscription-font-style {
+    letter-spacing: 0;
+  }
 }

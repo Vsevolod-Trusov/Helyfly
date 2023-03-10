@@ -38,7 +38,7 @@
 }
 
 .header-inscription-font-style {
-  font-size: 2em;
+  font-size: 1.7vw;
   color: #000;
   letter-spacing: -1.1px;
 }
@@ -55,7 +55,7 @@
 #phone-label {
   line-height: 16px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.8vw;
   color: #b3b3b3;
   letter-spacing: 0.9px;
 }
@@ -63,7 +63,7 @@
 #phone-value {
   font-family: Monserrat, sans-serif;
   line-height: 17px;
-  font-size: 14px;
+  font-size: 0.6vw;
   color: #37373f;
   letter-spacing: 0;
 }
