@@ -569,4 +569,51 @@
   .poor-div-for-layout {
     display: none;
   }
+  .footer-icons-container > :last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-icons-container > :last-child > img[src="images/RU.svg"] {
+    width: 23px;
+    height: 19px;
+  }
+  .footer-icons-container > :last-child > img[src="images/Arrow.svg"] {
+    margin: 6px 0 0 7px;
+    width: 11px;
+    height: 6px;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-icons-container {
+    padding: 26px 0 0 16px;
+    -webkit-column-gap: 126%;
+       -moz-column-gap: 126%;
+            column-gap: 126%;
+  }
+  img[src="images/VISA.svg"] {
+    margin-left: 10px;
+  }
+  .footer-icons-container > :first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mc-visa-icons-and-support-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .mc-visa-icons-and-support-info-size {
+    width: auto;
+  }
+  .footer-info-container :first-child {
+    margin: 22px 0 0 39px;
+  }
+  .footer-info-container :last-child {
+    margin: 12px 0 0 30px;
+  }
 }
