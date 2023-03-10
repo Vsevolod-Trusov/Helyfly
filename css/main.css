@@ -21,10 +21,6 @@
 .info-container {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fit, -webkit-max-content);
-  grid-template-columns: repeat(auto-fit, max-content);
-  grid-template-rows: repeat(auto-fit, -webkit-max-content);
-  grid-template-rows: repeat(auto-fit, max-content);
   -webkit-column-gap: 1vw;
      -moz-column-gap: 1vw;
           column-gap: 1vw;

@@ -95,9 +95,11 @@
     height: 197px;
     width: 290px;
     margin: 9px 0 0 16px;
+    padding: 157px 0 0 258px;
   }
   #play-ico {
-    padding: 55% 89%;
+    padding: 0;
+    margin: 0;
   }
   #paragraph-under-header {
     padding: 30px 0 0 15px;
@@ -149,6 +151,9 @@
   }
   .headline-container {
     padding: 36px 0 27px 0;
+  }
+  .collage-container {
+    overflow: scroll;
   }
   .text-and-collage {
     padding-left: 15px;
@@ -309,6 +314,9 @@
   }
   .list-with-ellipse-and-text {
     display: none;
+  }
+  .block-with-numbers-in-ellipse-list-container {
+    padding: 0;
   }
   .slider-container {
     display: block;
