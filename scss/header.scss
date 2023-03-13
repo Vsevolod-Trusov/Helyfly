@@ -76,7 +76,7 @@
 #phrase-container {
   font-family: Monserrat-Bold, serif;
   max-width: 75%;
-  @include font-face(no-font-family, 2.45em, 49px, #fff, 0, 900);
+  @include font-face(no-font-family, 2.1vw, 49px, #fff, 0, 900);
 
   span {
     color: #fc9b09;
@@ -85,20 +85,20 @@
 
 #message-shape {
   display: flex;
-  height: 96px;
-  width: 230px;
+  height: 5.3vw;
+  width: 12vw;
 
-  margin: 20px 0 0 -4px;
-  padding: 11px 29px 26px 23px;
+  margin: 1vw 0 0 -0.2vw;
+  padding: 0.5vw 1.3vw 0 1.2vw;
 
-  background: url('../images/message.png') no-repeat;
+  background: url('../images/message.png') center / cover no-repeat;
 
   font-family: Monserrat, serif;
 }
 
 #price-label {
   span {
-    @include font-face(no-font-family, 1.2em, 26px, #fff, 0, 400, normal);
+    @include font-face(no-font-family, 1vw, 1.3vw, #fff, 0, 400, normal);
     margin-left: 4px;
   }
 }
@@ -108,19 +108,14 @@
   padding-left: 5px;
 
   span {
-    @include font-face(Monserrat-Bold, 2.2em, 53px, #fff, 0, 900, normal);
+    @include font-face(Monserrat-Bold, 1.8vw, 3vw, #fff, 0, 900, normal);
   }
 }
 
 //discount ico
-#discount-ico-container {
-  padding: 0 10px 10px 0;
-}
-
 #discount-ico {
-  width: auto;
-  height: auto;
-  margin: -6px 0 0 -9px;
+  height: 4.4vw;
+  margin: -9px 0 0 -6px;
 }
 
 //button
