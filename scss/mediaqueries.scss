@@ -1,6 +1,61 @@
 @import 'mixins.scss';
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1800px) {
+  #title-h1 {
+    max-width: 36vw;
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #discount-ico {
+    margin: -0.1vw 0 0 0;
+  }
+
+  .form-with-buttons-and-select-date {
+    margin: 0 auto;
+  }
+
+  .header-inscription-font-style {
+    font-size: 2.7vw;
+  }
+  #phrase-container {
+    font-size: 3.1vw;
+  }
+
+  #phone-label {
+    font-size: 1.2vw;
+  }
+
+  #phone-value {
+    font-size: 1vw;
+  }
+
+  #message-shape {
+    height: 7.3vw;
+    width: 16vw;
+  }
+
+  #price-label > span {
+    line-height: 3vw;
+    font-size: 1.5vw;
+  }
+
+  #price-value > span {
+    font-size: 2.6vw;
+    line-height: 3vw;
+  }
+
+  .about-info {
+    min-width: 540px;
+  }
+
+  #discount-ico {
+    height: 6.4vw;
+  }
+}
+
+@media screen and (max-width: 1120px) {
   #pair-image {
     height: 274px;
     width: 354px;
@@ -13,61 +68,44 @@
   .header-inscription-font-style {
     letter-spacing: 0;
   }
+
+  #price-label > span {
+    line-height: 3.3vw;
+  }
 }
 
-@media screen and (max-width: 320px) {
-  .wrapper > .header-inscription-layout {
-    padding: 19px 0 13px 0;
+@media screen and (max-width: 920px) {
+  #price-value > span {
+    line-height: 4vw;
   }
 
-  #header-advertise {
-    background: url('../images/helimain_mob.png') center/ cover no-repeat;
+  .mc-visa-icons-and-support-info {
+    column-gap: 12.88%;
   }
 
-  .header-inscription-layout > .header-inscription-font-style {
-    font-size: 1.3em;
+  #message-shape > div {
+    margin: -4px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header-inscription-font-style {
+    font-size: 3.7vw;
+  }
+  #phrase-container {
+    font-size: 4.1vw;
   }
 
-  .wrapper.header-advertise__alignment > #phrase-container {
-    max-width: 80%;
-    font-size: 2em;
-    line-height: 39px;
+  #phone-label {
+    font-size: 1.8vw;
   }
 
-  .wrapper.header-advertise__alignment {
-    padding: 44% 0 48% 5%;
-  }
-
-  .header-inscription-layout {
-    justify-content: space-between;
-    column-gap: 13.5%;
-  }
-
-  #header-contact {
-    display: none;
-  }
-
-  .header-inscription-layout__link_invisible {
-    min-width: 33%;
-    padding-top: 5px;
-
-    a {
-      text-decoration: none;
-      color: #5286ec;
-    }
-  }
-
-  .header-inscription-layout__ico-container_invisible {
-    padding-top: 4px;
-    min-width: 7%;
-  }
-
-  .header-inscription-layout__link_invisible,
-  .header-inscription-layout__ico-container_invisible {
-    display: block;
+  #phone-value {
+    font-size: 1.6vw;
   }
 
   #message-shape {
+    height: 100px;
     width: 207px;
     margin: 33px 0 0 -4px;
     padding: 9px 29px 27px 15px;
@@ -75,12 +113,23 @@
     background-position: 50% 50%;
   }
 
+  #price-label > span {
+    font-size: 1.2em;
+    line-height: 26px;
+  }
+
+  #price-value > span {
+    font-size: 2.2em;
+    line-height: 53px;
+  }
+
   div > #price-value > span {
     font-size: 2em;
   }
 
   #discount-ico-container > #discount-ico {
-    object-position: 5px 2px;
+    width: auto;
+    height: auto;
   }
 
   #button-container > button {
@@ -170,6 +219,7 @@
   }
 
   .content-span {
+    min-width: 75%;
     font-size: 0.9em;
     margin: -1px 0 0 16px;
   }
@@ -207,6 +257,7 @@
 
   .text-and-collage {
     padding-left: 15px;
+    flex: 1;
   }
 
   .up-layer-container {
@@ -251,6 +302,11 @@
     padding-left: 30px;
   }
 
+  .about-image-with-signatures .link-bottom {
+    max-width: 350px;
+    padding: 13px 0 0 130px;
+  }
+
   .avatar-ico-container {
     display: flex;
     justify-content: center;
@@ -285,6 +341,10 @@
   }
 
   // body the fourth part
+
+  .form-with-buttons-and-select-date-container {
+    display: block;
+  }
 
   .form-with-buttons-and-select-date {
     min-width: auto;
@@ -357,6 +417,7 @@
 
   .feedback-status-container {
     flex-wrap: wrap;
+    margin-left: 22px;
   }
 
   .feedback-status-container-padding {
@@ -388,6 +449,8 @@
 
   .slider-container {
     padding: 10px 23px 0 23px;
+    max-width: 450px;
+    margin: 0 auto;
   }
 
   .slider {
@@ -656,6 +719,7 @@
 
   .mc-visa-icons-and-support-info-size {
     width: auto;
+    flex: 0.4;
   }
 
   .footer-info-container :first-child {
@@ -664,5 +728,106 @@
 
   .footer-info-container :last-child {
     margin: 12px 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .wrapper > .header-inscription-layout {
+    padding: 19px 0 13px 0;
+  }
+
+  #header-advertise {
+    background: url('../images/helimain_mob.png') center/ cover no-repeat;
+  }
+
+  .header-inscription-layout > .header-inscription-font-style {
+    font-size: 1.3em;
+  }
+
+  .wrapper.header-advertise__alignment > #phrase-container {
+    max-width: 80%;
+    font-size: 2em;
+    line-height: 39px;
+  }
+
+  .wrapper.header-advertise__alignment {
+    padding: 44% 0 48% 5%;
+  }
+
+  .header-inscription-layout {
+    justify-content: space-between;
+    column-gap: 13.5%;
+  }
+
+  #header-contact {
+    display: none;
+  }
+
+  .header-inscription-layout__link_invisible {
+    min-width: 33%;
+    padding-top: 5px;
+
+    a {
+      text-decoration: none;
+      color: #5286ec;
+    }
+  }
+
+  .header-inscription-layout__ico-container_invisible {
+    padding-top: 4px;
+    min-width: 7%;
+  }
+
+  .header-inscription-layout__link_invisible,
+  .header-inscription-layout__ico-container_invisible {
+    display: block;
+  }
+
+  .about-image-with-signatures .link-bottom {
+    max-width: 346px;
+    padding: 13px 0 0 135px;
+  }
+
+  .mc-visa-icons-and-support-info-size {
+    flex: 0.6;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about-image-with-signatures .link-bottom {
+    max-width: 278px;
+    padding: 13px 0 0 51px;
+  }
+
+  .link-bottom {
+    padding: 13px 0 0 55px;
+  }
+
+  .mc-visa-icons-and-support-info {
+    padding-left: 48px;
+  }
+
+  .feedback-status-container {
+    margin-left: 0;
+  }
+
+  .mc-visa-icons-and-support-info-size {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-image-with-signatures .link-bottom {
+    padding: 13px 0 0 21px;
+    max-width: 223px;
+  }
+
+  .photo-and-info > .info-padding-and-center-feedback {
+    padding: 0;
+  }
+
+  .mc-visa-icons-and-support-info {
+    padding-left: 0;
+    flex: 1;
   }
 }

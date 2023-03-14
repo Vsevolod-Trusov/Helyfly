@@ -90,7 +90,7 @@
   max-width: 75%;
   line-height: 49px;
   font-weight: 900;
-  font-size: 2.45em;
+  font-size: 2.1vw;
   color: #fff;
   letter-spacing: 0;
 }
@@ -102,17 +102,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 96px;
-  width: 230px;
-  margin: 20px 0 0 -4px;
-  padding: 11px 29px 26px 23px;
-  background: url("../images/message.png") no-repeat;
+  height: 5.3vw;
+  width: 12vw;
+  margin: 1vw 0 0 -0.2vw;
+  padding: 0.5vw 1.3vw 0 1.2vw;
+  background: url("../images/message.png") center/cover no-repeat;
   font-family: Monserrat, serif;
 }
 
 #price-label span {
-  line-height: 26px;
-  font-size: 1.2em;
+  line-height: 1.3vw;
+  font-size: 1vw;
   color: #fff;
   letter-spacing: 0;
   margin-left: 4px;
@@ -124,21 +124,16 @@
 }
 #price-value span {
   font-family: Monserrat-Bold, sans-serif;
-  line-height: 53px;
+  line-height: 3vw;
   font-weight: 900;
-  font-size: 2.2em;
+  font-size: 1.8vw;
   color: #fff;
   letter-spacing: 0;
 }
 
-#discount-ico-container {
-  padding: 0 10px 10px 0;
-}
-
 #discount-ico {
-  width: auto;
-  height: auto;
-  margin: -6px 0 0 -9px;
+  height: 4.4vw;
+  margin: -9px 0 0 -6px;
 }
 
 #button-container {
