@@ -33,7 +33,7 @@
 
 #paragraph-under-header {
   margin-top: -2.34vh;
-  padding: 20px 0 0 0;
+  padding-top: 20px;
   width: 87%;
   @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
   text-align: left;
@@ -45,7 +45,7 @@
 
 .icon-and-text {
   display: flex;
-  padding: 0 0 2% 0;
+  padding-bottom: 2%;
 }
 
 .text-near-ico-container {
@@ -297,14 +297,12 @@
 //body fourth part
 .form-with-buttons-and-select-date-container {
   display: flex;
-  //j//ustify-content: center;
 }
 
 .form-with-buttons-and-select-date {
   min-width: 770px;
   padding-top: 46px;
-  margin: 0 0 0 20.5%;
-  //margin-left: -350px;
+  margin-left: 20.5%;
 }
 
 .form-headline {
