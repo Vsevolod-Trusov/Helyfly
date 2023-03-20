@@ -371,40 +371,104 @@
     <!-- Slider -->
     <div class="slider-container">
         <div class="slider">
-            <div class="number-with-switch-buttons">
-                <button>
-                    <img src="images/arrow_slider_left.png" alt="#">
-                </button>
-                <div class="ordinal-value">1</div>
-                <button>
-                    <img src="images/arrow_slider_right.png" alt="#">
-                </button>
-            </div>
 
-            <div class="inscriptions-with-counter">
-                <h5>Где встречаемся?</h5>
-                <span>Москва</span>
-                <div class="counters-container">
-                    <div class="counter-1"></div>
-                    <div class="counter-2"></div>
-                    <div class="counter-3"></div>
-                </div>
-            </div>
+	        <button class="prev_button" onclick="prev()">
+		        <img src="images/arrow_slider_left.png" alt="#">
+	        </button>
 
-            <div class="image-with-inscriptions-container">
-                <div class="image-with-inscriptions">
-                    <div class="avatar-container">
-                        <img src="images/avatar.png" alt="#">
-                    </div>
+		       <div class="number-with-switch-buttons">
 
-                    <div class="inscriptions-and-link-container">
-                        <h5>Мария Иванова</h5>
-                        <h6>Фотограф</h6>
-                        <a href="#">Показать больше информации о фотографе</a>
-                    </div>
-                </div>
+			       <div class="slider-item-container">
+				       <div class="ordinal-value">1</div>
 
-            </div>
+				       <div class="inscriptions-with-counter">
+					       <h5>Где встречаемся?</h5>
+					       <span>Москва</span>
+					       <div class="counters-container">
+						       <div class="counter-1"></div>
+						       <div class="counter-2"></div>
+						       <div class="counter-3"></div>
+					       </div>
+				       </div>
+
+				       <div class="image-with-inscriptions-container">
+					       <div class="image-with-inscriptions">
+						       <div class="avatar-container">
+							       <img src="images/avatar.png" alt="#">
+						       </div>
+
+						       <div class="inscriptions-and-link-container">
+							       <h5>Мария Иванова</h5>
+							       <h6>Фотограф</h6>
+							       <a href="#">Показать больше информации о фотографе</a>
+						       </div>
+					       </div>
+
+				       </div>
+			       </div>
+
+			       <div class="slider-item-container">
+				       <div class="ordinal-value">2</div>
+
+				       <div class="inscriptions-with-counter">
+					       <h5>Время съемки</h5>
+					       <span>3 часа</span>
+					       <div class="counters-container">
+						       <div class="counter-1"></div>
+						       <div class="counter-2"></div>
+						       <div class="counter-3"></div>
+					       </div>
+					       <div class="image-with-inscriptions-container">
+						       <div class="image-with-inscriptions">
+							       <div class="avatar-container">
+								       <img src="images/avatar.png" alt="#">
+							       </div>
+
+							       <div class="inscriptions-and-link-container">
+								       <h5>Мария Иванова</h5>
+								       <h6>Фотограф</h6>
+								       <a href="#">Показать больше информации о фотографе</a>
+							       </div>
+						       </div>
+
+					       </div>
+				       </div>
+			       </div>
+
+			       <div class="slider-item-container">
+				       <div class="ordinal-value">3</div>
+
+				       <div class="inscriptions-with-counter">
+					       <h5>Мест осталось:</h5>
+					       <span>2 места</span>
+					       <div class="counters-container">
+						       <div class="counter-1"></div>
+						       <div class="counter-2"></div>
+						       <div class="counter-3"></div>
+					       </div>
+				       </div>
+
+				       <div class="image-with-inscriptions-container">
+					       <div class="image-with-inscriptions">
+						       <div class="avatar-container">
+							       <img src="images/avatar.png" alt="#">
+						       </div>
+
+						       <div class="inscriptions-and-link-container">
+							       <h5>Мария Иванова</h5>
+							       <h6>Фотограф</h6>
+							       <a href="#">Показать больше информации о фотографе</a>
+						       </div>
+					       </div>
+
+				       </div>
+			       </div>
+		       </div>
+
+
+	        <button class="next_button" onclick="next()">
+		        <img src="images/arrow_slider_right.png" alt="#">
+	        </button>
         </div>
     </div>
 
@@ -451,7 +515,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="second-li">
+                <li class="second-list-item-container">
                     <div class="feedback-content-avatar-container">
                         <img class="avatar-size" src="images/avatar-man-camera.png" alt="#">
                     </div>
@@ -580,5 +644,6 @@
         </div>
     </div>
 </footer>
+<script src="js/slider.js"></script>
 </body>
 </html>
