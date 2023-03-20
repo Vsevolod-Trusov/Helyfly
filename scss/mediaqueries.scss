@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1400px) {
   #discount-ico {
-    margin: -0.1vw 0 0 0;
+    margin-top: -0.1vw;
   }
 
   .form-with-buttons-and-select-date {
@@ -193,7 +193,7 @@
   }
 
   #list-icons-and-text-container > .icon-and-text {
-    padding: 0 0 20px 0;
+    padding-bottom: 20px;
   }
 
   #list-icons-and-text-container .text-near-ico-container {
@@ -243,7 +243,7 @@
   }
 
   .headline-container {
-    padding: 36px 0 27px 0;
+    padding: 36px 0 27px;
   }
 
   .collage-container {
@@ -284,7 +284,7 @@
     justify-content: center;
 
     min-width: auto;
-    padding: 47px 0 0 0;
+    padding-top: 47px;
     margin: 0;
   }
 
@@ -381,7 +381,7 @@
 
   .select-date-container > div {
     margin: 0 auto;
-    padding: 19px 0 14px 0;
+    padding: 19px 0 14px;
   }
 
   .select-date-container > button {
@@ -457,18 +457,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     @include custom-border('', 0.1px, solid, #c7c7c7);
   }
 
   .number-with-switch-buttons {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     margin-top: 50px;
     width: 250px;
+
+    overflow: hidden;
   }
 
-  .number-with-switch-buttons > button {
+  .slider-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    transition: 0.2s;
+  }
+
+  .prev_button {
+    margin-left: 15px;
+  }
+
+  .next_button {
+    margin-right: 15px;
+  }
+
+  .prev_button,
+  .next_button {
     background: transparent;
     border: none;
   }
@@ -517,7 +536,7 @@
     border-radius: 20px;
   }
 
-  .counters-container > .counter-1 {
+  .number-with-switch-buttons > .slider-item-container:first-child .counter-1 {
     background: #fc9b09;
   }
 
@@ -590,7 +609,7 @@
   }
 
   .profession-value-container {
-    padding: 3px 0 12px 0;
+    padding: 3px 0 12px;
   }
 
   .poor-block-for-layout {
@@ -639,7 +658,7 @@
   }
 
   .feedback-collapsed-link-padding {
-    padding: 36px 0 0 0;
+    padding-top: 36px;
   }
 
   //collapsed link
@@ -733,7 +752,7 @@
 
 @media screen and (max-width: 620px) {
   .wrapper > .header-inscription-layout {
-    padding: 19px 0 13px 0;
+    padding: 19px 0 13px;
   }
 
   #header-advertise {
