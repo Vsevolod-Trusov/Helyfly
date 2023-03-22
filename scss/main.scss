@@ -27,7 +27,7 @@
 #title-h1 {
   max-width: 500px;
   padding: 0.9% 40% 0 0;
-  @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
+  @include font-face(Monserrat, 40px, 1em, #000, 0.1px, 900, normal);
   text-align: left;
 }
 
@@ -206,10 +206,11 @@
 
 .about-text-container {
   max-width: 600px;
+  line-height: 1.5em;
 }
 
 .about-text-paragraph-container {
-  @include font-face(Monserrat, 16px, 1.5em, #000, 0, 400, normal);
+  @include font-face(Monserrat, 16px, no, #000, 0, 400, normal);
   text-align: left;
 }
 
@@ -226,7 +227,7 @@
 .paragraph-headline {
   margin-top: -2px;
   padding-bottom: 11px;
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 600, normal);
+  @include font-face(Monserrat, 18px, no, #000, 0, 600, normal);
   text-align: left;
 }
 
@@ -265,19 +266,19 @@
   .avatar-ico-container {
     display: flex;
     justify-content: center;
-
     width: 100%;
+    line-height: 1.5em;
   }
 
   h5 {
     padding-top: 20px;
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 600, normal);
+    @include font-face(Monserrat, 18px, no, #37373f, 0, 600, normal);
     text-align: center;
   }
 
   h6 {
     padding-top: 7px;
-    @include font-face(Monserrat, 14px, 1em, #37373f, 0, 400, normal);
+    @include font-face(Monserrat, 14px, no, #37373f, 0, 400, normal);
     text-align: center;
   }
 
@@ -435,11 +436,12 @@
   justify-content: space-between;
   padding: 3px 0 0 18px;
   font-family: Monserrat, serif;
+  line-height: 1.5em;
   & :first-child {
-    @include font-face(no-font-family, 18px, 1.5em, #37373f, 0, 800, normal);
+    @include font-face(no-font-family, 18px, no, #37373f, 0, 800, normal);
   }
   & :nth-child(2) {
-    @include font-face(no-font-family, 18px, 1.5em, #37373f, 0, 500, normal);
+    @include font-face(no-font-family, 18px, no, #37373f, 0, 500, normal);
   }
 }
 
@@ -509,7 +511,7 @@
   }
 }
 
-.second-li,
+.second-list-item-container,
 .third-li {
   padding-top: 28px;
 }

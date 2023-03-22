@@ -38,7 +38,7 @@
   max-width: 500px;
   padding: 0.9% 40% 0 0;
   font-family: Monserrat, sans-serif;
-  line-height: 1.0999em;
+  line-height: 1em;
   font-weight: 900;
   font-size: 40px;
   color: #000;
@@ -278,11 +278,11 @@
 
 .about-text-container {
   max-width: 600px;
+  line-height: 1.5em;
 }
 
 .about-text-paragraph-container {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-size: 16px;
   color: #000;
   text-align: left;
@@ -300,7 +300,6 @@
   margin-top: -2px;
   padding-bottom: 11px;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 18px;
   color: #000;
@@ -352,11 +351,11 @@
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
+  line-height: 1.5em;
 }
 .about-image-with-signatures h5 {
   padding-top: 20px;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 18px;
   color: #37373f;
@@ -365,7 +364,6 @@
 .about-image-with-signatures h6 {
   padding-top: 7px;
   font-family: Monserrat, sans-serif;
-  line-height: 1em;
   font-size: 14px;
   color: #37373f;
   text-align: center;
@@ -547,15 +545,14 @@
   justify-content: space-between;
   padding: 3px 0 0 18px;
   font-family: Monserrat, serif;
+  line-height: 1.5em;
 }
 .signature-near-ellipse :first-child {
-  line-height: 1.5em;
   font-weight: 800;
   font-size: 18px;
   color: #37373f;
 }
 .signature-near-ellipse :nth-child(2) {
-  line-height: 1.5em;
   font-weight: 500;
   font-size: 18px;
   color: #37373f;
@@ -658,7 +655,7 @@
   justify-content: space-evenly;
 }
 
-.second-li,
+.second-list-item-container,
 .third-li {
   padding-top: 28px;
 }

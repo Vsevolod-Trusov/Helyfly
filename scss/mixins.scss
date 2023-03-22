@@ -11,7 +11,7 @@
     font-family: $fontFamily, sans-serif;
   }
 
-  @if ($lineHeight != default) {
+  @if ($lineHeight != default and $lineHeight != no) {
     line-height: $lineHeight;
   }
 

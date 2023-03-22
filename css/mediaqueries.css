@@ -8,40 +8,51 @@
   #discount-ico {
     margin-top: -1px;
   }
+
   .form-with-buttons-and-select-date {
     margin: 0 auto;
   }
+
   .header-inscription-font-style {
     font-size: 32px;
   }
+
   #phrase-container {
     font-size: 37px;
   }
+
   #phone-label {
     font-size: 16px;
   }
+
   #phone-value {
     font-size: 16px;
   }
+
   #message-shape {
     height: 103px;
     width: 230px;
   }
+
   #price-label > span {
     line-height: 44px;
     font-size: 20px;
   }
+
   #price-value > span {
     font-size: 35px;
     line-height: 40px;
   }
+
   .about-info {
     min-width: 540px;
   }
+
   #discount-ico {
     height: 90px;
   }
 }
+
 @media screen and (max-width: 1120px) {
   #pair-image {
     height: 274px;
@@ -70,7 +81,6 @@
     margin-top: -4px;
   }
 }
-
 @media screen and (max-width: 720px) {
   .header-inscription-font-style {
     font-size: 25px;
@@ -554,6 +564,7 @@
     font-size: 14px;
     color: #37373f;
   }
+
   .inscriptions-and-link-container > a {
     text-decoration: none;
     font-family: Montserrat, sans-serif;
@@ -575,7 +586,7 @@
     padding-bottom: 38px;
     border: none;
   }
-  .second-li {
+  .second-list-item-container {
     padding-top: 30px;
   }
   .feedback-message-list > .third-li {
