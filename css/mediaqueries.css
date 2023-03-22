@@ -569,7 +569,7 @@
   .feedback-message-list > li {
     border-bottom: 0.1px solid #c7c7c7;
   }
-  .feedback-list-li-content-near-avatar {
+  .feedback-list-li-content {
     margin: 3px 0 0 18.3px;
     padding-bottom: 38px;
     border: none;
@@ -580,7 +580,7 @@
   .feedback-message-list > .third-li {
     display: none;
   }
-  .feedback-list-li-content-near-avatar h5 {
+  .feedback-list-li-content h5 {
     font-size: 16px;
   }
   .profession-value-container {

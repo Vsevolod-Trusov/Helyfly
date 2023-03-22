@@ -466,7 +466,7 @@
   @include font-face(Monserrat, 18px, 1.5em, #37373f, 1.6px, 600, normal);
 }
 
-.feedback-list-li-content-near-avatar {
+.feedback-list-li-content {
   h5 {
     @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 600, normal);
   }
@@ -525,7 +525,7 @@
   height: 101px;
 }
 
-.feedback-list-li-content-near-avatar {
+.feedback-list-li-content {
   margin: 8px 0 0 3.3%;
   padding-bottom: 29px;
   @include custom-border('bottom', 0.1px, solid, #c7c7c7);

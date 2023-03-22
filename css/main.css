@@ -587,14 +587,14 @@
   letter-spacing: 1.6px;
 }
 
-.feedback-list-li-content-near-avatar h5 {
+.feedback-list-li-content h5 {
   font-family: Monserrat, sans-serif;
   line-height: 1.5em;
   font-weight: 600;
   font-size: 18px;
   color: #37373f;
 }
-.feedback-list-li-content-near-avatar h6 {
+.feedback-list-li-content h6 {
   font-family: Monserrat, sans-serif;
   line-height: 1.5em;
   font-weight: 500;
@@ -666,7 +666,7 @@
   height: 101px;
 }
 
-.feedback-list-li-content-near-avatar {
+.feedback-list-li-content {
   margin: 8px 0 0 3.3%;
   padding-bottom: 29px;
   border-bottom: 0.1px solid #c7c7c7;
