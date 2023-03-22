@@ -2,14 +2,14 @@
 
 @media screen and (max-width: 1800px) {
   #title-h1 {
-    max-width: 36vw;
+    max-width: 500px;
     font-size: 34px;
   }
 }
 
 @media screen and (max-width: 1400px) {
   #discount-ico {
-    margin-top: -0.1vw;
+    margin-top: -1px;
   }
 
   .form-with-buttons-and-select-date {
@@ -17,33 +17,33 @@
   }
 
   .header-inscription-font-style {
-    font-size: 2.7vw;
+    font-size: 32px;
   }
   #phrase-container {
-    font-size: 3.1vw;
+    font-size: 37px;
   }
 
   #phone-label {
-    font-size: 1.2vw;
+    font-size: 16px;
   }
 
   #phone-value {
-    font-size: 1vw;
+    font-size: 16px;
   }
 
   #message-shape {
-    height: 7.3vw;
-    width: 16vw;
+    height: 103px;
+    width: 230px;
   }
 
   #price-label > span {
-    line-height: 3vw;
-    font-size: 1.5vw;
+    line-height: 44px;
+    font-size: 20px;
   }
 
   #price-value > span {
-    font-size: 2.6vw;
-    line-height: 3vw;
+    font-size: 35px;
+    line-height: 40px;
   }
 
   .about-info {
@@ -51,7 +51,7 @@
   }
 
   #discount-ico {
-    height: 6.4vw;
+    height: 90px;
   }
 }
 
@@ -70,13 +70,13 @@
   }
 
   #price-label > span {
-    line-height: 3.3vw;
+    line-height: 45px;
   }
 }
 
 @media screen and (max-width: 920px) {
   #price-value > span {
-    line-height: 4vw;
+    line-height: 45px;
   }
 
   .mc-visa-icons-and-support-info {
@@ -84,24 +84,20 @@
   }
 
   #message-shape > div {
-    margin: -4px 0 0 0;
+    margin-top: -4px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .header-inscription-font-style {
-    font-size: 3.7vw;
+    font-size: 25px;
   }
   #phrase-container {
-    font-size: 4.1vw;
+    font-size: 30px;
   }
 
-  #phone-label {
-    font-size: 1.8vw;
-  }
-
-  #phone-value {
-    font-size: 1.6vw;
+  #header-contact {
+    font-size: 19px;
   }
 
   #message-shape {
@@ -163,7 +159,6 @@
 
   #title-h1 {
     padding: 35px 0 0 74px;
-    max-width: 80vw;
     line-height: 1.3em;
     font-weight: 500;
     font-size: 1.7em;
@@ -640,7 +635,7 @@
 
   .feedback-content-container {
     margin-left: -100px;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 15px;
   }
 
   .feedback-content {

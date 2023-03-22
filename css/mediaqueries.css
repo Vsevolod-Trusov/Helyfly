@@ -1,111 +1,86 @@
 @media screen and (max-width: 1800px) {
   #title-h1 {
-    max-width: 36vw;
+    max-width: 500px;
     font-size: 34px;
   }
 }
-
 @media screen and (max-width: 1400px) {
   #discount-ico {
-    margin-top: -0.1vw;
+    margin-top: -1px;
   }
-
   .form-with-buttons-and-select-date {
     margin: 0 auto;
   }
-
   .header-inscription-font-style {
-    font-size: 2.7vw;
+    font-size: 32px;
   }
-
   #phrase-container {
-    font-size: 3.1vw;
+    font-size: 37px;
   }
-
   #phone-label {
-    font-size: 1.2vw;
+    font-size: 16px;
   }
-
   #phone-value {
-    font-size: 1vw;
+    font-size: 16px;
   }
-
   #message-shape {
-    height: 7.3vw;
-    width: 16vw;
+    height: 103px;
+    width: 230px;
   }
-
   #price-label > span {
-    line-height: 3vw;
-    font-size: 1.5vw;
+    line-height: 44px;
+    font-size: 20px;
   }
-
   #price-value > span {
-    font-size: 2.6vw;
-    line-height: 3vw;
+    font-size: 35px;
+    line-height: 40px;
   }
-
   .about-info {
     min-width: 540px;
   }
-
   #discount-ico {
-    height: 6.4vw;
+    height: 90px;
   }
 }
-
 @media screen and (max-width: 1120px) {
   #pair-image {
     height: 274px;
     width: 354px;
   }
-
   #play-ico {
     height: 30%;
   }
-
   .header-inscription-font-style {
     letter-spacing: 0;
   }
-
   #price-label > span {
-    line-height: 3.3vw;
+    line-height: 45px;
   }
 }
-
 @media screen and (max-width: 920px) {
   #price-value > span {
-    line-height: 4vw;
+    line-height: 45px;
   }
-
   .mc-visa-icons-and-support-info {
     -webkit-column-gap: 12.88%;
     -moz-column-gap: 12.88%;
     column-gap: 12.88%;
   }
-
   #message-shape > div {
-    margin: -4px 0 0 0;
+    margin-top: -4px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .header-inscription-font-style {
-    font-size: 3.7vw;
+    font-size: 25px;
   }
-
   #phrase-container {
-    font-size: 4.1vw;
+    font-size: 30px;
   }
-
-  #phone-label {
-    font-size: 1.8vw;
+  #header-contact {
+    font-size: 19px;
   }
-
-  #phone-value {
-    font-size: 1.6vw;
-  }
-
   #message-shape {
     height: 100px;
     width: 207px;
@@ -114,132 +89,106 @@
     background-size: contain;
     background-position: 50% 50%;
   }
-
   #price-label > span {
     font-size: 1.2em;
     line-height: 26px;
   }
-
   #price-value > span {
     font-size: 2.2em;
     line-height: 53px;
   }
-
   div > #price-value > span {
     font-size: 2em;
   }
-
-  #dis count-ico-container > #discount-ico {
+  #discount-ico-container > #discount-ico {
     width: auto;
     height: auto;
   }
-
   #button-container > button {
     height: 69px;
     width: 275px;
     border-radius: 10px;
     font-size: 1.1em;
   }
-
   #button-container {
     padding-top: 7px;
   }
-
   .photo-and-info > .info-padding-and-center-feedback {
     padding: 0;
   }
-
   .padding-container {
     -ms-grid-row: 2;
     grid-row: 2/2;
     -ms-grid-column: 1;
     grid-column: 1/1;
   }
-
   .paragraph {
     width: 100vw;
     -ms-grid-row: 3;
     grid-row: 3/3;
   }
-
   .list-icons-and-text-container {
     -ms-grid-row: 4;
     grid-row: 4/4;
   }
-
   #title-h1 {
     padding: 35px 0 0 74px;
-    max-width: 80vw;
     line-height: 1.3em;
     font-weight: 500;
     font-size: 1.7em;
   }
-
   #pair-image {
     height: 197px;
     width: 290px;
     margin: 9px 0 0 16px;
     padding: 157px 0 0 258px;
   }
-
   #play-ico {
     padding: 0;
     margin: 0;
   }
-
   #paragraph-under-header {
     padding: 30px 0 0 15px;
     margin-top: 0;
     line-height: 1.35em;
     font-size: 0.9em;
   }
-
   #list-icons-and-text-container {
     padding: 3% 0 0 3%;
   }
-
   #list-icons-and-text-container > .icon-and-text {
     padding-bottom: 20px;
   }
-
   #list-icons-and-text-container .text-near-ico-container {
     padding: 9px;
   }
-
   #list-icons-and-text-container > :last-child .text-near-ico-container {
     padding: 0 9px 9px 9px;
   }
-
   .feedback-status-container {
     padding-top: 12px;
   }
-
   .feedback-status {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 21px 0 8px 16px;
     margin-top: -17px;
   }
-
   .content-span {
     padding: 0;
   }
-
   .content-span {
     min-width: 75%;
     font-size: 0.9em;
     margin: -1px 0 0 16px;
   }
-
   .stars-ico-container {
     padding-left: 48px;
     margin-top: -24px;
   }
-
   #cup-ico {
     height: 98%;
   }
-
   .headline {
     text-align: center;
     line-height: normal;
@@ -247,27 +196,22 @@
     font-size: 1.89em;
     font-weight: 400;
   }
-
   .headline-container {
     padding: 36px 0 27px;
   }
-
   .collage-container {
     overflow: scroll;
   }
-
   .collage-container img {
     height: 185px;
     width: 277px;
   }
-
   .text-and-collage {
     padding-left: 15px;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
-
   .up-layer-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -277,19 +221,15 @@
     justify-content: flex-start;
     max-width: 100px;
   }
-
   .up-layer-container:not(:first-child) {
     display: none;
   }
-
   .down-layer-container {
     display: none;
   }
-
   .text-and-collage > :last-child {
     display: none;
   }
-
   .about-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -302,32 +242,27 @@
     padding-top: 47px;
     margin: 0;
   }
-
   .about-image-container {
     padding: 0;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
   }
-
   .about-text-container {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
   }
-
   .about-image-with-signatures {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     padding-left: 30px;
   }
-
   .about-image-with-signatures .link-bottom {
     max-width: 350px;
     padding: 13px 0 0 130px;
   }
-
   .avatar-ico-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -337,7 +272,6 @@
     justify-content: center;
     padding-top: 15px;
   }
-
   .heart-ico-container {
     -webkit-box-flex: 0.19;
     -ms-flex: 0.19;
@@ -345,82 +279,64 @@
     margin: 0;
     padding: 0;
   }
-
   .link-bottom {
     padding: 13px 0 0 21px;
     max-width: 223px;
   }
-
   .about-text-paragraph-container {
     padding: 17px 15px 0 15px;
   }
-
   .about-text-paragraph-container > :nth-child(2) {
     margin-top: 5px;
   }
-
   .paragraph-link-container {
     padding-top: 18px;
   }
-
   .last-paragraph-padding-top {
     margin-top: 6px;
   }
-
   .form-with-buttons-and-select-date-container {
     display: block;
   }
-
   .form-with-buttons-and-select-date {
     min-width: auto;
     padding-top: 46px;
     margin: 0;
   }
-
   .form-with-buttons-and-select-date {
     padding-top: 30px;
   }
-
   .form-container {
     margin: 0;
   }
-
   .form-headline {
     text-align: center;
     font-weight: 400;
     font-size: 1.55em;
     letter-spacing: 0.09em;
   }
-
   .form-headline-container {
     padding-bottom: 31px;
   }
-
   .form-with-buttons-and-select-date > :last-child {
     padding: 0 15px;
   }
-
   .select-date-container {
     padding: 0;
   }
-
   .select-date-container > div {
     margin: 0 auto;
     padding: 19px 0 14px;
   }
-
   .select-date-container > button {
     display: none;
   }
-
   .select-session {
     padding: 26px 0 0 19px;
   }
-
   .select-session :not(:first-child) {
     padding-top: 7px;
   }
-
   .select-session-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -428,11 +344,9 @@
     flex-direction: column;
     padding-bottom: 28px;
   }
-
   .select-button-container {
     padding: 16px 0 0 20px;
   }
-
   .select-session-container-without-border {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -441,49 +355,39 @@
     padding-bottom: 31px;
     border-bottom: 0.1px solid #c7c7c7;
   }
-
   .select-session-container-without-border > .select-session {
     padding: 30px 0 0 19px;
   }
-
   .feedback-status-container {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: 22px;
   }
-
   .feedback-status-container-padding {
     padding: 20px 0 21px 19px;
   }
-
   .feedback-status-container img[src='images/cup-ico.svg'] {
     height: 97%;
   }
-
   .div-map {
     margin-top: 4px;
     background-size: 500%;
     background-position-x: 57.85%;
   }
-
   .list-with-ellipse-and-text {
     display: none;
   }
-
   .block-with-numbers-in-ellipse-list-container {
     padding: 0;
   }
-
   .slider-container {
     display: block;
   }
-
   .slider-container {
     padding: 10px 23px 0 23px;
     max-width: 450px;
     margin: 0 auto;
   }
-
   .slider {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -496,7 +400,6 @@
     align-items: center;
     border: 0.1px solid #c7c7c7;
   }
-
   .number-with-switch-buttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -512,7 +415,6 @@
     width: 250px;
     overflow: hidden;
   }
-
   .slider-item-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -528,21 +430,17 @@
     -webkit-transition: 0.2s;
     transition: 0.2s;
   }
-
   .prev_button {
     margin-left: 15px;
   }
-
   .next_button {
     margin-right: 15px;
   }
-
   .prev_button,
   .next_button {
     background: transparent;
     border: none;
   }
-
   .ordinal-value {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -563,7 +461,6 @@
     font-size: 30px;
     color: #ffffff;
   }
-
   .inscriptions-with-counter {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -578,7 +475,6 @@
     margin-top: 20px;
     row-gap: 15px;
   }
-
   .inscriptions-with-counter > h5 {
     font-family: Montserrat, sans-serif;
     line-height: 23.4px;
@@ -586,14 +482,12 @@
     font-size: 16px;
     color: #37373f;
   }
-
   .inscriptions-with-counter > span {
     font-family: Montserrat, sans-serif;
     line-height: 20.48px;
     font-size: 14px;
     color: #37373f;
   }
-
   .counters-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -603,7 +497,6 @@
     justify-content: space-between;
     width: 52px;
   }
-
   .counters-container > div {
     height: 10px;
     width: 10px;
@@ -611,11 +504,9 @@
     border: 0.1px solid #c7c7c7;
     border-radius: 20px;
   }
-
   .number-with-switch-buttons > .slider-item-container:first-child .counter-1 {
     background: #fc9b09;
   }
-
   .image-with-inscriptions-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -623,7 +514,6 @@
     margin-top: 33px;
     padding-bottom: 10px;
   }
-
   .image-with-inscriptions {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -636,12 +526,10 @@
     -moz-column-gap: 12px;
     column-gap: 12px;
   }
-
   .avatar-container > img {
     width: 67px;
     height: 67px;
   }
-
   .inscriptions-and-link-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -652,7 +540,6 @@
     flex-direction: column;
     row-gap: 5px;
   }
-
   .inscriptions-and-link-container > h5 {
     font-family: Montserrat, sans-serif;
     line-height: 19.5px;
@@ -660,7 +547,6 @@
     font-size: 16px;
     color: #37373f;
   }
-
   .inscriptions-and-link-container > h6 {
     font-family: Montserrat, sans-serif;
     line-height: 21.16px;
@@ -668,7 +554,6 @@
     font-size: 14px;
     color: #37373f;
   }
-
   .inscriptions-and-link-container > a {
     text-decoration: none;
     font-family: Montserrat, sans-serif;
@@ -676,168 +561,134 @@
     font-size: 14px;
     color: #5286ec;
   }
-
   .feedback-list-container {
     padding-top: 35px;
   }
-
   .feedback-message-list {
     padding: 43px 0 0 15px;
   }
-
   .feedback-message-list > li {
     border-bottom: 0.1px solid #c7c7c7;
   }
-
   .feedback-list-li-content-near-avatar {
     margin: 3px 0 0 18.3px;
     padding-bottom: 38px;
     border: none;
   }
-
   .second-li {
     padding-top: 30px;
   }
-
   .feedback-message-list > .third-li {
     display: none;
   }
-
   .feedback-list-li-content-near-avatar h5 {
     font-size: 16px;
   }
-
   .profession-value-container {
     padding: 3px 0 12px;
   }
-
   .poor-block-for-layout {
     display: none;
   }
-
   .feedback-headline {
     font-weight: 400;
     font-size: 1.6em;
     line-height: 42.32px;
     text-align: center;
   }
-
   .avatar-size {
     height: 84px;
     width: 84px;
   }
-
   .stars-ico-and-check-ico-with-comment-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
-
   .check-ico-with-text {
     margin: 24px 0 0 -103px;
     padding: 0;
   }
-
   .feedback-content-container {
     margin-left: -100px;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 15px;
   }
-
   .feedback-content {
     font-weight: 400;
     font-size: 14px;
     padding-right: 12px;
   }
-
   .date-value-container {
     padding-top: 22px;
   }
-
   .date-value {
     margin-left: -102px;
   }
-
   .feedback-collapsed-link-padding {
     padding-top: 36px;
   }
-
   .collapsed-link > :first-child {
     display: none;
   }
-
   .collapsed-link > :last-child {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
   }
-
   .brand-and-icons-container {
     padding-bottom: 18px;
     border-bottom: 0.1px solid #c7c7c7;
   }
-
   .brand-container > span {
     font-weight: 500;
     font-size: 1.3em;
   }
-
   .brand-and-icons {
     -webkit-column-gap: 66px;
     -moz-column-gap: 66px;
     column-gap: 66px;
     padding-top: 26.5%;
   }
-
   .icons-list {
     min-width: 135px;
   }
-
   .icons-list > :last-child {
     display: none;
   }
-
   .poor-div-for-layout {
     display: none;
   }
-
   .footer-icons-container > :last-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .footer-icons-container > :last-child > img[src='images/RU.svg'] {
     width: 23px;
     height: 19px;
   }
-
   .footer-icons-container > :last-child > img[src='images/Arrow.svg'] {
     margin: 6px 0 0 7px;
     width: 11px;
     height: 6px;
   }
-
   footer {
     height: auto;
   }
-
   .footer-icons-container {
     padding: 26px 0 0 16px;
     -webkit-column-gap: 126%;
     -moz-column-gap: 126%;
     column-gap: 126%;
   }
-
   img[src='images/VISA.svg'] {
     margin-left: 10px;
   }
-
   .footer-icons-container > :first-child {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .mc-visa-icons-and-support-info {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -845,46 +696,37 @@
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
-
   .mc-visa-icons-and-support-info-size {
     width: auto;
     -webkit-box-flex: 0.4;
     -ms-flex: 0.4;
     flex: 0.4;
   }
-
   .footer-info-container :first-child {
     margin: 22px 0 0 39px;
   }
-
   .footer-info-container :last-child {
     margin: 12px 0 0 30px;
   }
 }
-
 @media screen and (max-width: 620px) {
   .wrapper > .header-inscription-layout {
     padding: 19px 0 13px;
   }
-
   #header-advertise {
     background: url('../images/helimain_mob.png') center/cover no-repeat;
   }
-
   .header-inscription-layout > .header-inscription-font-style {
     font-size: 1.3em;
   }
-
   .wrapper.header-advertise__alignment > #phrase-container {
     max-width: 80%;
     font-size: 2em;
     line-height: 39px;
   }
-
   .wrapper.header-advertise__alignment {
     padding: 44% 0 48% 5%;
   }
-
   .header-inscription-layout {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -893,78 +735,63 @@
     -moz-column-gap: 13.5%;
     column-gap: 13.5%;
   }
-
   #header-contact {
     display: none;
   }
-
   .header-inscription-layout__link_invisible {
     min-width: 33%;
     padding-top: 5px;
   }
-
   .header-inscription-layout__link_invisible a {
     text-decoration: none;
     color: #5286ec;
   }
-
   .header-inscription-layout__ico-container_invisible {
     padding-top: 4px;
     min-width: 7%;
   }
-
   .header-inscription-layout__link_invisible,
   .header-inscription-layout__ico-container_invisible {
     display: block;
   }
-
   .about-image-with-signatures .link-bottom {
     max-width: 346px;
     padding: 13px 0 0 135px;
   }
-
   .mc-visa-icons-and-support-info-size {
     -webkit-box-flex: 0.6;
     -ms-flex: 0.6;
     flex: 0.6;
   }
 }
-
 @media screen and (max-width: 420px) {
   .about-image-with-signatures .link-bottom {
     max-width: 278px;
     padding: 13px 0 0 51px;
   }
-
   .link-bottom {
     padding: 13px 0 0 55px;
   }
-
   .mc-visa-icons-and-support-info {
     padding-left: 48px;
   }
-
   .feedback-status-container {
     margin-left: 0;
   }
-
   .mc-visa-icons-and-support-info-size {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
 }
-
 @media screen and (max-width: 320px) {
   .about-image-with-signatures .link-bottom {
     padding: 13px 0 0 21px;
     max-width: 223px;
   }
-
   .photo-and-info > .info-padding-and-center-feedback {
     padding: 0;
   }
-
   .mc-visa-icons-and-support-info {
     padding-left: 0;
     -webkit-box-flex: 1;

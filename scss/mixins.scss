@@ -23,7 +23,10 @@
     font-style: $fontStyle;
   }
 
-  font-size: $fontSize;
+  @if ($fontSize != no) {
+    font-size: $fontSize;
+  }
+
   color: $color;
 
   @if ($letterSpacing != 0) {

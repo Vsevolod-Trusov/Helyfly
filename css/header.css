@@ -38,7 +38,7 @@
 }
 
 .header-inscription-font-style {
-  font-size: 1.7vw;
+  font-size: 32px;
   color: #000;
   letter-spacing: -1.1px;
 }
@@ -50,12 +50,12 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 16px;
 }
 
 #phone-label {
   line-height: 16px;
   font-weight: 300;
-  font-size: 0.8vw;
   color: #b3b3b3;
   letter-spacing: 0.9px;
 }
@@ -63,7 +63,6 @@
 #phone-value {
   font-family: Monserrat, sans-serif;
   line-height: 17px;
-  font-size: 0.6vw;
   color: #37373f;
 }
 
@@ -89,7 +88,7 @@
   max-width: 75%;
   line-height: 49px;
   font-weight: 900;
-  font-size: 2.1vw;
+  font-size: 32px;
   color: #fff;
 }
 #phrase-container span {
@@ -100,17 +99,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 5.3vw;
-  width: 12vw;
-  margin: 1vw 0 0 -0.2vw;
-  padding: 0.5vw 1.3vw 0 1.2vw;
+  height: 100px;
+  width: 220px;
+  margin: 16px 0 0 -2px;
+  padding: 5px 17px 0 17px;
   background: url('../images/message.png') center/cover no-repeat;
   font-family: Monserrat, serif;
 }
 
 #price-label span {
-  line-height: 1.3vw;
-  font-size: 1vw;
+  line-height: 40px;
+  font-size: 20px;
   color: #fff;
   margin-left: 4px;
 }
@@ -121,15 +120,15 @@
 }
 #price-value span {
   font-family: Monserrat-Bold, sans-serif;
-  line-height: 3vw;
+  line-height: 40px;
   font-weight: 900;
-  font-size: 1.8vw;
+  font-size: 32px;
   color: #fff;
 }
 
 #discount-ico {
-  height: 4.4vw;
-  margin: -9px 0 0 -6px;
+  height: 90px;
+  margin: -3px 0 0 -6px;
 }
 
 #button-container {

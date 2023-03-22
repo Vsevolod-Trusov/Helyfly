@@ -14,7 +14,7 @@
 
 .info-container {
   display: grid;
-  column-gap: 1vw;
+  column-gap: 16px;
 }
 
 .inscription {
@@ -22,10 +22,10 @@
 }
 
 .paragraph {
-  width: 33vw;
+  width: 550px;
 }
 #title-h1 {
-  max-width: 27vw;
+  max-width: 500px;
   padding: 0.9% 40% 0 0;
   @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
   text-align: left;
