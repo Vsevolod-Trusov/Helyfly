@@ -14,9 +14,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 29.88%;
-     -moz-column-gap: 29.88%;
-          column-gap: 29.88%;
+  -webkit-column-gap: 29%;
+     -moz-column-gap: 29%;
+          column-gap: 29%;
 }
 
 .mc-visa-icons-and-support-info-size {
