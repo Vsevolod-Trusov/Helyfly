@@ -3,15 +3,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .info-padding-and-center-feedback {
@@ -22,8 +22,8 @@
   display: -ms-grid;
   display: grid;
   -webkit-column-gap: 16px;
-     -moz-column-gap: 16px;
-          column-gap: 16px;
+  -moz-column-gap: 16px;
+  column-gap: 16px;
 }
 
 .inscription {
@@ -51,7 +51,6 @@
   padding-top: 20px;
   width: 87%;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-size: 18px;
   color: #000;
   text-align: left;
@@ -66,15 +65,16 @@
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 2%;
+  line-height: 1.5em;
 }
 
 .text-near-ico-container {
   margin: auto 0;
   padding-left: 1.9%;
 }
+
 .text-near-ico-container span {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 14px;
   color: #000;
@@ -92,7 +92,7 @@
   height: 374px;
   width: 554px;
   padding: 58% 0 0 85%;
-  background: url("../images/couple.png") no-repeat;
+  background: url('../images/couple.png') no-repeat;
   background-size: contain;
 }
 
@@ -120,10 +120,10 @@
   margin: auto 0;
   padding: 12px 14px 0 10.23px;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-size: 18px;
   color: #000;
 }
+
 .content-span span span {
   font-weight: bold;
 }
@@ -142,12 +142,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .text-and-collage {
   padding-left: 19px;
+  line-height: 1.5em;
 }
 
 .headline-container {
@@ -157,7 +158,6 @@
 .headline {
   text-align: left;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 20px;
   color: #000;
@@ -176,12 +176,15 @@
 .up-layer-container :first-child {
   padding-left: 1px;
 }
+
 .up-layer-container :nth-child(2) {
   padding-left: 7px;
 }
+
 .up-layer-container :nth-child(3) {
   padding-left: 8px;
 }
+
 .up-layer-container :nth-child(4) {
   padding-left: 9px;
 }
@@ -189,12 +192,15 @@
 .down-layer-container :first-child {
   padding-left: 1px;
 }
+
 .down-layer-container :nth-child(2) {
   padding-left: 7px;
 }
+
 .down-layer-container :nth-child(3) {
   padding-left: 8px;
 }
+
 .down-layer-container :nth-child(4) {
   padding-left: 9px;
 }
@@ -213,11 +219,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .collapsed-link-padding {
@@ -233,9 +239,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
 .collapsed-link div {
   padding: 0 10px 0 10px;
 }
@@ -246,7 +253,6 @@
 
 .collapsed-link-text {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 500;
   font-size: 17px;
   color: #5286ec;
@@ -259,8 +265,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .about-info {
@@ -268,8 +274,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 1140px;
   padding: 37px 0 47px 0;
   margin-left: 16px;
@@ -321,14 +327,15 @@
   display: flex;
   padding-top: 4px;
 }
+
 .paragraph-link-container a {
   padding-left: 2px;
   text-decoration: none;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-size: 16px;
   color: #5286ec;
 }
+
 .paragraph-link-container img {
   padding-left: 9px;
 }
@@ -342,17 +349,19 @@
 
 .about-image-with-signatures {
   padding-right: 4px;
+  line-height: 1.5em;
 }
+
 .about-image-with-signatures .avatar-ico-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
-  line-height: 1.5em;
 }
+
 .about-image-with-signatures h5 {
   padding-top: 20px;
   font-family: Monserrat, sans-serif;
@@ -361,6 +370,7 @@
   color: #37373f;
   text-align: center;
 }
+
 .about-image-with-signatures h6 {
   padding-top: 7px;
   font-family: Monserrat, sans-serif;
@@ -368,11 +378,11 @@
   color: #37373f;
   text-align: center;
 }
+
 .about-image-with-signatures .link-bottom {
   padding-top: 12px;
   max-width: 225px;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-size: 14px;
   color: #5286ec;
   text-align: center;
@@ -393,11 +403,11 @@
   min-width: 770px;
   padding-top: 46px;
   margin-left: 20.5%;
+  line-height: 1.5em;
 }
 
 .form-headline {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 20px;
   color: #37373f;
@@ -420,9 +430,11 @@
   padding: 0 0 0 28px;
   border-bottom: 0.1px solid #c7c7c7;
 }
+
 .select-date-container div {
   padding: 26px 0 18px 0;
 }
+
 .select-date-container button {
   padding: 10px 0 0 18px;
   border: none;
@@ -439,10 +451,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-bottom: 20px;
 }
+
 .select-session-container button,
 .select-session-container-without-border button {
   padding: 14px 30px 18px 32px;
@@ -450,7 +463,6 @@
   max-height: 50px;
   background: transparent;
   font-family: Monserrat, sans-serif;
-  line-height: 1.3em;
   font-weight: 600;
   font-size: 14px;
   color: #fc9b09;
@@ -467,7 +479,6 @@
 .select-date-container span,
 .select-session span {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-size: 18px;
   color: #37373f;
 }
@@ -492,15 +503,15 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .div-map {
   min-height: 509px;
   max-width: 100vw;
   margin-top: 82px;
-  background: url("../images/map.png") center/cover no-repeat;
+  background: url('../images/map.png') center/cover no-repeat;
   background-size: cover;
 }
 
@@ -516,6 +527,7 @@
   border: 1px solid #c7c7c7;
   list-style-type: none;
 }
+
 .list-with-ellipse-and-text li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,20 +550,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 3px 0 0 18px;
   font-family: Monserrat, serif;
   line-height: 1.5em;
 }
+
 .signature-near-ellipse :first-child {
   font-weight: 800;
   font-size: 18px;
   color: #37373f;
 }
+
 .signature-near-ellipse :nth-child(2) {
   font-weight: 500;
   font-size: 18px;
@@ -562,8 +576,11 @@
   margin-top: -5px;
   padding-left: 10px;
 }
-.list-with-ellipse-and-text > :last-child > .signature-near-ellipse :nth-child(2) {
-  line-height: 1.5em;
+
+.list-with-ellipse-and-text
+  > :last-child
+  > .signature-near-ellipse
+  :nth-child(2) {
   font-weight: 500;
   font-size: 16px;
   color: #37373f;
@@ -572,7 +589,6 @@
 .signature-near-ellipse a {
   text-decoration: none;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 500;
   font-size: 14px;
   color: #5286ec;
@@ -580,40 +596,33 @@
 
 .feedback-headline {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 18px;
   color: #37373f;
   letter-spacing: 1.6px;
 }
 
-.feedback-list-li-content h5 {
+.feedback-list-li-content {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 600;
   font-size: 18px;
   color: #37373f;
 }
+
 .feedback-list-li-content h6 {
-  font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
-  font-weight: 500;
   font-size: 14px;
-  color: #37373f;
+  font-weight: 500;
 }
 
 .check-ico-with-text span {
-  font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
-  font-weight: 500;
   font-size: 14px;
   color: #b3b3b3;
+  font-weight: 500;
 }
 
 .feedback-content {
   max-width: 525px;
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 500;
   font-size: 16px;
   color: #37373f;
@@ -621,7 +630,6 @@
 
 .date-value {
   font-family: Monserrat, sans-serif;
-  line-height: 1.5em;
   font-weight: 500;
   font-size: 14px;
   color: #b3b3b3;
@@ -637,19 +645,21 @@
   display: -ms-flexbox;
   display: flex;
   padding-top: 131px;
+  line-height: 1.5em;
 }
 
 .feedback-message-list {
   padding-top: 48px;
   list-style: none;
 }
+
 .feedback-message-list li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .second-list-item-container,
@@ -704,8 +714,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-bottom: 34px;
 }
 
@@ -714,8 +724,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 52.3%;
   padding-top: 4.3%;
 }
@@ -734,8 +744,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .icons-list {
@@ -743,14 +753,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   min-width: 190px;
 }
+
 .icons-list div {
   padding-top: 4px;
   margin-right: -12px;
 }
+
 .icons-list div :last-child {
   padding-bottom: 2px;
 }

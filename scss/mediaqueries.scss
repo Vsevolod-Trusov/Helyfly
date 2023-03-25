@@ -179,7 +179,7 @@
   #paragraph-under-header {
     padding: 30px 0 0 15px;
     margin-top: 0;
-    line-height: 1.35em;
+    line-height: 1.5em;
     font-size: 0.9em;
   }
 
@@ -231,7 +231,7 @@
   //body the second part
   .headline {
     text-align: center;
-    line-height: normal;
+    line-height: normal; //override here
     padding-top: 26px;
     font-size: 1.89em;
     font-weight: 400;
@@ -614,7 +614,7 @@
   .feedback-headline {
     font-weight: 400;
     font-size: 1.6em;
-    line-height: 42.32px;
+    line-height: 42px;
 
     text-align: center;
   }
