@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.info-padding-and-center-feedback {
+.info-feedback {
   padding: 70px 0 0 83px;
 }
 
@@ -24,6 +24,7 @@
 .paragraph {
   width: 550px;
 }
+
 #title-h1 {
   max-width: 500px;
   padding: 0.9% 40% 0 0;
@@ -31,7 +32,7 @@
   text-align: left;
 }
 
-#paragraph-under-header {
+#paragraph__value {
   margin-top: -2.34vh;
   padding-top: 20px;
   width: 87%;
@@ -49,7 +50,7 @@
   line-height: 1.5em;
 }
 
-.text-near-ico-container {
+.text {
   margin: auto 0;
   padding-left: 1.9%;
 
@@ -136,23 +137,23 @@
   max-height: 185px;
 }
 
-.up-layer-container .down-layer-container {
+.layer-container__upper .layer-container__lower {
   min-width: 1200px;
 }
 
-.up-layer-container {
+.layer-container__upper {
   @include collage-images-alignment;
 }
 
-.down-layer-container {
+.layer-container__lower {
   @include collage-images-alignment;
 }
 
-.down-layer-container {
+.layer-container__lower {
   padding-top: 5px;
 }
 
-.down-layer-container {
+.layer-container__lower {
   img :not(:nth-child(4)) {
     padding-right: 10px;
   }
@@ -181,7 +182,7 @@
   }
 }
 
-.collapsed-link-margin-left {
+.collapsed-link__positioned {
   margin-left: -15px;
 }
 
@@ -215,11 +216,11 @@
   text-align: left;
 }
 
-.last-paragraph-padding-top {
+.paragraph__latest {
   padding-top: 37px;
 }
 
-.last-link-padding-top {
+.link__latest {
   div {
     padding-top: 5px;
   }
@@ -265,6 +266,7 @@
   padding-right: 4px;
 
   line-height: 1.5em;
+
   .avatar-ico-container {
     display: flex;
     justify-content: center;
@@ -343,7 +345,7 @@
 }
 
 .select-session-container,
-.select-session-container-without-border {
+.select-session-container_borderless {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
@@ -432,30 +434,33 @@
   }
 }
 
-.signature-near-ellipse {
+.signature {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 3px 0 0 18px;
   font-family: Monserrat, serif;
   line-height: 1.5em;
+
   & :first-child {
     @include font-face(no-font-family, 18px, no, #37373f, 0, 800, normal);
   }
+
   & :nth-child(2) {
     @include font-face(no-font-family, 18px, no, #37373f, 0, 500, normal);
   }
 }
 
-.list-with-ellipse-and-text > :last-child > .signature-near-ellipse {
+.list-with-ellipse-and-text > :last-child > .signature {
   margin-top: -5px;
   padding-left: 10px;
+
   & :nth-child(2) {
     @include font-face(no-font-family, 16px, no, #37373f, 0, 500, normal);
   }
 }
 
-.signature-near-ellipse {
+.signature {
   a {
     text-decoration: none;
     @include font-face(Monserrat, 14px, no, #5286ec, 0, 500, normal);
@@ -516,11 +521,11 @@
 }
 
 .second-list-item-container,
-.third-li {
+.feedback-message-list__third {
   padding-top: 28px;
 }
 
-.last-li-position {
+.stars-ico-and-check-ico-with-comment-container__latest {
   padding-top: 20px;
 }
 
@@ -556,7 +561,7 @@
   max-width: 530px;
 }
 
-.feedback-collapsed-link-padding {
+.collapsed-link-container__top {
   padding: 36px 0 0 20px;
 }
 

@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.info-padding-and-center-feedback {
+.info-feedback {
   padding: 70px 0 0 83px;
 }
 
@@ -46,7 +46,7 @@
   text-align: left;
 }
 
-#paragraph-under-header {
+#paragraph__value {
   margin-top: -2.34vh;
   padding-top: 20px;
   width: 87%;
@@ -68,12 +68,12 @@
   line-height: 1.5em;
 }
 
-.text-near-ico-container {
+.text {
   margin: auto 0;
   padding-left: 1.9%;
 }
 
-.text-near-ico-container span {
+.text span {
   font-family: Monserrat, sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -169,47 +169,47 @@
   max-height: 185px;
 }
 
-.up-layer-container .down-layer-container {
+.layer-container__upper .layer-container__lower {
   min-width: 1200px;
 }
 
-.up-layer-container :first-child {
+.layer-container__upper :first-child {
   padding-left: 1px;
 }
 
-.up-layer-container :nth-child(2) {
+.layer-container__upper :nth-child(2) {
   padding-left: 7px;
 }
 
-.up-layer-container :nth-child(3) {
+.layer-container__upper :nth-child(3) {
   padding-left: 8px;
 }
 
-.up-layer-container :nth-child(4) {
+.layer-container__upper :nth-child(4) {
   padding-left: 9px;
 }
 
-.down-layer-container :first-child {
+.layer-container__lower :first-child {
   padding-left: 1px;
 }
 
-.down-layer-container :nth-child(2) {
+.layer-container__lower :nth-child(2) {
   padding-left: 7px;
 }
 
-.down-layer-container :nth-child(3) {
+.layer-container__lower :nth-child(3) {
   padding-left: 8px;
 }
 
-.down-layer-container :nth-child(4) {
+.layer-container__lower :nth-child(4) {
   padding-left: 9px;
 }
 
-.down-layer-container {
+.layer-container__lower {
   padding-top: 5px;
 }
 
-.down-layer-container img :not(:nth-child(4)) {
+.layer-container__lower img :not(:nth-child(4)) {
   padding-right: 10px;
 }
 
@@ -247,7 +247,7 @@
   padding: 0 10px 0 10px;
 }
 
-.collapsed-link-margin-left {
+.collapsed-link__positioned {
   margin-left: -15px;
 }
 
@@ -294,11 +294,11 @@
   text-align: left;
 }
 
-.last-paragraph-padding-top {
+.paragraph__latest {
   padding-top: 37px;
 }
 
-.last-link-padding-top div {
+.link__latest div {
   padding-top: 5px;
 }
 
@@ -446,7 +446,7 @@
 }
 
 .select-session-container,
-.select-session-container-without-border {
+.select-session-container_borderless {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,7 +457,7 @@
 }
 
 .select-session-container button,
-.select-session-container-without-border button {
+.select-session-container_borderless button {
   padding: 14px 30px 18px 32px;
   border: 2px solid #fc9b09;
   max-height: 50px;
@@ -544,7 +544,7 @@
   max-width: 67px;
 }
 
-.signature-near-ellipse {
+.signature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,33 +560,30 @@
   line-height: 1.5em;
 }
 
-.signature-near-ellipse :first-child {
+.signature :first-child {
   font-weight: 800;
   font-size: 18px;
   color: #37373f;
 }
 
-.signature-near-ellipse :nth-child(2) {
+.signature :nth-child(2) {
   font-weight: 500;
   font-size: 18px;
   color: #37373f;
 }
 
-.list-with-ellipse-and-text > :last-child > .signature-near-ellipse {
+.list-with-ellipse-and-text > :last-child > .signature {
   margin-top: -5px;
   padding-left: 10px;
 }
 
-.list-with-ellipse-and-text
-  > :last-child
-  > .signature-near-ellipse
-  :nth-child(2) {
+.list-with-ellipse-and-text > :last-child > .signature :nth-child(2) {
   font-weight: 500;
   font-size: 16px;
   color: #37373f;
 }
 
-.signature-near-ellipse a {
+.signature a {
   text-decoration: none;
   font-family: Monserrat, sans-serif;
   font-weight: 500;
@@ -663,11 +660,11 @@
 }
 
 .second-list-item-container,
-.third-li {
+.feedback-message-list__third {
   padding-top: 28px;
 }
 
-.last-li-position {
+.stars-ico-and-check-ico-with-comment-container__latest {
   padding-top: 20px;
 }
 
@@ -705,7 +702,7 @@
   max-width: 530px;
 }
 
-.feedback-collapsed-link-padding {
+.collapsed-link-container__top {
   padding: 36px 0 0 20px;
 }
 

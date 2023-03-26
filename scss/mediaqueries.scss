@@ -140,7 +140,7 @@
   }
 
   //body the first part
-  .photo-and-info > .info-padding-and-center-feedback {
+  .photo-and-info > .info-feedback {
     padding: 0;
   }
 
@@ -176,7 +176,7 @@
     margin: 0;
   }
 
-  #paragraph-under-header {
+  #paragraph__value {
     padding: 30px 0 0 15px;
     margin-top: 0;
     line-height: 1.5em;
@@ -191,11 +191,11 @@
     padding-bottom: 20px;
   }
 
-  #list-icons-and-text-container .text-near-ico-container {
+  #list-icons-and-text-container .text {
     padding: 9px;
   }
 
-  #list-icons-and-text-container > :last-child .text-near-ico-container {
+  #list-icons-and-text-container > :last-child .text {
     padding: 0 9px 9px 9px;
   }
 
@@ -255,16 +255,16 @@
     flex: 1;
   }
 
-  .up-layer-container {
+  .layer-container__upper {
     display: flex;
     justify-content: flex-start;
     max-width: 100px;
   }
 
-  .up-layer-container:not(:first-child) {
+  .layer-container__upper:not(:first-child) {
     display: none;
   }
-  .down-layer-container {
+  .layer-container__lower {
     display: none;
   }
 
@@ -331,7 +331,7 @@
     padding-top: 18px;
   }
 
-  .last-paragraph-padding-top {
+  .paragraph__latest {
     margin-top: 6px;
   }
 
@@ -400,13 +400,13 @@
     padding: 16px 0 0 20px;
   }
 
-  .select-session-container-without-border {
+  .select-session-container_borderless {
     flex-direction: column;
     padding-bottom: 31px;
     @include custom-border('bottom', 0.1px, solid, #c7c7c7);
   }
 
-  .select-session-container-without-border > .select-session {
+  .select-session-container_borderless > .select-session {
     padding: 30px 0 0 19px;
   }
 
@@ -595,7 +595,7 @@
     padding-top: 30px;
   }
 
-  .feedback-message-list > .third-li {
+  .feedback-message-list > .feedback-message-list__third {
     display: none;
   }
 
@@ -652,7 +652,7 @@
     margin-left: -102px;
   }
 
-  .feedback-collapsed-link-padding {
+  .collapsed-link-container__top {
     padding-top: 36px;
   }
 
@@ -836,7 +836,7 @@
     max-width: 223px;
   }
 
-  .photo-and-info > .info-padding-and-center-feedback {
+  .photo-and-info > .info-feedback {
     padding: 0;
   }
 
