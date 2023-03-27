@@ -318,7 +318,7 @@
     padding-left: 30px;
   }
 
-  .about-image-with-signatures .link-bottom {
+  .about-image-with-signatures .link-show-more-info {
     max-width: 350px;
     padding: 13px 0 0 130px;
   }
@@ -341,7 +341,7 @@
     padding: 0;
   }
 
-  .link-bottom {
+  .link-show-more-info {
     padding: 13px 0 0 21px;
     max-width: 223px;
   }
@@ -913,7 +913,7 @@
     display: block;
   }
 
-  .about-image-with-signatures .link-bottom {
+  .about-image-with-signatures .link-show-more-info {
     max-width: 346px;
     padding: 13px 0 0 135px;
   }
@@ -926,12 +926,12 @@
 }
 
 @media screen and (max-width: 420px) {
-  .about-image-with-signatures .link-bottom {
+  .about-image-with-signatures .link-show-more-info {
     max-width: 278px;
     padding: 13px 0 0 51px;
   }
 
-  .link-bottom {
+  .link-show-more-info {
     padding: 13px 0 0 55px;
   }
 
@@ -951,7 +951,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .about-image-with-signatures .link-bottom {
+  .about-image-with-signatures .link-show-more-info {
     padding: 13px 0 0 21px;
     max-width: 223px;
   }
