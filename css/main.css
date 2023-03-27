@@ -169,47 +169,47 @@
   max-height: 185px;
 }
 
-.layer-container__upper .layer-container__lower {
+.layer-container-with-images .layer-container-with-images-modified {
   min-width: 1200px;
 }
 
-.layer-container__upper :first-child {
+.layer-container-with-images :first-child {
   padding-left: 1px;
 }
 
-.layer-container__upper :nth-child(2) {
+.layer-container-with-images :nth-child(2) {
   padding-left: 7px;
 }
 
-.layer-container__upper :nth-child(3) {
+.layer-container-with-images :nth-child(3) {
   padding-left: 8px;
 }
 
-.layer-container__upper :nth-child(4) {
+.layer-container-with-images :nth-child(4) {
   padding-left: 9px;
 }
 
-.layer-container__lower :first-child {
+.layer-container-with-images-modified :first-child {
   padding-left: 1px;
 }
 
-.layer-container__lower :nth-child(2) {
+.layer-container-with-images-modified :nth-child(2) {
   padding-left: 7px;
 }
 
-.layer-container__lower :nth-child(3) {
+.layer-container-with-images-modified :nth-child(3) {
   padding-left: 8px;
 }
 
-.layer-container__lower :nth-child(4) {
+.layer-container-with-images-modified :nth-child(4) {
   padding-left: 9px;
 }
 
-.layer-container__lower {
+.layer-container-with-images-modified {
   padding-top: 5px;
 }
 
-.layer-container__lower img :not(:nth-child(4)) {
+.layer-container-with-images-modified img :not(:nth-child(4)) {
   padding-right: 10px;
 }
 
@@ -446,7 +446,7 @@
 }
 
 .select-session-container,
-.select-session-container_borderless {
+.select-session-container_modified {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,7 +457,7 @@
 }
 
 .select-session-container button,
-.select-session-container_borderless button {
+.select-session-container_modified button {
   padding: 14px 30px 18px 32px;
   border: 2px solid #fc9b09;
   max-height: 50px;
@@ -494,7 +494,7 @@
   font-weight: bold;
 }
 
-.feedback-status-container-padding {
+.feedback-status-container-cup {
   padding: 17px 0 45px 30px;
 }
 
@@ -660,7 +660,7 @@
 }
 
 .second-list-item-container,
-.feedback-message-list__third {
+.feedback-message-list-modified {
   padding-top: 28px;
 }
 
@@ -702,7 +702,7 @@
   max-width: 530px;
 }
 
-.collapsed-link-container__top {
+.collapsed-link-container-show-all {
   padding: 36px 0 0 20px;
 }
 
