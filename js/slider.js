@@ -12,9 +12,9 @@ const previousButton = document.querySelector('.previous_button');
 
 const track = document.querySelector('.number-with-switch-buttons');
 
-const items = document.querySelectorAll('.slider-item-container');
+const sliderItems = document.querySelectorAll('.slider-item-container');
 
-const ITEMS_COUNT = items.length;
+const ITEMS_COUNT = sliderItems.length;
 
 const ITEM_WIDTH = track.clientWidth ? track.clientWidth : START_MIN_WIDTH;
 
@@ -23,10 +23,8 @@ const MOVE_POSITION = SLIDERS_TO_SCROLL * ITEM_WIDTH;
 let position = 0;
 let currentItemIndex = 0;
 
-Array.from(items).map((item, index) => {
-  item.style.minWidth = `${ITEM_WIDTH}px`;
-
-  return item;
+Array.from(sliderItems).map((slide, index) => {
+  slide.style.minWidth = `${ITEM_WIDTH}px`;
 });
 
 const checkButtons = () => {
@@ -39,20 +37,16 @@ const setPosition = (currentItem) => {
   const index = currentItem + 1;
   const counterContainers = document.querySelectorAll(`.counter-${index}`);
 
-  Array.from(counterContainers).map((item, index) => {
+  Array.from(counterContainers).map((circleElement, index) => {
     if (index === currentItem) {
-      item.style.background = '#fc9b09';
+      circleElement.style.background = '#fc9b09';
     } else {
-      item.style.background = 'transparent';
+      circleElement.style.background = 'transparent';
     }
-
-    return item;
   });
 
-  Array.from(items).map((item, index) => {
-    item.style.transform = `translateX(${position}px)`;
-
-    return item;
+  Array.from(sliderItems).map((slide, index) => {
+    slide.style.transform = `translateX(${position}px)`;
   });
 };
 
