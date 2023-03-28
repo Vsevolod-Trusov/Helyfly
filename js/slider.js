@@ -14,6 +14,8 @@ const track = document.querySelector('.number-with-switch-buttons');
 
 const sliderItems = document.querySelectorAll('.slider-item-container');
 
+const sliderItemsArray = Array.from(sliderItems);
+
 const ITEMS_COUNT = sliderItems.length;
 
 const ITEM_WIDTH = track.clientWidth ? track.clientWidth : START_MIN_WIDTH;
@@ -23,8 +25,10 @@ const MOVE_POSITION = SLIDERS_TO_SCROLL * ITEM_WIDTH;
 let position = 0;
 let currentItemIndex = 0;
 
-Array.from(sliderItems).map((slide, index) => {
+sliderItemsArray.map((slide, index) => {
   slide.style.minWidth = `${ITEM_WIDTH}px`;
+
+  return slide;
 });
 
 const checkButtons = () => {
@@ -36,17 +40,22 @@ const checkButtons = () => {
 const setPosition = (currentItem) => {
   const index = currentItem + 1;
   const counterContainers = document.querySelectorAll(`.counter-${index}`);
+  const circlesContainerArray = Array.from(counterContainers);
 
-  Array.from(counterContainers).map((circleElement, index) => {
+  circlesContainerArray.map((circleElement, index) => {
     if (index === currentItem) {
       circleElement.style.background = '#fc9b09';
     } else {
       circleElement.style.background = 'transparent';
     }
+
+    return circleElement;
   });
 
-  Array.from(sliderItems).map((slide, index) => {
+  sliderItemsArray.map((slide, index) => {
     slide.style.transform = `translateX(${position}px)`;
+
+    return slide;
   });
 };
 
