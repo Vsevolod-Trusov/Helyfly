@@ -14,9 +14,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 29.88%;
-  -moz-column-gap: 29.88%;
-  column-gap: 29.88%;
+  -webkit-column-gap: 29%;
+  -moz-column-gap: 29%;
+  column-gap: 29%;
 }
 
 .mc-visa-icons-and-support-info-size {
@@ -50,10 +50,9 @@ footer {
 
 .footer-info-container-font-style {
   font-family: Monserrat, sans-serif;
-  font-size: 14px;
   line-height: 1em;
+  font-size: 14px;
   color: #b3b3b3;
-  letter-spacing: 0;
 }
 
 .footer-info-container :first-child {

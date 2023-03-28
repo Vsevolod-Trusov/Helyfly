@@ -11,6 +11,10 @@
     font-family: $fontFamily, sans-serif;
   }
 
+  @if ($lineHeight != default and $lineHeight != no) {
+    line-height: $lineHeight;
+  }
+
   @if ($fontWeight != 400 and $fontWeight != normal) {
     font-weight: $fontWeight;
   }
@@ -19,11 +23,13 @@
     font-style: $fontStyle;
   }
 
-  font-size: $fontSize;
-  line-height: $lineHeight;
+  @if ($fontSize != no) {
+    font-size: $fontSize;
+  }
+
   color: $color;
 
-  @if ($letterSpacing != 0px) {
+  @if ($letterSpacing != 0) {
     letter-spacing: $letterSpacing;
   }
 }

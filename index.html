@@ -9,52 +9,61 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/interactive.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
     <link rel="stylesheet" href="scss/header.scss">
 </head>
 
 <body>
-<header>
-    <div class="header-info">
-        <div class="header-inscription-position ">
-            <div class="header-inscription-font-style header-inscription-padding">
+<header class="header-info">
+    <div class="wrapper">
+        <div class="header-inscription-layout">
+            <div class="header-inscription-font-style ">
                 <span>HELYFLY</span>
             </div>
 
             <div id="header-contact">
-                <div id="phone-label">
-                    Телефон:
-                </div>
-                <div id="phone-value">
-                    8(800)-123-12-12
-                </div>
+                <span id="phone-label">Телефон:</span>
+                <span id="phone-value">8(800)-123-12-12</span>
+            </div>
+
+            <div class="header-inscription-layout__link_invisible">
+                <a href="#">Москва</a>
+            </div>
+
+            <div class="header-inscription-layout__ico-container_invisible">
+                <img src="images/user_ico.svg" alt="#">
             </div>
         </div>
     </div>
 
-    <div id="header-advertise">
-        <div id="phrase-container">
-            <span>Эксклюзивная <span>фотосессия</span> при полете на вертолете</span>
-        </div>
-        <div id="message-shape">
-            <div>
-                <div id="price-label">
-                    <span>Стоимость:</span>
+    <div class="header-advertise-container">
+        <div id="header-advertise">
+            <div class="wrapper header-advertise__alignment">
+                <div id="phrase-container">
+                    Эксклюзивная <span>фотосессия</span> при полете на вертолете
+                </div>
+                <div id="message-shape">
+                    <div>
+                        <div id="price-label">
+                            <span>Стоимость:</span>
+                        </div>
+
+                        <div id="price-value">
+                            <span>1500₽</span>
+                        </div>
+                    </div>
+
+                    <div id="discount-ico-container">
+                        <img id="discount-ico" src="images/discount-ico.svg" alt="#">
+                    </div>
                 </div>
 
-                <div id="price-value">
-                    <span>1500₽</span>
+                <div id="button-container">
+                    <button onClick="#">
+                        Забронировать место
+                    </button>
                 </div>
             </div>
-
-            <div id="discount-ico-container">
-                <img id="discount-ico" src="images/discount-ico.svg" alt="#">
-            </div>
-        </div>
-
-        <div id="button-container">
-            <button onClick="#">
-                Забронировать место
-            </button>
         </div>
     </div>
 
@@ -62,38 +71,40 @@
 <main>
     <!-- Body part 1 -->
     <div class="photo-and-info">
-        <div class="info-padding-and-center-feedback">
+        <div class="info-feedback">
             <div class="info-container">
-                <div>
+                <div class="inscription">
                     <h1 id="title-h1">Фотосессия в вертолете</h1>
-
-                    <p id="paragraph-under-header">Полет на вертолете это прекрасная возможность получить новые
-                        ощущения! А
-                        наш замечательный фотограф запечатлит лучшие моменты</p>
-
-                    <div id="list-icons-and-text-container">
-                        <div class="icon-and-text">
-                            <div><img src="images/sphere-ico.svg" alt="#"></div>
-                            <div class="text-near-ico-container"><span>3 часа съемки</span></div>
-                        </div>
-                        <div class="icon-and-text">
-                            <div><img src="images/camera-ico.svg" alt="#"></div>
-                            <div class="text-near-ico-container"><span>Более 50 фотографий</span></div>
-                        </div>
-                        <div class="icon-and-text">
-                            <div><img src="images/map-pin-marked-ico.svg" alt="#"></div>
-                            <div class="text-near-ico-container"><span>Москва</span></div>
-                        </div>
-                        <div class="icon-and-text">
-                            <div><img src="images/speech-bubble-ico.svg" alt="#"></div>
-                            <div class="text-near-ico-container"><span>Готовы ответить на любые вопросы</span></div>
-                        </div>
-                    </div>
                 </div>
-
                 <div class="padding-container">
                     <div id="pair-image">
                         <img id="play-ico" src="images/play.svg" alt="#">
+                    </div>
+                </div>
+
+                <div class="paragraph">
+
+                    <p id="paragraph__value">Полет на вертолете это прекрасная возможность получить новые
+                        ощущения! А
+                        наш замечательный фотограф запечатлит лучшие моменты</p>
+                </div>
+
+                <div id="list-icons-and-text-container">
+                    <div class="icon-and-text">
+                        <div><img src="images/sphere-ico.svg" alt="#"></div>
+                        <div class="text"><span>3 часа съемки</span></div>
+                    </div>
+                    <div class="icon-and-text">
+                        <div><img src="images/camera-ico.svg" alt="#"></div>
+                        <div class="text"><span>Более 50 фотографий</span></div>
+                    </div>
+                    <div class="icon-and-text">
+                        <div><img src="images/map-pin-marked-ico.svg" alt="#"></div>
+                        <div class="text"><span>Москва</span></div>
+                    </div>
+                    <div class="icon-and-text">
+                        <div><img src="images/speech-bubble-ico.svg" alt="#"></div>
+                        <div class="text"><span>Готовы ответить на любые вопросы</span></div>
                     </div>
                 </div>
             </div>
@@ -101,7 +112,7 @@
             <div class="feedback-status-container">
                 <div class="feedback-status">
                     <div>
-                        <img src="images/cup-ico.svg" alt="#"/>
+                        <img id="cup-ico" src="images/cup-ico.svg" alt="#"/>
                     </div>
                     <div class="content-span"><span>Более <span>50</span> отзывов с оценкой </span></div>
                     <div class="stars-ico-container">
@@ -125,13 +136,13 @@
                 <h1 class="headline">Фотографии пакета:</h1>
             </div>
             <div class="collage-container">
-                <div class="up-layer-container">
+                <div class="layer-container-with-images">
                     <img src="images/collage/col-img-2.png" alt="#">
                     <img src="images/collage/col-img-4.png" alt="#">
                     <img src="images/collage/col-img-1.png" alt="#">
                     <img src="images/collage/col-img-3.png" alt="#">
                 </div>
-                <div class="down-layer-container">
+                <div class="layer-container-with-images-modified">
                     <img src="images/collage/col-img-1.png" alt="#">
                     <img src="images/collage/col-img-3.png" alt="#">
                     <img src="images/collage/col-img-4.png" alt="#">
@@ -139,7 +150,7 @@
                 </div>
             </div>
             <div class="collapsed-link-container collapsed-link-padding collapsed-link-border">
-                <div class="collapsed-link collapsed-link-margin-left">
+                <div class="collapsed-link collapsed-link__positioned">
                     <img src="images/Arrow.svg" alt="#">
                     <div>
                         <a class="collapsed-link-text" href="#">Показать все фото</a>
@@ -172,7 +183,7 @@
                     </div>
                 </div>
 
-                <div class="about-text-paragraph-container last-paragraph-padding-top">
+                <div class="about-text-paragraph-container paragraph__latest">
                     <h3 class="paragraph-headline">Что я предоставлю:</h3>
 
                     <p class="last-text-paragraph">
@@ -183,7 +194,7 @@
                         с обработкой и замечательные впечатления о Дубае
                     </p>
 
-                    <div class="paragraph-link-container last-link-padding-top">
+                    <div class="paragraph-link-container link__latest">
                         <div>
                             <a id="" href="#">Читать еще</a>
 
@@ -200,7 +211,7 @@
                     </div>
                     <h5>Марина Иванова</h5>
                     <h6>Фотограф</h6>
-                    <div class="link-bottom">
+                    <div class="link-show-more-info">
                         <a>Показать больше
                             информации о фотографе
                         </a>
@@ -223,73 +234,75 @@
                     в ближайшее время:
                 </h1>
             </div>
-            <div class="form-container">
-                <div class="select-date-container">
-                    <div>
-                        <span>Пятница, <span class="bold-span">14</span> сентября</span>
-                    </div>
-                    <button>
-                        <img src="images/calendar-ico.svg" alt="#">
-                    </button>
-                </div>
+           <div>
+               <div class="form-container">
+                   <div class="select-date-container">
+                       <div>
+                           <span>Пятница, <span class="bold-span">14</span> сентября</span>
+                       </div>
+                       <button>
+                           <img src="images/calendar-ico.svg" alt="#">
+                       </button>
+                   </div>
 
-                <div class="select-session-container">
-                    <div class="select-session">
-                        <div>
-                            <span>15:00 - 18:00</span>
-                        </div>
-                        <div>
-                            <span class="bold-span">1500₽</span>
-                        </div>
-                        <div>
-                            <span>Осталось — 1 место</span>
-                        </div>
-                    </div>
-                    <div class="select-button-container">
-                        <button>
-                            Выбрать
-                        </button>
-                    </div>
-                </div>
+                   <div class="select-session-container">
+                       <div class="select-session">
+                           <div>
+                               <span>15:00 - 18:00</span>
+                           </div>
+                           <div>
+                               <span class="bold-span change-content">1500₽</span>
+                           </div>
+                           <div>
+                               <span>Осталось — 1 место</span>
+                           </div>
+                       </div>
+                       <div class="select-button-container">
+                           <button>
+                               Выбрать
+                           </button>
+                       </div>
+                   </div>
 
-                <div class="select-session-container-without-border">
-                    <div class="select-session">
-                        <div>
-                            <span>19:00 - 22:00</span>
-                        </div>
-                        <div>
-                            <span class="bold-span">1500₽</span>
-                        </div>
-                        <div>
-                            <span>Осталось — 1 место</span>
-                        </div>
-                    </div>
-                    <div class="select-button-container">
-                        <button>
-                            Выбрать
-                        </button>
-                    </div>
+                   <div class="select-session-container_modified">
+                       <div class="select-session">
+                           <div>
+                               <span>19:00 - 22:00</span>
+                           </div>
+                           <div>
+                               <span class="bold-span">1500₽</span>
+                           </div>
+                           <div>
+                               <span>Осталось — 1 место</span>
+                           </div>
+                       </div>
+                       <div class="select-button-container">
+                           <button>
+                               Выбрать
+                           </button>
+                       </div>
 
-                </div>
+                   </div>
 
-                <div class="feedback-status-container-padding">
-                    <div class="feedback-status-container ">
-                        <div>
-                            <img src="images/cup-ico.svg" alt="#"/>
-                        </div>
-                        <div class="content-span"><span>Более <span>50</span> отзывов с оценкой </span></div>
-                        <div class="stars-ico-container">
-                            <div class="stars-ico-flex">
-                                <img src="images/star-ico.svg" alt="#" class="star-ico"/>
-                                <img src="images/star-ico.svg" alt="#" class="star-ico"/>
-                                <img src="images/star-ico.svg" alt="#" class="star-ico"/>
-                                <img src="images/star-ico.svg" alt="#" class="star-ico"/>
-                                <img src="images/star-ico.svg" alt="#" class="star-ico"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                   <div class="feedback-status-container-cup">
+                       <div class="feedback-status-container">
+                           <div>
+                               <img src="images/cup-ico.svg" alt="#"/>
+                           </div>
+                           <div class="content-span"><span>Более <span>50</span> отзывов с оценкой </span></div>
+                           <div class="stars-ico-container">
+                               <div class="stars-ico-flex">
+                                   <img src="images/star-ico.svg" alt="#" class="star-ico"/>
+                                   <img src="images/star-ico.svg" alt="#" class="star-ico"/>
+                                   <img src="images/star-ico.svg" alt="#" class="star-ico"/>
+                                   <img src="images/star-ico.svg" alt="#" class="star-ico"/>
+                                   <img src="images/star-ico.svg" alt="#" class="star-ico"/>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
         </div>
     </div>
 
@@ -300,7 +313,7 @@
                 <li>
                     <img src="images/ellipse-one.svg" alt="#">
 
-                    <div class="signature-near-ellipse">
+                    <div class="signature">
                         <span>
                             Где встречаемся?
                         </span>
@@ -313,7 +326,7 @@
                 <li>
                     <img src="images/ellipse-two.svg" alt="#">
 
-                    <div class="signature-near-ellipse">
+                    <div class="signature">
                         <span>
                             Время съемки
                         </span>
@@ -326,7 +339,7 @@
                 <li>
                     <img src="images/ellipse-three.svg" alt="#">
 
-                    <div class="signature-near-ellipse">
+                    <div class="signature">
                         <span>
                             Мест осталось:
                         </span>
@@ -339,7 +352,7 @@
                 <li>
                     <img src="images/avatar.png" alt="#">
 
-                    <div class="signature-near-ellipse">
+                    <div class="signature">
                         <span>
                             Мария Иванова
                         </span>
@@ -355,6 +368,110 @@
         </div>
     </div>
 
+    <!-- Slider -->
+    <div class="slider-container">
+        <div class="slider">
+
+	        <button class="previous_button" onclick="prev()">
+		        <img src="images/arrow_slider_left.png" alt="#">
+	        </button>
+
+		       <div class="number-with-switch-buttons">
+
+			       <div class="slider-item-container">
+				       <div class="ordinal-value">1</div>
+
+				       <div class="inscriptions-with-counter">
+					       <h5>Где встречаемся?</h5>
+					       <span>Москва</span>
+					       <div class="counters-container">
+						       <div class="counter-1"></div>
+						       <div class="counter-2"></div>
+						       <div class="counter-3"></div>
+					       </div>
+				       </div>
+
+				       <div class="image-with-inscriptions-container">
+					       <div class="image-with-inscriptions">
+						       <div class="avatar-container">
+							       <img src="images/avatar.png" alt="#">
+						       </div>
+
+						       <div class="inscriptions-and-link-container">
+							       <h5>Мария Иванова</h5>
+							       <h6>Фотограф</h6>
+							       <a href="#">Показать больше информации о фотографе</a>
+						       </div>
+					       </div>
+
+				       </div>
+			       </div>
+
+			       <div class="slider-item-container">
+				       <div class="ordinal-value">2</div>
+
+				       <div class="inscriptions-with-counter">
+					       <h5>Время съемки</h5>
+					       <span>3 часа</span>
+					       <div class="counters-container">
+						       <div class="counter-1"></div>
+						       <div class="counter-2"></div>
+						       <div class="counter-3"></div>
+					       </div>
+					       <div class="image-with-inscriptions-container">
+						       <div class="image-with-inscriptions">
+							       <div class="avatar-container">
+								       <img src="images/avatar.png" alt="#">
+							       </div>
+
+							       <div class="inscriptions-and-link-container">
+								       <h5>Мария Иванова</h5>
+								       <h6>Фотограф</h6>
+								       <a href="#">Показать больше информации о фотографе</a>
+							       </div>
+						       </div>
+
+					       </div>
+				       </div>
+			       </div>
+
+			       <div class="slider-item-container">
+				       <div class="ordinal-value">3</div>
+
+				       <div class="inscriptions-with-counter">
+					       <h5>Мест осталось:</h5>
+					       <span>2 места</span>
+					       <div class="counters-container">
+						       <div class="counter-1"></div>
+						       <div class="counter-2"></div>
+						       <div class="counter-3"></div>
+					       </div>
+				       </div>
+
+				       <div class="image-with-inscriptions-container">
+					       <div class="image-with-inscriptions">
+						       <div class="avatar-container">
+							       <img src="images/avatar.png" alt="#">
+						       </div>
+
+						       <div class="inscriptions-and-link-container">
+							       <h5>Мария Иванова</h5>
+							       <h6>Фотограф</h6>
+							       <a href="#">Показать больше информации о фотографе</a>
+						       </div>
+					       </div>
+
+				       </div>
+			       </div>
+		       </div>
+
+
+	        <button class="next_button" onclick="next()">
+		        <img src="images/arrow_slider_right.png" alt="#">
+	        </button>
+        </div>
+    </div>
+
     <!-- Body part 6 -->
     <div class="feedback-list-container">
         <div class="poor-block-for-layout"></div>
@@ -365,7 +482,7 @@
                     <div class="feedback-content-avatar-container">
                         <img class="avatar-size" src="images/avatar-man-woman.png" alt="#">
                     </div>
-                    <div class="feedback-list-li-content-near-avatar">
+                    <div class="feedback-list-li-content">
                         <h5>Валерия Антонова</h5>
                         <div class="profession-value-container">
                             <h6>Арт-директор</h6>
@@ -392,15 +509,17 @@
                                     Фотки получились великолепные, отдельное спасибо фотографу!
                                 </p>
                             </div>
-                            <span class="date-value">27 Апреля, 2019г.</span>
+                            <div class="date-value-container">
+                                <span class="date-value">27 Апреля, 2019г.</span>
+                            </div>
                         </div>
                     </div>
                 </li>
-                <li class="second-li">
+                <li class="second-list-item-container">
                     <div class="feedback-content-avatar-container">
                         <img class="avatar-size" src="images/avatar-man-camera.png" alt="#">
                     </div>
-                    <div class="feedback-list-li-content-near-avatar">
+                    <div class="feedback-list-li-content">
                         <h5>Виталий Петров</h5>
                         <div class="profession-value-container">
                             <h6>Фотограф</h6>
@@ -430,14 +549,14 @@
                         </div>
                     </div>
                 </li>
-                <li class="third-li">
+                <li class="feedback-message-list-modified">
                     <div class="feedback-content-avatar-container">
                         <img class="avatar-size" src="images/man-drug.png" alt="#">
                     </div>
-                    <div class="feedback-list-li-content-near-avatar">
+                    <div class="feedback-list-li-content">
                         <h5>Джим Керри</h5>
                         <div class="check-ico-and-signature-container">
-                            <div class="stars-ico-and-check-ico-with-comment-container last-li-position">
+                            <div class="stars-ico-and-check-ico-with-comment-container stars-ico-and-check-ico-with-comment-container__latest">
                                 <div class="stars-ico-flex">
                                     <img src="images/star-ico.svg" alt="#" class="star-ico"/>
                                     <img src="images/star-ico.svg" alt="#" class="star-ico"/>
@@ -472,8 +591,8 @@
     </div>
 
     <!-- collapsed link -->
-    <div>
-        <div class="collapsed-link-container feedback-collapsed-link-padding">
+    <div class="collapsed-link-main">
+        <div class="collapsed-link-container collapsed-link-container-show-all">
             <div class="collapsed-link">
                 <img src="images/Arrow.svg" alt="#">
                 <div>
@@ -510,8 +629,14 @@
 <footer>
     <div class="mc-visa-icons-and-support-info mc-visa-icons-and-support-info-size">
         <div class="footer-icons-container">
-            <img src="images/MC.svg" alt="#">
-            <img src="images/VISA.svg" alt="#">
+           <div>
+               <img src="images/MC.svg" alt="#">
+               <img src="images/VISA.svg" alt="#">
+           </div>
+            <div>
+                <img src="images/RU.svg" alt="#">
+                <img src="images/Arrow.svg" alt="#">
+            </div>
         </div>
         <div class="footer-info-container footer-info-container-padding footer-info-container-font-style">
             <span>Тех. поддержка: 8(800)700-00-00</span>
@@ -519,5 +644,6 @@
         </div>
     </div>
 </footer>
+<script src="js/slider.js"></script>
 </body>
 </html>

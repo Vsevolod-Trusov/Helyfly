@@ -3,30 +3,40 @@
 //photo near text headline and paragraph-text list of 4 elements and feedback info
 .photo-and-info {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.info-padding-and-center-feedback {
-  padding-top: 70px;
+.info-feedback {
+  padding: 70px 0 0 83px;
 }
 
 .info-container {
-  display: flex;
-  margin-left: -60px;
+  display: grid;
+  column-gap: 16px;
+}
+
+.inscription {
+  padding-bottom: 1vh;
+}
+
+.paragraph {
+  width: 550px;
 }
 
 #title-h1 {
-  width: 490px;
-  padding: 0.9% 40% 0 3.9%;
-  @include font-face(Monserrat, 40px, 1.0999em, #000, 0.1px, 900, normal);
+  max-width: 500px;
+  padding: 0.9% 40% 0 0;
+  @include font-face(Monserrat, 40px, 1em, #000, 0.1px, 900, normal);
   text-align: left;
 }
 
-#paragraph-under-header {
-  width: 548px;
-  padding: 2.3% 0 0 20px;
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
+#paragraph__value {
+  margin-top: -2.34vh;
+  padding-top: 20px;
+  width: 87%;
+  @include font-face(Monserrat, 18px, no, #000, 0, 400, normal);
   text-align: left;
 }
 
@@ -36,38 +46,40 @@
 
 .icon-and-text {
   display: flex;
-  padding: 0 0 2% 4%;
+  padding-bottom: 2%;
+  line-height: 1.5em;
 }
 
-.text-near-ico-container {
+.text {
   margin: auto 0;
   padding-left: 1.9%;
 
   span {
-    @include font-face(Monserrat, 14px, 1.5em, #000, 0, 600, normal);
+    @include font-face(Monserrat, 14px, no, #000, 0, 600, normal);
     text-align: left;
   }
 }
 
 .padding-container {
-  padding-left: 5.5%;
+  grid-row: span 3;
+  grid-column: 2/2;
 }
 
 #pair-image {
   height: 374px;
   width: 554px;
-  max-height: 374px;
-  max-width: 554px;
-  background: url('../images/couple.png');
+  padding: 58% 0 0 85%;
+  background: url('../images/couple.png') no-repeat;
+  background-size: contain;
 }
 
 #play-ico {
-  padding: 58.1% 0 0 89.7%;
+  height: 45%;
 }
 
 .feedback-status-container {
   display: flex;
-  margin-left: -38px;
+
   padding-top: 19px;
 }
 
@@ -81,8 +93,7 @@
 .content-span {
   margin: auto 0;
   padding: 12px 14px 0 10.23px;
-
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 400, normal);
+  @include font-face(Monserrat, 18px, no, #000, 0, 400, normal);
 
   span {
     span {
@@ -109,34 +120,40 @@
 
 .text-and-collage {
   padding-left: 19px;
+  line-height: 1.5em;
 }
 
 .headline-container {
-  padding: 27px 0 33px 0;
+  padding: 19px 0 33px;
 }
 
 .headline {
   text-align: left;
-  @include font-face(Monserrat, 20px, 1.5em, #000, 0.2px, 600, normal);
+  @include font-face(Monserrat, 20px, no, #000, 0.2px, 600, normal);
 }
 
-.up-layer-container .down-layer-container {
+.collage-container img {
+  height: 9.7vw;
+  max-height: 185px;
+}
+
+.layer-container-with-images .layer-container-with-images-modified {
   min-width: 1200px;
 }
 
-.up-layer-container {
+.layer-container-with-images {
   @include collage-images-alignment;
 }
 
-.down-layer-container {
+.layer-container-with-images-modified {
   @include collage-images-alignment;
 }
 
-.down-layer-container {
+.layer-container-with-images-modified {
   padding-top: 5px;
 }
 
-.down-layer-container {
+.layer-container-with-images-modified {
   img :not(:nth-child(4)) {
     padding-right: 10px;
   }
@@ -165,12 +182,12 @@
   }
 }
 
-.collapsed-link-margin-left {
+.collapsed-link__positioned {
   margin-left: -15px;
 }
 
 .collapsed-link-text {
-  @include font-face(Monserrat, 17px, 1.5em, #5286ec, 0.2px, 500, normal);
+  @include font-face(Monserrat, 17px, no, #5286ec, 0.2px, 500, normal);
   text-decoration: none;
 }
 
@@ -191,18 +208,19 @@
 
 .about-text-container {
   max-width: 600px;
+  line-height: 1.5em;
 }
 
 .about-text-paragraph-container {
-  @include font-face(Monserrat, 16px, 1.5em, #000, 0, 400, normal);
+  @include font-face(Monserrat, 16px, no, #000, 0, 400, normal);
   text-align: left;
 }
 
-.last-paragraph-padding-top {
+.paragraph__latest {
   padding-top: 37px;
 }
 
-.last-link-padding-top {
+.link__latest {
   div {
     padding-top: 5px;
   }
@@ -211,7 +229,7 @@
 .paragraph-headline {
   margin-top: -2px;
   padding-bottom: 11px;
-  @include font-face(Monserrat, 18px, 1.5em, #000, 0, 600, normal);
+  @include font-face(Monserrat, 18px, no, #000, 0, 600, normal);
   text-align: left;
 }
 
@@ -231,7 +249,7 @@
   a {
     padding-left: 2px;
     text-decoration: none;
-    @include font-face(Monserrat, 16px, 1.5em, #5286ec, 0, 400, normal);
+    @include font-face(Monserrat, 16px, no, #5286ec, 0, 400, normal);
   }
 
   img {
@@ -247,29 +265,30 @@
 .about-image-with-signatures {
   padding-right: 4px;
 
+  line-height: 1.5em;
+
   .avatar-ico-container {
     display: flex;
     justify-content: center;
-
     width: 100%;
   }
 
   h5 {
     padding-top: 20px;
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 600, normal);
+    @include font-face(Monserrat, 18px, no, #37373f, 0, 600, normal);
     text-align: center;
   }
 
   h6 {
     padding-top: 7px;
-    @include font-face(Monserrat, 14px, 1em, #37373f, 0, 400, normal);
+    @include font-face(Monserrat, 14px, no, #37373f, 0, 400, normal);
     text-align: center;
   }
 
-  .link-bottom {
+  .link-show-more-info {
     padding-top: 12px;
     max-width: 225px;
-    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0, 400, normal);
+    @include font-face(Monserrat, 14px, no, #5286ec, 0, 400, normal);
     text-align: center;
   }
 }
@@ -282,17 +301,17 @@
 //body fourth part
 .form-with-buttons-and-select-date-container {
   display: flex;
-  justify-content: center;
 }
 
 .form-with-buttons-and-select-date {
   min-width: 770px;
   padding-top: 46px;
-  margin-left: -350px;
+  margin-left: 20.5%;
+  line-height: 1.5em;
 }
 
 .form-headline {
-  @include font-face(Monserrat, 20px, 1.5em, #37373f, 0, 600, normal);
+  @include font-face(Monserrat, 20px, no, #37373f, 0, 600, normal);
 }
 
 .form-headline-container {
@@ -326,7 +345,7 @@
 }
 
 .select-session-container,
-.select-session-container-without-border {
+.select-session-container_modified {
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
@@ -336,7 +355,7 @@
     border: 2px solid #fc9b09;
     max-height: 50px;
     background: transparent;
-    @include font-face(Monserrat, 14px, 1.3em, #fc9b09, 0, 600, normal);
+    @include font-face(Monserrat, 14px, no, #fc9b09, 0, 600, normal);
   }
 }
 
@@ -351,7 +370,7 @@
 .select-date-container,
 .select-session {
   span {
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 400, normal);
+    @include font-face(Monserrat, 18px, no, #37373f, 0, 400, normal);
   }
 }
 
@@ -368,8 +387,8 @@
   }
 }
 
-.feedback-status-container-padding {
-  padding: 17px 0 45px 67px;
+.feedback-status-container-cup {
+  padding: 17px 0 45px 30px;
 }
 
 //body fifth part
@@ -382,12 +401,12 @@
   min-height: 509px;
   max-width: 100vw;
   margin-top: 82px;
-  background: url('../images/map.png') no-repeat;
+  background: url('../images/map.png') center/ cover no-repeat;
   background-size: cover;
 }
 
 .block-with-numbers-in-ellipse-list-container {
-  padding: 21px 0 0 390px;
+  padding: 1% 0 0 20.5%;
 }
 
 .list-with-ellipse-and-text {
@@ -415,64 +434,69 @@
   }
 }
 
-.signature-near-ellipse {
+.signature {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 3px 0 0 18px;
   font-family: Monserrat, serif;
+  line-height: 1.5em;
+
   & :first-child {
-    @include font-face(no-font-family, 18px, 1.5em, #37373f, 0, 800, normal);
+    @include font-face(no-font-family, 18px, no, #37373f, 0, 800, normal);
   }
+
   & :nth-child(2) {
-    @include font-face(no-font-family, 18px, 1.5em, #37373f, 0, 500, normal);
+    @include font-face(no-font-family, 18px, no, #37373f, 0, 500, normal);
   }
 }
 
-.list-with-ellipse-and-text > :last-child > .signature-near-ellipse {
+.list-with-ellipse-and-text > :last-child > .signature {
   margin-top: -5px;
   padding-left: 10px;
+
   & :nth-child(2) {
-    @include font-face(no-font-family, 16px, 1.5em, #37373f, 0, 500, normal);
+    @include font-face(no-font-family, 16px, no, #37373f, 0, 500, normal);
   }
 }
 
-.signature-near-ellipse {
+.signature {
   a {
     text-decoration: none;
-    @include font-face(Monserrat, 14px, 1.5em, #5286ec, 0, 500, normal);
+    @include font-face(Monserrat, 14px, no, #5286ec, 0, 500, normal);
   }
 }
 
 //body sixth part
 //font section
 .feedback-headline {
-  @include font-face(Monserrat, 18px, 1.5em, #37373f, 1.6px, 600, normal);
+  @include font-face(Monserrat, 18px, no, #37373f, 1.6px, 600, normal);
 }
 
-.feedback-list-li-content-near-avatar {
-  h5 {
-    @include font-face(Monserrat, 18px, 1.5em, #37373f, 0, 600, normal);
-  }
+.feedback-list-li-content {
+  @include font-face(Monserrat, 18px, no, #37373f, 0, 600, normal);
 
   h6 {
-    @include font-face(Monserrat, 14px, 1.5em, #37373f, 0, 500, normal);
+    font-size: 14px;
+    font-weight: 500;
   }
 }
 
 .check-ico-with-text {
   span {
-    @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0, 500, normal);
+    font-size: 14px;
+    color: #b3b3b3;
+    font-weight: 500;
   }
 }
 
 .feedback-content {
   max-width: 525px;
-  @include font-face(Monserrat, 16px, 1.5em, #37373f, 0, 500, normal);
+  @include font-face(Monserrat, 16px, no, #37373f, 0, 500, normal);
 }
 
 .date-value {
-  @include font-face(Monserrat, 14px, 1.5em, #b3b3b3, 0, 500, normal);
+  @include font-face(Monserrat, 14px, no, #b3b3b3, 0, 500, normal);
 }
 
 .poor-block-for-layout {
@@ -483,6 +507,7 @@
 .feedback-list-container {
   display: flex;
   padding-top: 131px;
+  line-height: 1.5em;
 }
 
 .feedback-message-list {
@@ -495,12 +520,12 @@
   }
 }
 
-.second-li,
-.third-li {
+.second-list-item-container,
+.feedback-message-list-modified {
   padding-top: 28px;
 }
 
-.last-li-position {
+.stars-ico-and-check-ico-with-comment-container__latest {
   padding-top: 20px;
 }
 
@@ -509,14 +534,14 @@
   height: 101px;
 }
 
-.feedback-list-li-content-near-avatar {
+.feedback-list-li-content {
   margin: 8px 0 0 3.3%;
   padding-bottom: 29px;
   @include custom-border('bottom', 0.1px, solid, #c7c7c7);
 }
 
 .profession-value-container {
-  padding: 6px 0 12px 0;
+  padding: 6px 0 12px;
 }
 
 .stars-ico-and-check-ico-with-comment-container {
@@ -536,7 +561,7 @@
   max-width: 530px;
 }
 
-.feedback-collapsed-link-padding {
+.collapsed-link-container-show-all {
   padding: 36px 0 0 20px;
 }
 
@@ -583,4 +608,12 @@
 
 .poor-div-for-layout {
   height: 14px;
+}
+
+.slider-container {
+  display: none;
+}
+
+.footer-icons-container > :last-child {
+  display: none;
 }
