@@ -29,27 +29,15 @@ Array.from(items).map((item, index) => {
   return item;
 });
 
-function checkButtons() {
+const checkButtons = () => {
   previousButton.disabled = position === START_POSITION;
   nextButton.disabled =
     position <= -(ITEMS_COUNT - SLIDERS_TO_SHOW) * ITEM_WIDTH;
-}
-
-function handleClickNextButton() {
-  position -= MOVE_POSITION;
-  setPosition(++currentItemIndex);
-  checkButtons();
-}
-
-function handleClickPreviousButton() {
-  position += MOVE_POSITION;
-  setPosition(--currentItemIndex);
-  checkButtons();
-}
+};
 
 const setPosition = (currentItem) => {
-  let index = currentItem + 1;
-  let counterContainers = document.querySelectorAll(`.counter-${index}`);
+  const index = currentItem + 1;
+  const counterContainers = document.querySelectorAll(`.counter-${index}`);
 
   Array.from(counterContainers).map((item, index) => {
     if (index === currentItem) {
@@ -66,6 +54,18 @@ const setPosition = (currentItem) => {
 
     return item;
   });
+};
+
+const handleClickNextButton = () => {
+  position -= MOVE_POSITION;
+  setPosition(++currentItemIndex);
+  checkButtons();
+};
+
+const handleClickPreviousButton = () => {
+  position += MOVE_POSITION;
+  setPosition(--currentItemIndex);
+  checkButtons();
 };
 
 checkButtons();
