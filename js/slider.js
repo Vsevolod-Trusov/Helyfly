@@ -4,11 +4,8 @@ const START_MIN_WIDTH = 220;
 const START_POSITION = 0;
 
 const nextButton = document.querySelector('.next_button');
-
 const previousButton = document.querySelector('.previous_button');
-
 const track = document.querySelector('.number-with-switch-buttons');
-
 const sliderItems = document.querySelectorAll('.slider-item-container');
 
 const sliderItemsArray = Array.from(sliderItems);
