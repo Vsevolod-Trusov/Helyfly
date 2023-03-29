@@ -1,9 +1,6 @@
-const SLIDERS_TO_SHOW = 1;
-
-const SLIDERS_TO_SCROLL = 1;
-
+const SLIDES_TO_SHOW = 1;
+const SLIDES_TO_SCROLL = 1;
 const START_MIN_WIDTH = 220;
-
 const START_POSITION = 0;
 
 const nextButton = document.querySelector('.next_button');
