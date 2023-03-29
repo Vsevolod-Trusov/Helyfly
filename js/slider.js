@@ -23,7 +23,7 @@ const MOVE_POSITION = SLIDES_TO_SCROLL * ITEM_WIDTH;
 
 const sliderItemsArray = Array.from(sliderItems);
 
-sliderItemsArray.map((slide, index) => {
+sliderItemsArray.map((slide) => {
   slide.style.minWidth = `${ITEM_WIDTH}px`;
 
   return slide;
@@ -52,7 +52,7 @@ const setPosition = (currentItem) => {
     return circleElement;
   });
 
-  sliderItemsArray.map((slide, index) => {
+  sliderItemsArray.map((slide) => {
     slide.style.transform = `translateX(${position}px)`;
 
     return slide;
