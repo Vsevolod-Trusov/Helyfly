@@ -36,7 +36,8 @@ const checkButtons = () => {
 };
 
 const setPosition = (currentItem) => {
-  const circleContainerIndex = currentItem + 1;
+  let circleContainerIndex = currentItem;
+  circleContainerIndex++;
   const counterContainers = document.querySelectorAll(
     `.counter-${circleContainerIndex}`,
   );
