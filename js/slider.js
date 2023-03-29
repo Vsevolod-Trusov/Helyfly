@@ -2,22 +2,26 @@ const SLIDES_TO_SHOW = 1;
 const SLIDES_TO_SCROLL = 1;
 const START_MIN_WIDTH = 220;
 const START_POSITION = 0;
-
-const nextButton = document.querySelector('.next_button');
-const previousButton = document.querySelector('.previous_button');
-const track = document.querySelector('.number-with-switch-buttons');
-const sliderItems = document.querySelectorAll('.slider-item-container');
-
-const sliderItemsArray = Array.from(sliderItems);
-
-const ITEMS_COUNT = sliderItems.length;
-
-const ITEM_WIDTH = track.clientWidth ? track.clientWidth : START_MIN_WIDTH;
-
-const MOVE_POSITION = SLIDERS_TO_SCROLL * ITEM_WIDTH;
-
 let position = 0;
 let currentItemIndex = 0;
+
+const NEXT_BUTTON_CLASSNAME = '.next_button';
+const PREVIOUS_BUTTON_CLASSNAME = '.previous_button';
+const NUMBER_WITH_SWITCH_BUTTONS_CLASSNAME = '.number-with-switch-buttons';
+const SLIDERS_ITEMS_CLASSNAME = '.slider-item-container';
+const CIRCLE_BACKGROUND_COLOR = '#fc9b09';
+const CIRCLE_BACKGROUND_TRANSPARENT = 'transparent';
+
+const nextButton = document.querySelector(NEXT_BUTTON_CLASSNAME);
+const previousButton = document.querySelector(PREVIOUS_BUTTON_CLASSNAME);
+const track = document.querySelector(NUMBER_WITH_SWITCH_BUTTONS_CLASSNAME);
+const sliderItems = document.querySelectorAll(SLIDERS_ITEMS_CLASSNAME);
+
+const ITEMS_COUNT = sliderItems.length;
+const ITEM_WIDTH = track.clientWidth ? track.clientWidth : START_MIN_WIDTH;
+const MOVE_POSITION = SLIDES_TO_SCROLL * ITEM_WIDTH;
+
+const sliderItemsArray = Array.from(sliderItems);
 
 sliderItemsArray.map((slide, index) => {
   slide.style.minWidth = `${ITEM_WIDTH}px`;
@@ -28,19 +32,21 @@ sliderItemsArray.map((slide, index) => {
 const checkButtons = () => {
   previousButton.disabled = position === START_POSITION;
   nextButton.disabled =
-    position <= -(ITEMS_COUNT - SLIDERS_TO_SHOW) * ITEM_WIDTH;
+    position <= -(ITEMS_COUNT - SLIDES_TO_SHOW) * ITEM_WIDTH;
 };
 
 const setPosition = (currentItem) => {
-  const index = currentItem + 1;
-  const counterContainers = document.querySelectorAll(`.counter-${index}`);
+  const circleContainerIndex = currentItem + 1;
+  const counterContainers = document.querySelectorAll(
+    `.counter-${circleContainerIndex}`,
+  );
   const circlesContainerArray = Array.from(counterContainers);
 
   circlesContainerArray.map((circleElement, index) => {
     if (index === currentItem) {
-      circleElement.style.background = '#fc9b09';
+      circleElement.style.background = CIRCLE_BACKGROUND_COLOR;
     } else {
-      circleElement.style.background = 'transparent';
+      circleElement.style.background = CIRCLE_BACKGROUND_TRANSPARENT;
     }
 
     return circleElement;
