@@ -18,7 +18,7 @@ const track = document.querySelector(NUMBER_WITH_SWITCH_BUTTONS_CLASSNAME);
 const sliderItems = document.querySelectorAll(SLIDERS_ITEMS_CLASSNAME);
 
 const ITEMS_COUNT = sliderItems.length;
-const ITEM_WIDTH = track.clientWidth ? track.clientWidth : START_MIN_WIDTH;
+const ITEM_WIDTH = track.clientWidth || START_MIN_WIDTH;
 const MOVE_POSITION = SLIDES_TO_SCROLL * ITEM_WIDTH;
 
 const sliderItemsArray = Array.from(sliderItems);
@@ -43,11 +43,10 @@ const setPosition = (currentItem) => {
   const circlesContainerArray = Array.from(counterContainers);
 
   circlesContainerArray.map((circleElement, index) => {
-    if (index === currentItem) {
-      circleElement.style.background = CIRCLE_BACKGROUND_COLOR;
-    } else {
-      circleElement.style.background = CIRCLE_BACKGROUND_TRANSPARENT;
-    }
+    circleElement.style.background =
+      index === currentItem
+        ? CIRCLE_BACKGROUND_COLOR
+        : CIRCLE_BACKGROUND_TRANSPARENT;
 
     return circleElement;
   });
