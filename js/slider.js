@@ -25,8 +25,6 @@ const sliderItemsArray = Array.from(sliderItems);
 
 sliderItemsArray.map((slide) => {
   slide.style.minWidth = `${ITEM_WIDTH}px`;
-
-  return slide;
 });
 
 const checkButtons = () => {
@@ -48,14 +46,10 @@ const setPosition = (currentItem) => {
       index === currentItem
         ? CIRCLE_BACKGROUND_COLOR
         : CIRCLE_BACKGROUND_TRANSPARENT;
-
-    return circleElement;
   });
 
   sliderItemsArray.map((slide) => {
     slide.style.transform = `translateX(${position}px)`;
-
-    return slide;
   });
 };
 
