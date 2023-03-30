@@ -23,9 +23,7 @@ const MOVE_POSITION = SLIDES_TO_SCROLL * ITEM_WIDTH;
 
 const sliderItemsArray = Array.from(sliderItems);
 
-sliderItemsArray.map((slide) => {
-  slide.style.minWidth = `${ITEM_WIDTH}px`;
-});
+sliderItemsArray.map((slide) => (slide.style.minWidth = `${ITEM_WIDTH}px`));
 
 const checkButtons = () => {
   previousButton.disabled = position === START_POSITION;
@@ -41,16 +39,17 @@ const setPosition = (currentItem) => {
   );
   const circlesContainerArray = Array.from(counterContainers);
 
-  circlesContainerArray.map((circleElement, index) => {
-    circleElement.style.background =
-      index === currentItem
-        ? CIRCLE_BACKGROUND_COLOR
-        : CIRCLE_BACKGROUND_TRANSPARENT;
-  });
+  circlesContainerArray.map(
+    (circleElement, index) =>
+      (circleElement.style.background =
+        index === currentItem
+          ? CIRCLE_BACKGROUND_COLOR
+          : CIRCLE_BACKGROUND_TRANSPARENT),
+  );
 
-  sliderItemsArray.map((slide) => {
-    slide.style.transform = `translateX(${position}px)`;
-  });
+  sliderItemsArray.map(
+    (slide) => (slide.style.transform = `translateX(${position}px)`),
+  );
 };
 
 const handleClickNextButton = () => {
